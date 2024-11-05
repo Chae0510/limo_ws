@@ -1,0 +1,12 @@
+/home/agilex/limo_ros2_ws/src/build/limo_visions/CMakeFiles/install/strip.dir
+/home/agilex/limo_ros2_ws/src/build/limo_visions/CMakeFiles/install.dir
+/home/agilex/limo_ros2_ws/src/build/limo_visions/CMakeFiles/list_install_components.dir
+/home/agilex/limo_ros2_ws/src/build/limo_visions/CMakeFiles/rebuild_cache.dir
+/home/agilex/limo_ros2_ws/src/build/limo_visions/CMakeFiles/edit_cache.dir
+/home/agilex/limo_ros2_ws/src/build/limo_visions/CMakeFiles/test.dir
+/home/agilex/limo_ros2_ws/src/build/limo_visions/CMakeFiles/traffic_light.dir
+/home/agilex/limo_ros2_ws/src/build/limo_visions/CMakeFiles/detect_line.dir
+/home/agilex/limo_ros2_ws/src/build/limo_visions/CMakeFiles/install/local.dir
+/home/agilex/limo_ros2_ws/src/build/limo_visions/CMakeFiles/object_detect.dir
+/home/agilex/limo_ros2_ws/src/build/limo_visions/CMakeFiles/limo_visions_uninstall.dir
+/home/agilex/limo_ros2_ws/src/build/limo_visions/CMakeFiles/uninstall.dir

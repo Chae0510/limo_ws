@@ -1,0 +1,15 @@
+Performing C++ SOURCE FILE Test HAS_CPP20_FLAG failed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/magic_enum/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62e16/fast && /usr/bin/make -f CMakeFiles/cmTC_62e16.dir/build.make CMakeFiles/cmTC_62e16.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/magic_enum/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62e16.dir/src.cxx.o
+/usr/bin/c++    -DHAS_CPP20_FLAG   -std=c++20 -o CMakeFiles/cmTC_62e16.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/magic_enum/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-std=c++20'; did you mean '-std=c++2a'?
+make[1]: *** [CMakeFiles/cmTC_62e16.dir/build.make:66: CMakeFiles/cmTC_62e16.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/magic_enum/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_62e16/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

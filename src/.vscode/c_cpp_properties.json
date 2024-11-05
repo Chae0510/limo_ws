@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/agilex/limo_ros2_ws/install/teb_local_planner/include/**",
+        "/home/agilex/limo_ros2_ws/install/teb_msgs/include/**",
+        "/home/agilex/limo_ros2_ws/install/costmap_converter/include/**",
+        "/home/agilex/limo_ros2_ws/install/costmap_converter_msgs/include/**",
+        "/home/agilex/limo_ros2_ws/install/limo_base/include/**",
+        "/home/agilex/limo_ros2_ws/install/limo_msgs/include/**",
+        "/home/agilex/limo_ros2_ws/install/astra_camera/include/**",
+        "/home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/agilex/limo_ros2_ws/src/costmap_converter/costmap_converter/include/**",
+        "/home/agilex/limo_ros2_ws/src/limo_ros2/limo_base/include/**",
+        "/home/agilex/limo_ros2_ws/src/rf2o_laser_odometry/include/**",
+        "/home/agilex/limo_ros2_ws/src/ros2_astra_camera/astra_camera/include/**",
+        "/home/agilex/limo_ros2_ws/src/ros2_astra_camera/libuvc/include/**",
+        "/home/agilex/limo_ros2_ws/src/ros2_astra_camera/magic_enum-0.8.0/include/**",
+        "/home/agilex/limo_ros2_ws/src/teb_local_planner/teb_local_planner/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

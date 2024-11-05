@@ -1,0 +1,105 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+-- Found map_msgs: 2.0.2 (/opt/ros/foxy/share/map_msgs/cmake)
+-- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+-- Found nav2_common: 0.4.7 (/home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/cmake)
+-- Found nav2_msgs: 0.4.7 (/home/agilex/limo_ros2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+-- Found nav2_util: 0.4.7 (/home/agilex/limo_ros2_ws/install/nav2_util/share/nav2_util/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav2_voxel_grid: 0.4.7 (/home/agilex/limo_ros2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake)
+-- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+-- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+-- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/agilex/limo_ros2_ws/src/navigation2/nav2_costmap_2d/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/agilex/limo_ros2_ws/build/nav2_costmap_2d
+[  4%] Built target gtest_main
+[  8%] Built target gtest
+[ 35%] Built target nav2_costmap_2d_core
+[ 39%] Built target nav2_costmap_2d_markers
+[ 43%] Built target nav2_costmap_2d_cloud
+[ 47%] Built target collision_footprint_test
+[ 56%] Built target nav2_costmap_2d_client
+[ 60%] Built target array_parser_test
+[ 75%] Built target layers
+[ 83%] Built target range_tests_exec
+[ 83%] Built target nav2_costmap_2d
+[ 87%] Built target obstacle_tests_exec
+[ 91%] Built target inflation_tests_exec
+[ 95%] Built target test_collision_checker_exec
+[100%] Built target footprint_tests_exec
+-- Install configuration: "Release"
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib/liblayers.so
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include/
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_definitions-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml

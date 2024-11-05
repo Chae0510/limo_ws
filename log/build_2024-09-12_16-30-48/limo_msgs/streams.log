@@ -1,0 +1,15 @@
+[0.076s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_msgs': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/limo_msgs -- -j6 -l6
+[0.254s] [  3%] Built target limo_msgs__cpp
+[0.272s] [ 12%] Built target limo_msgs__rosidl_generator_c
+[0.371s] [ 22%] Built target limo_msgs__rosidl_typesupport_fastrtps_cpp
+[0.385s] [ 41%] Built target limo_msgs__rosidl_typesupport_cpp
+[0.385s] [ 41%] Built target limo_msgs__rosidl_typesupport_introspection_cpp
+[0.449s] [ 51%] Built target limo_msgs__rosidl_typesupport_c
+[0.451s] [ 61%] Built target limo_msgs__rosidl_typesupport_fastrtps_c
+[0.458s] [ 70%] Built target limo_msgs__rosidl_typesupport_introspection_c
+[0.492s] [ 70%] Built target limo_msgs
+[0.537s] [ 74%] Built target limo_msgs__py
+[0.587s] [ 80%] Built target limo_msgs__python
+[0.652s] [ 93%] Built target limo_msgs__rosidl_typesupport_c__pyext
+[0.652s] [ 93%] Built target limo_msgs__rosidl_typesupport_introspection_c__pyext
+[0.654s] [100%] Built target limo_msgs__rosidl_typesupport_fastrtps_c__pyext

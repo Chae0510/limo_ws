@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/example.dir/src/example.c.o  -o example  -Wl,-rpath,/home/agilex/limo_ros2_ws/build/libuvc libuvc.so.0.0.6 -pthread 

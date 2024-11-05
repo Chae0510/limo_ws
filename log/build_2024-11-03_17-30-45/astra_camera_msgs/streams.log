@@ -1,0 +1,426 @@
+[0.110s] Invoking command in '/home/agilex/limo_ros2_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/astra_camera_msgs
+[0.193s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.234s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.234s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.762s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.785s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.799s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.149s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.195s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.530s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.115s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.828s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.151s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.281s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.281s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.342s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.342s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.342s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[3.749s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.899s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.918s] -- Added test 'lint_cmake' to check CMake code style
+[3.937s] -- Added test 'xmllint' to check XML markup files
+[3.984s] -- Configuring done
+[4.759s] -- Generating done
+[4.804s] -- Build files have been written to: /home/agilex/limo_ros2_ws/build/astra_camera_msgs
+[4.877s] Invoked command in '/home/agilex/limo_ros2_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/astra_camera_msgs
+[4.878s] Invoking command in '/home/agilex/limo_ros2_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/astra_camera_msgs -- -j6 -l6
+[5.517s] [  1%] Built target astra_camera_msgs__cpp
+[5.643s] [  2%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/extrinsics__functions.c.o[0m
+[5.654s] [  3%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/metadata__functions.c.o[0m
+[5.676s] [  4%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_device_info__functions.c.o[0m
+[5.679s] [  5%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/device_info__functions.c.o[0m
+[5.840s] [  6%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/device_info__type_support.cpp.o[0m
+[5.942s] [  7%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[6.895s] [  8%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_params__functions.c.o[0m
+[6.912s] [  9%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_info__functions.c.o[0m
+[7.001s] [ 10%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_int32__functions.c.o[0m
+[7.569s] [ 11%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_string__functions.c.o[0m
+[8.410s] [ 12%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/set_int32__functions.c.o[0m
+[8.642s] [ 13%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[8.715s] [ 14%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o[0m
+[9.235s] [ 15%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[9.589s] [ 16%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[9.985s] [ 17%] [32m[1mLinking C shared library libastra_camera_msgs__rosidl_generator_c.so[0m
+[10.478s] [ 18%] Built target astra_camera_msgs__rosidl_generator_c
+[10.806s] [ 20%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/device_info__type_support.cpp.o[0m
+[11.246s] [ 21%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_device_info__type_support.cpp.o[0m
+[12.082s] [ 22%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_device_info__type_support.cpp.o[0m
+[12.455s] [ 23%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_info__type_support.cpp.o[0m
+[13.276s] [ 24%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o[0m
+[14.444s] [ 25%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp.o[0m
+[14.557s] [ 26%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_params__type_support.cpp.o[0m
+[14.834s] [ 27%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_int32__type_support.cpp.o[0m
+[16.212s] [ 28%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o[0m
+[16.552s] [ 29%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o[0m
+[18.263s] [ 30%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/metadata__type_support.cpp.o[0m
+[18.412s] [ 31%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_int32__type_support.cpp.o[0m
+[19.379s] [ 32%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o[0m
+[19.456s] [ 33%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_string__type_support.cpp.o[0m
+[19.605s] [ 34%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp.o[0m
+[20.412s] [ 35%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/set_int32__type_support.cpp.o[0m
+[20.609s] [ 36%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_int32__type_support.cpp.o[0m
+[20.825s] [ 37%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.114s] [ 38%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[21.253s] [ 40%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_cpp.so[0m
+[21.373s] [ 41%] Built target astra_camera_msgs__rosidl_typesupport_cpp
+[21.451s] [ 42%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/set_int32__type_support.cpp.o[0m
+[22.270s] [ 43%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_string__type_support.cpp.o[0m
+[23.048s] [ 44%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp.o[0m
+[24.045s] [ 45%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp.o[0m
+[24.894s] [ 46%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[25.131s] [ 47%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp
+[25.229s] [ 48%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/device_info__type_support_c.cpp.o[0m
+[26.444s] [ 49%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o[0m
+[27.552s] [ 50%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_camera_info__type_support_c.cpp.o[0m
+[28.646s] [ 51%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_camera_params__type_support_c.cpp.o[0m
+[29.810s] [ 52%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_int32__type_support_c.cpp.o[0m
+[30.815s] [ 53%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_string__type_support_c.cpp.o[0m
+[31.871s] [ 54%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/set_int32__type_support_c.cpp.o[0m
+[32.883s] [ 55%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/metadata__type_support_c.cpp.o[0m
+[33.822s] [ 56%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o[0m
+[34.847s] [ 57%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[35.075s] [ 58%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c
+[35.168s] [ 60%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/device_info__type_support.cpp.o[0m
+[35.267s] [ 61%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o[0m
+[35.385s] [ 62%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o[0m
+[35.487s] [ 63%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_int32__type_support.cpp.o[0m
+[35.603s] [ 64%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_string__type_support.cpp.o[0m
+[35.729s] [ 65%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/set_int32__type_support.cpp.o[0m
+[35.901s] [ 66%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_device_info__type_support.cpp.o[0m
+[36.049s] [ 67%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[36.161s] [ 68%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[36.253s] [ 69%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_c.so[0m
+[36.379s] [ 70%] Built target astra_camera_msgs__rosidl_typesupport_c
+[36.467s] [ 71%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/device_info__type_support.c.o[0m
+[36.579s] [ 72%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_camera_params__type_support.c.o[0m
+[36.697s] [ 73%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_int32__type_support.c.o[0m
+[36.831s] [ 74%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_string__type_support.c.o[0m
+[36.960s] [ 75%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/set_int32__type_support.c.o[0m
+[37.081s] [ 76%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_camera_info__type_support.c.o[0m
+[37.200s] [ 77%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_device_info__type_support.c.o[0m
+[37.330s] [ 78%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[37.442s] [ 80%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[37.599s] [ 81%] [32m[1mLinking C shared library libastra_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[37.735s] [ 82%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c
+[37.812s] [ 82%] Built target astra_camera_msgs
+[37.886s] [ 83%] Built target astra_camera_msgs__py
+[37.974s] [ 84%] [32mBuilding C object CMakeFiles/astra_camera_msgs__python.dir/rosidl_generator_py/astra_camera_msgs/msg/_device_info_s.c.o[0m
+[38.283s] [ 85%] [32mBuilding C object CMakeFiles/astra_camera_msgs__python.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_camera_params_s.c.o[0m
+[38.671s] [ 86%] [32mBuilding C object CMakeFiles/astra_camera_msgs__python.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_int32_s.c.o[0m
+[38.971s] [ 87%] [32mBuilding C object CMakeFiles/astra_camera_msgs__python.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_string_s.c.o[0m
+[39.263s] [ 88%] [32mBuilding C object CMakeFiles/astra_camera_msgs__python.dir/rosidl_generator_py/astra_camera_msgs/srv/_set_int32_s.c.o[0m
+[39.576s] [ 89%] [32mBuilding C object CMakeFiles/astra_camera_msgs__python.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_camera_info_s.c.o[0m
+[39.875s] [ 90%] [32mBuilding C object CMakeFiles/astra_camera_msgs__python.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_device_info_s.c.o[0m
+[40.166s] [ 91%] [32mBuilding C object CMakeFiles/astra_camera_msgs__python.dir/rosidl_generator_py/astra_camera_msgs/msg/_metadata_s.c.o[0m
+[40.428s] [ 92%] [32mBuilding C object CMakeFiles/astra_camera_msgs__python.dir/rosidl_generator_py/astra_camera_msgs/msg/_extrinsics_s.c.o[0m
+[40.745s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/libastra_camera_msgs__python.so[0m
+[40.904s] [ 93%] Built target astra_camera_msgs__python
+[40.986s] [ 94%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[41.736s] [ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[41.926s] [ 95%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[42.007s] [ 96%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[42.792s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[42.917s] [ 97%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[42.997s] [ 98%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[43.738s] [100%] [32m[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[43.863s] [100%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext
+[43.911s] Invoked command in '/home/agilex/limo_ros2_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/astra_camera_msgs -- -j6 -l6
+[45.050s] Invoking command in '/home/agilex/limo_ros2_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/astra_camera_msgs
+[45.089s] -- Install configuration: "Release"
+[45.089s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/astra_camera_msgs
+[45.090s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs
+[45.090s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg
+[45.090s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[45.090s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail
+[45.090s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__functions.c
+[45.090s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__struct.h
+[45.090s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__type_support.h
+[45.091s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__type_support.h
+[45.091s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__struct.h
+[45.092s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__functions.h
+[45.092s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__functions.c
+[45.092s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__struct.h
+[45.092s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__functions.h
+[45.093s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__type_support.h
+[45.093s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__functions.h
+[45.093s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__functions.c
+[45.093s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/extrinsics.h
+[45.093s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/metadata.h
+[45.093s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/device_info.h
+[45.094s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv
+[45.094s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_info.h
+[45.096s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_string.h
+[45.097s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_int32.h
+[45.097s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/set_int32.h
+[45.097s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail
+[45.097s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__type_support.h
+[45.098s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__functions.c
+[45.098s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__type_support.h
+[45.098s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__type_support.h
+[45.098s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__struct.h
+[45.098s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__functions.h
+[45.098s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__struct.h
+[45.098s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__type_support.h
+[45.099s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__functions.h
+[45.100s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__functions.h
+[45.101s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__functions.h
+[45.101s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__functions.c
+[45.101s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__struct.h
+[45.101s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__functions.h
+[45.101s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__type_support.h
+[45.103s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__struct.h
+[45.103s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__functions.c
+[45.103s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__struct.h
+[45.103s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__functions.c
+[45.103s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__functions.c
+[45.110s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__struct.h
+[45.110s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__functions.c
+[45.111s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__type_support.h
+[45.112s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__functions.h
+[45.112s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_device_info.h
+[45.112s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_params.h
+[45.113s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.sh
+[45.113s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.dsv
+[45.113s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so
+[45.114s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so" to ""
+[45.114s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs
+[45.115s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg
+[45.116s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[45.116s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail
+[45.117s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[45.117s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[45.119s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[45.119s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv
+[45.119s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail
+[45.119s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_c.h
+[45.122s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h
+[45.122s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h
+[45.123s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h
+[45.123s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h
+[45.123s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h
+[45.124s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[45.124s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[45.125s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs
+[45.125s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg
+[45.125s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[45.126s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail
+[45.126s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[45.126s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/dds_fastrtps
+[45.127s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[45.127s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[45.128s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv
+[45.128s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail
+[45.128s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_cpp.hpp
+[45.128s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[45.129s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/dds_fastrtps
+[45.129s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp
+[45.129s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[45.130s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[45.130s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[45.131s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[45.131s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[45.131s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs
+[45.132s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg
+[45.132s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[45.133s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail
+[45.133s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h
+[45.133s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__type_support.c
+[45.134s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__type_support.c
+[45.134s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__type_support.c
+[45.134s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[45.134s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[45.135s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv
+[45.135s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail
+[45.135s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__type_support.c
+[45.136s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__type_support.c
+[45.136s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__type_support.c
+[45.136s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h
+[45.137s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h
+[45.137s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__type_support.c
+[45.137s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_c.h
+[45.138s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h
+[45.138s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h
+[45.138s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h
+[45.139s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__type_support.c
+[45.139s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__type_support.c
+[45.139s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so
+[45.140s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[45.140s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so
+[45.140s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so" to ""
+[45.140s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs
+[45.141s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg
+[45.141s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/device_info.hpp
+[45.141s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[45.143s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/metadata.hpp
+[45.144s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail
+[45.144s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__struct.hpp
+[45.145s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__type_support.hpp
+[45.146s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__type_support.hpp
+[45.147s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__struct.hpp
+[45.148s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__traits.hpp
+[45.148s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__builder.hpp
+[45.148s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__struct.hpp
+[45.149s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__builder.hpp
+[45.149s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__builder.hpp
+[45.149s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__traits.hpp
+[45.150s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__type_support.hpp
+[45.150s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__traits.hpp
+[45.150s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/extrinsics.hpp
+[45.151s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv
+[45.151s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/set_int32.hpp
+[45.151s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_string.hpp
+[45.152s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_int32.hpp
+[45.152s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail
+[45.152s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__traits.hpp
+[45.153s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__struct.hpp
+[45.153s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__builder.hpp
+[45.153s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__traits.hpp
+[45.154s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__builder.hpp
+[45.154s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__struct.hpp
+[45.154s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__struct.hpp
+[45.155s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__struct.hpp
+[45.155s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__traits.hpp
+[45.155s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__type_support.hpp
+[45.156s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__struct.hpp
+[45.156s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__type_support.hpp
+[45.157s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__builder.hpp
+[45.157s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__type_support.hpp
+[45.157s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__traits.hpp
+[45.158s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__builder.hpp
+[45.158s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__type_support.hpp
+[45.158s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__builder.hpp
+[45.159s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__type_support.hpp
+[45.159s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__traits.hpp
+[45.159s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__type_support.hpp
+[45.160s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__traits.hpp
+[45.160s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__builder.hpp
+[45.160s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__struct.hpp
+[45.161s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_params.hpp
+[45.161s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_device_info.hpp
+[45.161s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/get_camera_info.hpp
+[45.162s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs
+[45.162s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg
+[45.162s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail
+[45.163s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[45.163s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[45.164s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[45.164s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[45.164s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/metadata__type_support.cpp
+[45.165s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/msg/detail/device_info__type_support.cpp
+[45.165s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv
+[45.165s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail
+[45.166s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp
+[45.166s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp
+[45.166s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp
+[45.167s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp
+[45.167s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp
+[45.167s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__type_support.cpp
+[45.168s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[45.168s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp
+[45.169s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/set_int32__type_support.cpp
+[45.169s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_cpp.hpp
+[45.169s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp
+[45.170s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/include/astra_camera_msgs/srv/detail/get_int32__type_support.cpp
+[45.170s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[45.170s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[45.170s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so
+[45.171s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[45.171s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.sh
+[45.172s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.dsv
+[45.172s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/__init__.py
+[45.261s] Compiling '/home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/__init__.py'...
+[45.276s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg
+[45.277s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_extrinsics.py
+[45.277s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_device_info_s.c
+[45.277s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/__init__.py
+[45.277s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_metadata_s.c
+[45.277s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_device_info.py
+[45.277s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_metadata.py
+[45.277s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/msg/_extrinsics_s.c
+[45.278s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv
+[45.278s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_camera_params_s.c
+[45.278s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_int32_s.c
+[45.278s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_device_info.py
+[45.278s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_string_s.c
+[45.278s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_camera_info.py
+[45.278s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_device_info_s.c
+[45.279s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_int32.py
+[45.279s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/__init__.py
+[45.279s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_camera_info_s.c
+[45.279s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_set_int32.py
+[45.279s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_string.py
+[45.279s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_get_camera_params.py
+[45.279s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/srv/_set_int32_s.c
+[45.283s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[45.284s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[45.287s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[45.289s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[45.292s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[45.294s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/python3.8/site-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[45.296s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__python.so
+[45.301s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__python.so" to ""
+[45.305s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.idl
+[45.306s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.idl
+[45.307s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.idl
+[45.307s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.idl
+[45.308s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.idl
+[45.308s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.idl
+[45.309s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.idl
+[45.309s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.idl
+[45.310s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.idl
+[45.310s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.msg
+[45.310s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.msg
+[45.312s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.msg
+[45.313s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.srv
+[45.313s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Request.msg
+[45.314s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Response.msg
+[45.314s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.srv
+[45.315s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Request.msg
+[45.315s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Response.msg
+[45.316s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.srv
+[45.316s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Request.msg
+[45.316s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Response.msg
+[45.317s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.srv
+[45.317s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Request.msg
+[45.318s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Response.msg
+[45.318s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.srv
+[45.318s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Request.msg
+[45.319s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Response.msg
+[45.320s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.srv
+[45.321s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Request.msg
+[45.322s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Response.msg
+[45.322s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/ament_index/resource_index/package_run_dependencies/astra_camera_msgs
+[45.322s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/ament_index/resource_index/parent_prefix_path/astra_camera_msgs
+[45.323s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.sh
+[45.323s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.dsv
+[45.324s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.sh
+[45.324s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.dsv
+[45.324s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.bash
+[45.325s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.sh
+[45.355s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.zsh
+[45.356s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.dsv
+[45.357s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv
+[45.357s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/ament_index/resource_index/packages/astra_camera_msgs
+[45.357s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_generator_cExport.cmake
+[45.358s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_generator_cExport-release.cmake
+[45.358s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[45.359s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[45.359s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport.cmake
+[45.360s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport-release.cmake
+[45.360s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_generator_cppExport.cmake
+[45.361s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[45.362s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[45.362s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport.cmake
+[45.362s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport-release.cmake
+[45.362s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[45.363s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.366s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[45.366s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[45.366s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.369s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[45.380s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[45.381s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig.cmake
+[45.382s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig-version.cmake
+[45.382s] -- Installing: /home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.xml
+[45.383s] Invoked command in '/home/agilex/limo_ros2_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/astra_camera_msgs

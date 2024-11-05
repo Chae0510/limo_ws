@@ -1,0 +1,230 @@
+[0.126s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/costmap_converter/costmap_converter_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs
+[0.377s] -- The C compiler identification is GNU 9.4.0
+[0.550s] -- The CXX compiler identification is GNU 9.4.0
+[0.571s] -- Check for working C compiler: /usr/bin/cc
+[0.822s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.824s] -- Detecting C compiler ABI info
+[1.085s] -- Detecting C compiler ABI info - done
+[1.110s] -- Detecting C compile features
+[1.110s] -- Detecting C compile features - done
+[1.115s] -- Check for working CXX compiler: /usr/bin/c++
+[1.336s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.337s] -- Detecting CXX compiler ABI info
+[1.556s] -- Detecting CXX compiler ABI info - done
+[1.579s] -- Detecting CXX compile features
+[1.581s] -- Detecting CXX compile features - done
+[1.594s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.673s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.673s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.277s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[2.392s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.431s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.764s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.848s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.096s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.185s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.333s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.450s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.899s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.752s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.835s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.848s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.923s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.923s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.923s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.924s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[4.980s] -- Found PythonExtra: .so  
+[5.228s] -- Configuring done
+[5.419s] -- Generating done
+[5.433s] -- Build files have been written to: /home/agilex/limo_ros2_ws/src/build/costmap_converter_msgs
+[5.495s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/costmap_converter/costmap_converter_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs
+[5.504s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/src/build/costmap_converter_msgs -- -j6 -l6
+[5.752s] [35m[1mScanning dependencies of target costmap_converter_msgs__cpp[0m
+[5.772s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.857s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.519s] [35m[1mScanning dependencies of target costmap_converter_msgs__rosidl_generator_c[0m
+[7.714s] [  7%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_c.dir/rosidl_generator_c/costmap_converter_msgs/msg/detail/obstacle_msg__functions.c.o[0m
+[7.718s] [ 10%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_c.dir/rosidl_generator_c/costmap_converter_msgs/msg/detail/obstacle_array_msg__functions.c.o[0m
+[7.718s] [ 10%] Built target costmap_converter_msgs__cpp
+[7.833s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.864s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.907s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.869s] [ 20%] [32m[1mLinking C shared library libcostmap_converter_msgs__rosidl_generator_c.so[0m
+[9.322s] [ 20%] Built target costmap_converter_msgs__rosidl_generator_c
+[9.450s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.471s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.373s] [35m[1mScanning dependencies of target costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[10.520s] [35m[1mScanning dependencies of target costmap_converter_msgs__rosidl_typesupport_cpp[0m
+[10.588s] [ 28%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/costmap_converter_msgs/msg/detail/dds_fastrtps/obstacle_array_msg__type_support.cpp.o[0m
+[10.597s] [ 30%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/costmap_converter_msgs/msg/detail/dds_fastrtps/obstacle_msg__type_support.cpp.o[0m
+[10.687s] [ 33%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/costmap_converter_msgs/msg/obstacle_msg__type_support.cpp.o[0m
+[10.912s] [35m[1mScanning dependencies of target costmap_converter_msgs__rosidl_typesupport_introspection_cpp[0m
+[11.095s] [ 35%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.cpp.o[0m
+[12.366s] [35m[1mScanning dependencies of target costmap_converter_msgs__rosidl_typesupport_c[0m
+[12.547s] [ 38%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/costmap_converter_msgs/msg/obstacle_msg__type_support.cpp.o[0m
+[12.835s] [35m[1mScanning dependencies of target costmap_converter_msgs__rosidl_typesupport_introspection_c[0m
+[12.914s] [ 41%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/costmap_converter_msgs/msg/obstacle_array_msg__type_support.cpp.o[0m
+[13.051s] [ 43%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.c.o[0m
+[13.079s] [ 46%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/costmap_converter_msgs/msg/obstacle_array_msg__type_support.cpp.o[0m
+[13.316s] [ 48%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_c.so[0m
+[13.503s] [ 51%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.c.o[0m
+[13.876s] [ 51%] Built target costmap_converter_msgs__rosidl_typesupport_c
+[14.027s] [ 53%] [32m[1mLinking C shared library libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so[0m
+[14.069s] [ 56%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.cpp.o[0m
+[14.419s] [ 56%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c
+[16.224s] [ 58%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[17.608s] [ 58%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp
+[17.828s] [ 61%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[17.850s] [ 64%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_cpp.so[0m
+[18.402s] [ 64%] Built target costmap_converter_msgs__rosidl_typesupport_cpp
+[18.627s] [ 66%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[19.456s] [ 66%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_cpp
+[21.573s] [35m[1mScanning dependencies of target costmap_converter_msgs__rosidl_typesupport_fastrtps_c[0m
+[21.715s] [ 69%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/costmap_converter_msgs/msg/detail/obstacle_msg__type_support_c.cpp.o[0m
+[23.203s] [ 71%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support_c.cpp.o[0m
+[24.908s] [ 74%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[25.243s] [ 74%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c
+[25.320s] [35m[1mScanning dependencies of target costmap_converter_msgs[0m
+[25.414s] [ 74%] Built target costmap_converter_msgs
+[25.527s] [35m[1mScanning dependencies of target costmap_converter_msgs__py[0m
+[25.637s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[28.033s] [ 76%] Built target costmap_converter_msgs__py
+[28.103s] [35m[1mScanning dependencies of target costmap_converter_msgs__python[0m
+[28.267s] [ 79%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__python.dir/rosidl_generator_py/costmap_converter_msgs/msg/_obstacle_msg_s.c.o[0m
+[28.714s] [ 82%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__python.dir/rosidl_generator_py/costmap_converter_msgs/msg/_obstacle_array_msg_s.c.o[0m
+[29.217s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/libcostmap_converter_msgs__python.so[0m
+[29.366s] [ 84%] Built target costmap_converter_msgs__python
+[29.463s] [35m[1mScanning dependencies of target costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[29.537s] [ 87%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[29.866s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[30.034s] [ 89%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext
+[30.125s] [35m[1mScanning dependencies of target costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[30.197s] [ 92%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[30.559s] [ 94%] [32m[1mLinking CXX shared library rosidl_generator_py/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[30.907s] [ 94%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext
+[30.999s] [35m[1mScanning dependencies of target costmap_converter_msgs__rosidl_typesupport_c__pyext[0m
+[31.117s] [ 97%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[31.496s] [100%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[31.683s] [100%] Built target costmap_converter_msgs__rosidl_typesupport_c__pyext
+[31.854s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/src/build/costmap_converter_msgs -- -j6 -l6
+[32.672s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/src/build/costmap_converter_msgs
+[34.626s] -- Install configuration: "Release"
+[34.628s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/ament_index/resource_index/rosidl_interfaces/costmap_converter_msgs
+[34.631s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs
+[34.632s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg
+[34.633s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/rosidl_generator_c__visibility_control.h
+[34.633s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/obstacle_array_msg.h
+[34.633s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/obstacle_msg.h
+[34.634s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail
+[34.634s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__functions.c
+[34.637s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.h
+[34.638s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__functions.c
+[34.640s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.h
+[34.641s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__functions.h
+[34.646s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__struct.h
+[34.646s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.h
+[34.646s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__functions.h
+[34.647s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/library_path.sh
+[34.647s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/library_path.dsv
+[34.647s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_c.so
+[34.647s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_c.so" to ""
+[34.647s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs
+[34.647s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg
+[34.648s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.648s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail
+[34.648s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_fastrtps_c.h
+[34.648s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_fastrtps_c.h
+[34.648s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so
+[34.648s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[34.649s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs
+[34.649s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg
+[34.649s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[34.649s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail
+[34.649s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[34.650s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/dds_fastrtps
+[34.650s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[34.650s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so
+[34.650s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.651s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs
+[34.652s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg
+[34.653s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.657s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail
+[34.658s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.c
+[34.659s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_introspection_c.h
+[34.659s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.c
+[34.659s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_introspection_c.h
+[34.659s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so
+[34.659s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so" to ""
+[34.660s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_c.so
+[34.660s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_c.so" to ""
+[34.660s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs
+[34.660s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg
+[34.660s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/obstacle_array_msg.hpp
+[34.660s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[34.660s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/obstacle_msg.hpp
+[34.661s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail
+[34.661s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.hpp
+[34.661s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__traits.hpp
+[34.661s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__builder.hpp
+[34.661s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.hpp
+[34.661s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.hpp
+[34.661s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__traits.hpp
+[34.661s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__builder.hpp
+[34.662s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__struct.hpp
+[34.662s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs
+[34.662s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg
+[34.662s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail
+[34.662s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_introspection_cpp.hpp
+[34.662s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.cpp
+[34.662s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_introspection_cpp.hpp
+[34.663s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/include/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.cpp
+[34.663s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so
+[34.664s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[34.665s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_cpp.so
+[34.666s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_cpp.so" to ""
+[34.666s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/pythonpath.sh
+[34.666s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/pythonpath.dsv
+[34.667s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/__init__.py
+[34.667s] Compiling '/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/__init__.py'...
+[34.667s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/msg
+[34.667s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/msg/__init__.py
+[34.667s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/msg/_obstacle_array_msg.py
+[34.668s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/msg/_obstacle_msg.py
+[34.668s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/msg/_obstacle_array_msg_s.c
+[34.668s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/msg/_obstacle_msg_s.c
+[34.671s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[34.672s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[34.672s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[34.672s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[34.674s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[34.674s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/python3.8/site-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[34.674s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__python.so
+[34.675s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__python.so" to ""
+[34.675s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleMsg.idl
+[34.675s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleArrayMsg.idl
+[34.675s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleMsg.msg
+[34.676s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleArrayMsg.msg
+[34.676s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/ament_index/resource_index/package_run_dependencies/costmap_converter_msgs
+[34.676s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/ament_index/resource_index/parent_prefix_path/costmap_converter_msgs
+[34.677s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/ament_prefix_path.sh
+[34.678s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/ament_prefix_path.dsv
+[34.678s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/path.sh
+[34.679s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/path.dsv
+[34.680s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.bash
+[34.682s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.sh
+[34.682s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.zsh
+[34.683s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.dsv
+[34.683s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/package.dsv
+[34.684s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/ament_index/resource_index/packages/costmap_converter_msgs
+[34.684s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_generator_cExport.cmake
+[34.684s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_generator_cExport-release.cmake
+[34.684s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cExport.cmake
+[34.685s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[34.685s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cExport.cmake
+[34.685s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cExport-release.cmake
+[34.685s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_generator_cppExport.cmake
+[34.686s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[34.687s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[34.687s] -- Installing: /home/agilex/limo_ros2_ws/src/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cppExport.cmake
+[34.689s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/costmap_converter_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/src/build/costmap_converter_msgs

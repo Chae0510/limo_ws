@@ -1,0 +1,2 @@
+[0.065s] Invoking command in '/home/agilex/limo_ros2_ws/build/nav2_common': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/nav2_common -- -j6 -l6
+[0.217s] Invoked command in '/home/agilex/limo_ros2_ws/build/nav2_common' returned '0': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/nav2_common -- -j6 -l6

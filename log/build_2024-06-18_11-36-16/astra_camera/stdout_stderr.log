@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+-- Found astra_camera_msgs: 1.0.1 (/home/agilex/limo_ros2_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found class_loader: 2.0.3 (/opt/ros/foxy/share/class_loader/cmake)
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found image_geometry: 3.0.7 (/opt/ros/foxy/share/image_geometry/cmake)
+-- Found image_publisher: 2.3.0 (/opt/ros/foxy/share/image_publisher/cmake)
+-- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+-- Found JPEG library using standard module
+-- Found JpegPkg: /usr/lib/aarch64-linux-gnu/libjpeg.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.23
+-- libusb-1.0 found using pkgconfig
+-- Configuring incomplete, errors occurred!
+See also "/home/agilex/limo_ros2_ws/build/astra_camera/CMakeFiles/CMakeOutput.log".
+See also "/home/agilex/limo_ros2_ws/build/astra_camera/CMakeFiles/CMakeError.log".
+CMake Error at CMakeLists.txt:28 (find_package):
+  By not providing "Findmagic_enum.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "magic_enum", but CMake did not find one.
+
+  Could not find a package configuration file provided by "magic_enum" with
+  any of the following names:
+
+    magic_enumConfig.cmake
+    magic_enum-config.cmake
+
+  Add the installation prefix of "magic_enum" to CMAKE_PREFIX_PATH or set
+  "magic_enum_DIR" to a directory containing one of the above files.  If
+  "magic_enum" provides a separate development package or SDK, be sure it has
+  been installed.
+
+

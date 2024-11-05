@@ -1,0 +1,216 @@
+[0.095s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/limo_ros2/limo_msgs -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/limo_msgs
+[0.333s] -- The C compiler identification is GNU 9.4.0
+[0.516s] -- The CXX compiler identification is GNU 9.4.0
+[0.531s] -- Check for working C compiler: /usr/bin/cc
+[0.724s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.726s] -- Detecting C compiler ABI info
+[0.940s] -- Detecting C compiler ABI info - done
+[0.961s] -- Detecting C compile features
+[0.961s] -- Detecting C compile features - done
+[0.965s] -- Check for working CXX compiler: /usr/bin/c++
+[1.166s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.167s] -- Detecting CXX compiler ABI info
+[1.375s] -- Detecting CXX compiler ABI info - done
+[1.397s] -- Detecting CXX compile features
+[1.398s] -- Detecting CXX compile features - done
+[1.413s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.481s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.482s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.989s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.077s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.092s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.380s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.459s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.667s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.783s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.878s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.266s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.761s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.996s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.000s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.075s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.076s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.076s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.076s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[4.143s] -- Found PythonExtra: .so  
+[4.378s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.455s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.460s] -- Added test 'lint_cmake' to check CMake code style
+[4.463s] -- Added test 'xmllint' to check XML markup files
+[4.479s] -- Configuring done
+[4.584s] -- Generating done
+[4.591s] -- Build files have been written to: /home/agilex/limo_ros2_ws/build/limo_msgs
+[4.625s] Invoked command in '/home/agilex/limo_ros2_ws/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/limo_ros2/limo_msgs -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/limo_msgs
+[4.627s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/limo_msgs -- -j6 -l6
+[4.757s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.765s] [35m[1mScanning dependencies of target limo_msgs__cpp[0m
+[4.790s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.540s] [  6%] Built target limo_msgs__cpp
+[5.571s] [35m[1mScanning dependencies of target limo_msgs__rosidl_generator_c[0m
+[5.611s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.659s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.661s] [ 16%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/msg/detail/limo_status__functions.c.o[0m
+[5.663s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.073s] [ 22%] [32m[1mLinking C shared library liblimo_msgs__rosidl_generator_c.so[0m
+[6.243s] [ 22%] Built target limo_msgs__rosidl_generator_c
+[6.322s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.403s] [35m[1mScanning dependencies of target limo_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[6.404s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.447s] [35m[1mScanning dependencies of target limo_msgs__rosidl_typesupport_introspection_cpp[0m
+[6.501s] [ 32%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/limo_msgs/msg/detail/dds_fastrtps/limo_status__type_support.cpp.o[0m
+[6.567s] [ 35%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/limo_msgs/msg/detail/limo_status__type_support.cpp.o[0m
+[6.608s] [35m[1mScanning dependencies of target limo_msgs__rosidl_typesupport_cpp[0m
+[6.710s] [ 38%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/limo_msgs/msg/limo_status__type_support.cpp.o[0m
+[7.435s] [35m[1mScanning dependencies of target limo_msgs__rosidl_typesupport_c[0m
+[7.465s] [35m[1mScanning dependencies of target limo_msgs__rosidl_typesupport_introspection_c[0m
+[7.552s] [ 41%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/limo_msgs/msg/limo_status__type_support.cpp.o[0m
+[7.561s] [ 45%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/limo_msgs/msg/detail/limo_status__type_support.c.o[0m
+[7.755s] [ 48%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_c.so[0m
+[7.842s] [ 51%] [32m[1mLinking C shared library liblimo_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.993s] [ 51%] Built target limo_msgs__rosidl_typesupport_c
+[8.064s] [ 51%] Built target limo_msgs__rosidl_typesupport_introspection_c
+[9.410s] [ 54%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_cpp.so[0m
+[9.508s] [ 58%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.791s] [ 58%] Built target limo_msgs__rosidl_typesupport_introspection_cpp
+[9.849s] [ 58%] Built target limo_msgs__rosidl_typesupport_cpp
+[10.307s] [ 61%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.762s] [ 61%] Built target limo_msgs__rosidl_typesupport_fastrtps_cpp
+[11.797s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.387s] [35m[1mScanning dependencies of target limo_msgs__rosidl_typesupport_fastrtps_c[0m
+[14.538s] [ 67%] [32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/limo_msgs/msg/detail/limo_status__type_support_c.cpp.o[0m
+[18.070s] [ 70%] [32m[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[18.871s] [ 70%] Built target limo_msgs__rosidl_typesupport_fastrtps_c
+[18.951s] [35m[1mScanning dependencies of target limo_msgs[0m
+[19.035s] [ 70%] Built target limo_msgs
+[19.099s] [35m[1mScanning dependencies of target limo_msgs__py[0m
+[19.176s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[22.699s] [ 74%] Built target limo_msgs__py
+[22.777s] [35m[1mScanning dependencies of target limo_msgs__python[0m
+[22.979s] [ 77%] [32mBuilding C object CMakeFiles/limo_msgs__python.dir/rosidl_generator_py/limo_msgs/msg/_limo_status_s.c.o[0m
+[23.474s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/liblimo_msgs__python.so[0m
+[23.687s] [ 80%] Built target limo_msgs__python
+[23.750s] [35m[1mScanning dependencies of target limo_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[23.780s] [35m[1mScanning dependencies of target limo_msgs__rosidl_typesupport_c__pyext[0m
+[23.786s] [35m[1mScanning dependencies of target limo_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[23.855s] [ 83%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.924s] [ 87%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.965s] [ 90%] [32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[24.352s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[24.621s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[24.655s] [100%] [32m[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[24.669s] [100%] Built target limo_msgs__rosidl_typesupport_c__pyext
+[24.880s] [100%] Built target limo_msgs__rosidl_typesupport_introspection_c__pyext
+[25.090s] [100%] Built target limo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[25.197s] Invoked command in '/home/agilex/limo_ros2_ws/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/limo_msgs -- -j6 -l6
+[25.989s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/limo_msgs
+[27.170s] -- Install configuration: ""
+[27.171s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/ament_index/resource_index/rosidl_interfaces/limo_msgs
+[27.171s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs
+[27.171s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg
+[27.171s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/rosidl_generator_c__visibility_control.h
+[27.171s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/limo_status.h
+[27.171s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail
+[27.171s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__functions.h
+[27.171s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__type_support.h
+[27.172s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__functions.c
+[27.172s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__struct.h
+[27.172s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/environment/library_path.sh
+[27.172s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/environment/library_path.dsv
+[27.172s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so
+[27.172s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so" to ""
+[27.172s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs
+[27.172s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg
+[27.173s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.173s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail
+[27.173s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_c.h
+[27.173s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so
+[27.173s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[27.173s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs
+[27.173s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg
+[27.173s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.174s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail
+[27.174s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_cpp.hpp
+[27.174s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/dds_fastrtps
+[27.174s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[27.174s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[27.174s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs
+[27.181s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg
+[27.181s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.181s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail
+[27.181s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__type_support.c
+[27.182s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_c.h
+[27.182s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so
+[27.182s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[27.183s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so
+[27.184s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so" to ""
+[27.184s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs
+[27.184s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg
+[27.184s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.184s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/limo_status.hpp
+[27.184s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail
+[27.184s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__struct.hpp
+[27.184s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__type_support.hpp
+[27.185s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__builder.hpp
+[27.185s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__traits.hpp
+[27.185s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs
+[27.185s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg
+[27.185s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail
+[27.185s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_cpp.hpp
+[27.185s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/include/limo_msgs/msg/detail/limo_status__type_support.cpp
+[27.185s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so
+[27.186s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[27.186s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so
+[27.186s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so" to ""
+[27.186s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/environment/pythonpath.sh
+[27.186s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/environment/pythonpath.dsv
+[27.186s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages/limo_msgs/__init__.py
+[27.186s] Compiling '/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages/limo_msgs/__init__.py'...
+[27.186s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages/limo_msgs/msg
+[27.187s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages/limo_msgs/msg/__init__.py
+[27.187s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages/limo_msgs/msg/_limo_status_s.c
+[27.187s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages/limo_msgs/msg/_limo_status.py
+[27.187s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[27.187s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[27.187s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[27.187s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[27.187s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[27.188s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_msgs/lib/python3.8/site-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[27.188s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__python.so
+[27.188s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_msgs/lib/liblimo_msgs__python.so" to ""
+[27.188s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/msg/LimoStatus.idl
+[27.188s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/msg/LimoStatus.msg
+[27.188s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/ament_index/resource_index/package_run_dependencies/limo_msgs
+[27.188s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/ament_index/resource_index/parent_prefix_path/limo_msgs
+[27.188s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.sh
+[27.189s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.dsv
+[27.189s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/environment/path.sh
+[27.189s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/environment/path.dsv
+[27.189s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/local_setup.bash
+[27.189s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/local_setup.sh
+[27.189s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/local_setup.zsh
+[27.189s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/local_setup.dsv
+[27.189s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/package.dsv
+[27.190s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/ament_index/resource_index/packages/limo_msgs
+[27.190s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_generator_cExport.cmake
+[27.190s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_generator_cExport-noconfig.cmake
+[27.190s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[27.190s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.190s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport.cmake
+[27.190s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[27.190s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_generator_cppExport.cmake
+[27.191s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[27.191s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.191s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport.cmake
+[27.191s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[27.191s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake-extras.cmake
+[27.191s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.191s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[27.191s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[27.191s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.192s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.192s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.192s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig.cmake
+[27.192s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig-version.cmake
+[27.192s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_msgs/share/limo_msgs/package.xml
+[27.204s] Invoked command in '/home/agilex/limo_ros2_ws/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/limo_msgs

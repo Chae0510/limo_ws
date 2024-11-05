@@ -1,0 +1,19 @@
+CMake Error at /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_add_executable.cmake:66 (add_executable):
+  Target "image_publisher_node" links to target
+  "camera_info_manager::camera_info_manager" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+Call Stack (most recent call first):
+  CMakeLists.txt:25 (ament_auto_add_executable)
+
+
+CMake Error at /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_add_library.cmake:66 (add_library):
+  Target "image_publisher" links to target
+  "camera_info_manager::camera_info_manager" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+Call Stack (most recent call first):
+  CMakeLists.txt:20 (ament_auto_add_library)
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

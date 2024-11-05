@@ -1,0 +1,35 @@
+[0.127s] Invoking command in '/home/agilex/limo_ros2_ws/build/glog': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/glog -- -j6 -l6
+[0.519s] [ 22%] Built target glogbase
+[0.621s] [ 25%] Built target glogtest
+[0.641s] [ 29%] Built target glog
+[0.744s] [ 35%] Built target cleanup_with_absolute_prefix_unittest
+[0.763s] [ 41%] Built target signalhandler_unittest
+[0.769s] [ 48%] Built target cleanup_immediately_unittest
+[0.798s] [ 54%] Built target demangle_unittest
+[0.800s] [ 61%] Built target utilities_unittest
+[0.811s] [ 67%] Built target symbolize_unittest
+[0.864s] [ 74%] Built target logging_custom_prefix_unittest
+[0.870s] [ 80%] Built target stacktrace_unittest
+[0.885s] [ 87%] Built target logging_unittest
+[0.893s] [ 93%] Built target stl_logging_unittest
+[0.899s] [100%] Built target cleanup_with_relative_prefix_unittest
+[1.019s] Invoked command in '/home/agilex/limo_ros2_ws/build/glog' returned '0': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/glog -- -j6 -l6
+[1.489s] Invoking command in '/home/agilex/limo_ros2_ws/build/glog': /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/glog
+[1.521s] -- Install configuration: ""
+[1.522s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/libglog.so.0.6.0
+[1.522s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/libglog.so.1
+[1.523s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/libglog.so
+[1.523s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/export.h
+[1.524s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/logging.h
+[1.524s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/raw_logging.h
+[1.525s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/stl_logging.h
+[1.525s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/vlog_is_on.h
+[1.525s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/log_severity.h
+[1.526s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/platform.h
+[1.526s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/pkgconfig/libglog.pc
+[1.526s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-modules.cmake
+[1.526s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-config.cmake
+[1.527s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-config-version.cmake
+[1.527s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-targets.cmake
+[1.531s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-targets-noconfig.cmake
+[1.554s] Invoked command in '/home/agilex/limo_ros2_ws/build/glog' returned '0': /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/glog

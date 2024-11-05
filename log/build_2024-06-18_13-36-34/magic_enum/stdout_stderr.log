@@ -1,0 +1,13 @@
+[ 16%] Built target example_switch
+[ 33%] Built target example_custom_name
+[ 50%] Built target test-cpp17
+[ 66%] Built target test_flags-cpp17
+[ 83%] Built target enum_flag_example
+[100%] Built target example
+-- Install configuration: ""
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfigVersion.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfig.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/magic_enum/./include
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/magic_enum/./include/magic_enum.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/magic_enum/./include/magic_enum_fuse.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/magic_enum/share/magic_enum/package.xml

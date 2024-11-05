@@ -1,0 +1,305 @@
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_efa5b/fast && /usr/bin/make -f CMakeFiles/cmTC_efa5b.dir/build.make CMakeFiles/cmTC_efa5b.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_efa5b.dir/src.cxx.o
+/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD -fPIE   -o CMakeFiles/cmTC_efa5b.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_efa5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efa5b.dir/link.txt --verbose=1
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_efa5b.dir/src.cxx.o  -o cmTC_efa5b 
+/usr/bin/ld: CMakeFiles/cmTC_efa5b.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x48): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x50): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x5c): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_efa5b.dir/build.make:87: cmTC_efa5b] Error 1
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_efa5b/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8aaae/fast && /usr/bin/make -f CMakeFiles/cmTC_8aaae.dir/build.make CMakeFiles/cmTC_8aaae.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8aaae.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_8aaae.dir/CheckFunctionExists.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_8aaae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aaae.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8aaae.dir/CheckFunctionExists.cxx.o  -o cmTC_8aaae  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_8aaae.dir/build.make:87: cmTC_8aaae] Error 1
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8aaae/fast] Error 2
+
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_464fa/fast && /usr/bin/make -f CMakeFiles/cmTC_464fa.dir/build.make CMakeFiles/cmTC_464fa.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_464fa.dir/HAVE___UINT16.cpp.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_464fa.dir/HAVE___UINT16.cpp.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:23:22: error: expected primary-expression before ‘unsigned’
+   23 | #define SIZE (sizeof(unsigned __int16))
+      |                      ^~~~~~~~
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:23:22: error: expected ‘)’ before ‘unsigned’
+   23 | #define SIZE (sizeof(unsigned __int16))
+      |                     ~^~~~~~~~
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:34:7: error: expected ‘)’ before ‘}’ token
+   34 |   '\0'};
+      |       ^
+      |       )
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:23:14: note: to match this ‘(’
+   23 | #define SIZE (sizeof(unsigned __int16))
+      |              ^
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:34:7: error: expected ‘)’ before ‘}’ token
+   34 |   '\0'};
+      |       ^
+      |       )
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:25:11: note: to match this ‘(’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |           ^
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:34:7: error: expected ‘)’ before ‘}’ token
+   34 |   '\0'};
+      |       ^
+      |       )
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:25:10: note: to match this ‘(’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |          ^
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:34:7: error: expected ‘)’ before ‘}’ token
+   34 |   '\0'};
+      |       ^
+      |       )
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:25:3: note: to match this ‘(’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |   ^
+make[1]: *** [CMakeFiles/cmTC_464fa.dir/build.make:66: CMakeFiles/cmTC_464fa.dir/HAVE___UINT16.cpp.o] Error 1
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_464fa/fast] Error 2
+
+
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function dladdr exists failed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8d33/fast && /usr/bin/make -f CMakeFiles/cmTC_d8d33.dir/build.make CMakeFiles/cmTC_d8d33.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d8d33.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=dladdr -fPIE   -o CMakeFiles/cmTC_d8d33.dir/CheckFunctionExists.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_d8d33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8d33.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=dladdr    CMakeFiles/cmTC_d8d33.dir/CheckFunctionExists.cxx.o  -o cmTC_d8d33 
+/usr/bin/ld: CMakeFiles/cmTC_d8d33.dir/CheckFunctionExists.cxx.o: in function `main':
+CheckFunctionExists.cxx:(.text+0x10): undefined reference to `dladdr'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d8d33.dir/build.make:87: cmTC_d8d33] Error 1
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d8d33/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS failed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c4c3/fast && /usr/bin/make -f CMakeFiles/cmTC_5c4c3.dir/build.make CMakeFiles/cmTC_5c4c3.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5c4c3.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS -fPIE   -Wunnamed-type-template-args -o CMakeFiles/cmTC_5c4c3.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wunnamed-type-template-args'
+make[1]: *** [CMakeFiles/cmTC_5c4c3.dir/build.make:66: CMakeFiles/cmTC_5c4c3.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_5c4c3/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_threadid_np exist failed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f3c1c/fast && /usr/bin/make -f CMakeFiles/cmTC_f3c1c.dir/build.make CMakeFiles/cmTC_f3c1c.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3c1c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_f3c1c.dir/CheckSymbolExists.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘pthread_threadid_np’ was not declared in this scope; did you mean ‘pthread_tryjoin_np’?
+    8 |   return ((int*)(&pthread_threadid_np))[argc];
+      |                   ^~~~~~~~~~~~~~~~~~~
+      |                   pthread_tryjoin_np
+make[1]: *** [CMakeFiles/cmTC_f3c1c.dir/build.make:66: CMakeFiles/cmTC_f3c1c.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f3c1c/fast] Error 2
+
+
+File /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_threadid_np
+  return ((int*)(&pthread_threadid_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function UnDecorateSymbolName exists in the dbghelp failed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fd6d0/fast && /usr/bin/make -f CMakeFiles/cmTC_fd6d0.dir/build.make CMakeFiles/cmTC_fd6d0.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd6d0.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -fPIE   -o CMakeFiles/cmTC_fd6d0.dir/CheckFunctionExists.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_fd6d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd6d0.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName    CMakeFiles/cmTC_fd6d0.dir/CheckFunctionExists.cxx.o  -o cmTC_fd6d0  -ldbghelp 
+/usr/bin/ld: cannot find -ldbghelp
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_fd6d0.dir/build.make:87: cmTC_fd6d0] Error 1
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_fd6d0/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ef693/fast && /usr/bin/make -f CMakeFiles/cmTC_ef693.dir/build.make CMakeFiles/cmTC_ef693.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef693.dir/src.cxx.o
+/usr/bin/c++    -DHAVE___DECLSPEC -fPIE   -o CMakeFiles/cmTC_ef693.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+    2 | __declspec(selectany) int a;
+      |           ^
+make[1]: *** [CMakeFiles/cmTC_ef693.dir/build.make:66: CMakeFiles/cmTC_ef693.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ef693/fast] Error 2
+
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_012e0/fast && /usr/bin/make -f CMakeFiles/cmTC_012e0.dir/build.make CMakeFiles/cmTC_012e0.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_012e0.dir/src.cxx.o
+/usr/bin/c++    -DSTL_NO_NAMESPACE -fPIE   -o CMakeFiles/cmTC_012e0.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx:3:1: error: ‘vector’ does not name a type
+    3 | vector<int> t; int main() { }
+      | ^~~~~~
+make[1]: *** [CMakeFiles/cmTC_012e0.dir/build.make:66: CMakeFiles/cmTC_012e0.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_012e0/fast] Error 2
+
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_MSVC_TLS failed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aca18/fast && /usr/bin/make -f CMakeFiles/cmTC_aca18.dir/build.make CMakeFiles/cmTC_aca18.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aca18.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_MSVC_TLS -fPIE   -o CMakeFiles/cmTC_aca18.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx:2:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+    2 | __declspec(thread) int tls;
+      |           ^
+make[1]: *** [CMakeFiles/cmTC_aca18.dir/build.make:66: CMakeFiles/cmTC_aca18.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_aca18/fast] Error 2
+
+
+Source file was:
+
+__declspec(thread) int tls;
+int main() { }
+

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/agilex/limo_ros2_ws/src/ros2_astra_camera/magic_enum-0.8.0/example/enum_flag_example.cpp
+iostream
+-
+string
+-
+magic_enum.hpp
+-
+
+/home/agilex/limo_ros2_ws/src/ros2_astra_camera/magic_enum-0.8.0/include/magic_enum.hpp
+array
+-
+cassert
+-
+cstdint
+-
+cstddef
+-
+iosfwd
+-
+limits
+-
+type_traits
+-
+utility
+-
+variant
+-
+optional
+-
+string
+-
+string_view
+-
+

@@ -1,0 +1,4 @@
+make[2]: *** Deleting file 'rosidl_generator_c/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.h'
+make[2]: *** [CMakeFiles/nav2_msgs__rosidl_generator_c.dir/build.make:215: rosidl_generator_c/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.h] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:304: CMakeFiles/nav2_msgs__rosidl_generator_c.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

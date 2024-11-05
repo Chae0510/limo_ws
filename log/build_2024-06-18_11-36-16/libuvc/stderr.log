@@ -1,0 +1,4 @@
+[01m[K/home/agilex/limo_ros2_ws/src/ros2_astra_camera/libuvc/src/example.c:[m[K In function ‘[01m[Kcb[m[K’:
+[01m[K/home/agilex/limo_ros2_ws/src/ros2_astra_camera/libuvc/src/example.c:26:74:[m[K [01;35m[Kwarning: [m[Kcast from pointer to integer of different size [[01;35m[K-Wpointer-to-int-cast[m[K]
+   26 |     frame->frame_format, frame->width, frame->height, frame->data_bytes, [01;35m[K([m[Kint) ptr);
+      |                                                                          [01;35m[K^[m[K

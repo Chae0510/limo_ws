@@ -1,0 +1,227 @@
+[0.140s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/src/build/nav_2d_msgs -- -j6 -l6
+[0.330s] [ 11%] Built target nav_2d_msgs__rosidl_generator_c
+[0.333s] [ 12%] Built target nav_2d_msgs__cpp
+[0.537s] [ 23%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[0.556s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[0.562s] [ 46%] Built target nav_2d_msgs__rosidl_typesupport_c
+[0.563s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[0.617s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[0.820s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[0.932s] [ 80%] Built target nav_2d_msgs
+[1.010s] [ 81%] Built target nav_2d_msgs__py
+[1.197s] [ 91%] Built target nav_2d_msgs__python
+[1.417s] [ 94%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[1.419s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.475s] [100%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[1.581s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/src/build/nav_2d_msgs -- -j6 -l6
+[3.654s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/src/build/nav_2d_msgs
+[3.711s] -- Install configuration: "Release"
+[3.711s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[3.718s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs
+[3.718s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[3.719s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d.h
+[3.719s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d32.h
+[3.720s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.720s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d_stamped.h
+[3.722s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/path2_d.h
+[3.723s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[3.724s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[3.724s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__functions.c
+[3.724s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[3.725s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[3.725s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__functions.c
+[3.726s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[3.726s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[3.726s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c
+[3.728s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__functions.c
+[3.729s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[3.730s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[3.732s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[3.733s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[3.735s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[3.736s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__functions.c
+[3.736s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[3.737s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[3.737s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__struct.h
+[3.738s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[3.739s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[3.740s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[3.740s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[3.740s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c
+[3.741s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__functions.h
+[3.741s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d32.h
+[3.742s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d_stamped.h
+[3.744s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[3.744s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[3.745s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[3.745s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so" to ""
+[3.746s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs
+[3.746s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[3.746s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.746s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[3.746s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[3.748s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[3.749s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[3.757s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[3.757s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[3.757s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[3.758s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[3.759s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.759s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs
+[3.759s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[3.759s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.760s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[3.760s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[3.760s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/dds_fastrtps
+[3.760s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[3.761s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.761s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.761s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.762s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[3.762s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.764s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.764s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs
+[3.764s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[3.764s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.764s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[3.765s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c
+[3.765s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[3.765s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.c
+[3.765s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[3.766s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[3.766s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[3.767s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[3.767s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.c
+[3.767s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c
+[3.768s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[3.768s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.c
+[3.769s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.c
+[3.770s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[3.771s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.771s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[3.772s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so" to ""
+[3.772s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs
+[3.773s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[3.773s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[3.774s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[3.776s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d.hpp
+[3.777s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/path2_d.hpp
+[3.778s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.778s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d32.hpp
+[3.779s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[3.779s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[3.780s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[3.781s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.hpp
+[3.782s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.hpp
+[3.783s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[3.783s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.hpp
+[3.784s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[3.784s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[3.785s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[3.785s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
+[3.786s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.hpp
+[3.787s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[3.788s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[3.789s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[3.789s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[3.790s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[3.791s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[3.792s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.hpp
+[3.793s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[3.794s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[3.795s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[3.796s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[3.797s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[3.798s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[3.798s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d32.hpp
+[3.799s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs
+[3.800s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[3.800s] -- Up-to-date: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[3.801s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.cpp
+[3.802s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp
+[3.803s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.804s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.804s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp
+[3.805s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[3.806s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.809s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp
+[3.811s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[3.812s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[3.813s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp
+[3.814s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp
+[3.816s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[3.818s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.819s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[3.820s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so" to ""
+[3.821s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[3.822s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[3.823s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/__init__.py
+[4.086s] Compiling '/home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/__init__.py'...
+[4.121s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg
+[4.122s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_path2_d_s.c
+[4.122s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d32.py
+[4.122s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[4.122s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[4.122s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[4.122s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[4.123s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[4.123s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/__init__.py
+[4.123s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[4.123s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d.py
+[4.123s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[4.123s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_path2_d.py
+[4.123s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d32.py
+[4.124s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[4.124s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[4.124s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[4.125s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[4.126s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[4.127s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[4.127s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__python.so
+[4.129s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/lib/libnav_2d_msgs__python.so" to ""
+[4.130s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[4.131s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[4.132s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[4.133s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[4.134s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[4.135s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[4.136s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[4.139s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[4.140s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[4.140s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[4.142s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[4.142s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[4.148s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[4.148s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[4.148s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[4.148s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[4.148s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[4.148s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[4.149s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[4.149s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[4.149s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[4.151s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[4.152s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[4.152s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[4.152s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cExport.cmake
+[4.152s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cExport-release.cmake
+[4.153s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.153s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[4.153s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[4.154s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-release.cmake
+[4.159s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cppExport.cmake
+[4.159s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.159s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[4.160s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[4.160s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-release.cmake
+[4.161s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[4.161s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.161s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.162s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.162s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.167s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.167s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.175s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[4.175s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[4.175s] -- Installing: /home/agilex/limo_ros2_ws/src/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[4.182s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/src/build/nav_2d_msgs

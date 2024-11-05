@@ -1,0 +1,84 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found nav2_common: 0.4.7 (/home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+-- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+-- Found nav2_util: 0.4.7 (/home/agilex/limo_ros2_ws/install/nav2_util/share/nav2_util/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/agilex/limo_ros2_ws/src/navigation2/nav2_amcl/include;/home/agilex/limo_ros2_ws/src/navigation2/nav2_amcl/src/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/agilex/limo_ros2_ws/build/nav2_amcl
+[ 26%] Built target pf_lib
+[ 50%] Built target map_lib
+[ 53%] [32m[1mLinking CXX shared library libmotions_lib.so[0m
+[ 65%] Built target motions_lib
+[ 84%] Built target sensors_lib
+[ 88%] [32m[1mLinking CXX shared library libamcl_core.so[0m
+[ 92%] Built target amcl_core
+[ 96%] [32m[1mLinking CXX executable amcl[0m
+[100%] Built target amcl
+-- Install configuration: "Release"
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_amcl/lib/libamcl_core.so
+-- Set runtime path of "/home/agilex/limo_ros2_ws/install/nav2_amcl/lib/libamcl_core.so" to ""
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_amcl/lib/nav2_amcl/amcl
+-- Set runtime path of "/home/agilex/limo_ros2_ws/install/nav2_amcl/lib/nav2_amcl/amcl" to ""
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include/
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/pf
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/sensors
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/angleutils.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/motion_model
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/map
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/include//nav2_amcl/map/map.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/environment/path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.bash
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.sh
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.zsh
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/local_setup.dsv
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/package.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/share/nav2_amcl/package.xml
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/lib/libpf_lib.so
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/lib/libmap_lib.so
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_amcl/lib/libmotions_lib.so
+-- Set runtime path of "/home/agilex/limo_ros2_ws/install/nav2_amcl/lib/libmotions_lib.so" to ""
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_amcl/lib/libsensors_lib.so

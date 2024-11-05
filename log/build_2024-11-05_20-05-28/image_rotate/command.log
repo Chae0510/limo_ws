@@ -1,0 +1,1 @@
+Invoking command in '/home/agilex/limo_ros2_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/image_rotate

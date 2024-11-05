@@ -1,0 +1,1 @@
+Invoking command in '/home/agilex/limo_ros2_ws/build/costmap_converter_msgs': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/costmap_converter_msgs -- -j6 -l6

@@ -1,0 +1,41 @@
+[0.079s] Invoking command in '/home/agilex/limo_ros2_ws/build/magic_enum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/ros2_astra_camera/magic_enum-0.8.0 -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/magic_enum
+[0.659s] -- The CXX compiler identification is GNU 9.4.0
+[0.660s] -- Check for working CXX compiler: /usr/bin/c++
+[0.660s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.660s] -- Detecting CXX compiler ABI info
+[0.781s] -- Detecting CXX compiler ABI info - done
+[0.802s] -- Detecting CXX compile features
+[0.804s] -- Detecting CXX compile features - done
+[0.811s] -- Performing Test HAS_CPP20_FLAG
+[0.883s] -- Performing Test HAS_CPP20_FLAG - Failed
+[0.888s] -- Configuring done
+[0.908s] -- Generating done
+[0.909s] -- Build files have been written to: /home/agilex/limo_ros2_ws/build/magic_enum
+[0.922s] Invoked command in '/home/agilex/limo_ros2_ws/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/ros2_astra_camera/magic_enum-0.8.0 -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/magic_enum
+[0.924s] Invoking command in '/home/agilex/limo_ros2_ws/build/magic_enum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/magic_enum -- -j6 -l6
+[1.064s] [35m[1mScanning dependencies of target example_switch[0m
+[1.104s] [  8%] [32mBuilding CXX object example/CMakeFiles/example_switch.dir/example_switch.cpp.o[0m
+[3.112s] [ 16%] [32m[1mLinking CXX executable example_switch[0m
+[3.309s] [ 16%] Built target example_switch
+[3.336s] [35m[1mScanning dependencies of target test-cpp17[0m
+[3.381s] [ 25%] [32mBuilding CXX object test/CMakeFiles/test-cpp17.dir/test.cpp.o[0m
+[34.757s] [ 33%] [32m[1mLinking CXX executable test-cpp17[0m
+[34.783s] /usr/bin/c++     CMakeFiles/test-cpp17.dir/test.cpp.o  -o test-cpp17 
+[35.497s] [ 33%] Built target test-cpp17
+[35.530s] [35m[1mScanning dependencies of target test_flags-cpp17[0m
+[35.570s] [ 41%] [32mBuilding CXX object test/CMakeFiles/test_flags-cpp17.dir/test_flags.cpp.o[0m
+[62.983s] [ 50%] [32m[1mLinking CXX executable test_flags-cpp17[0m
+[63.014s] /usr/bin/c++     CMakeFiles/test_flags-cpp17.dir/test_flags.cpp.o  -o test_flags-cpp17 
+[63.671s] [ 50%] Built target test_flags-cpp17
+[63.707s] [35m[1mScanning dependencies of target example[0m
+[63.735s] [ 58%] [32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o[0m
+[65.884s] [ 66%] [32m[1mLinking CXX executable example[0m
+[66.066s] [ 66%] Built target example
+[66.094s] [35m[1mScanning dependencies of target enum_flag_example[0m
+[66.127s] [ 75%] [32mBuilding CXX object example/CMakeFiles/enum_flag_example.dir/enum_flag_example.cpp.o[0m
+[67.682s] [ 83%] [32m[1mLinking CXX executable enum_flag_example[0m
+[67.860s] [ 83%] Built target enum_flag_example
+[67.889s] [35m[1mScanning dependencies of target example_custom_name[0m
+[67.920s] [ 91%] [32mBuilding CXX object example/CMakeFiles/example_custom_name.dir/example_custom_name.cpp.o[0m
+[69.863s] [100%] [32m[1mLinking CXX executable example_custom_name[0m
+[70.033s] [100%] Built target example_custom_name

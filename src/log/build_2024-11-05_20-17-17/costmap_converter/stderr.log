@@ -1,0 +1,7 @@
+In file included from [01m[K/home/agilex/limo_ros2_ws/src/costmap_converter/costmap_converter/test/costmap_polygons.cpp:3[m[K:
+/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h: In instantiation of ‘[01m[Ktesting::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = long unsigned int][m[K’:
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1495:23:[m[K   required from ‘[01m[Kstatic testing::AssertionResult testing::internal::EqHelper<lhs_is_null_literal>::Compare(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = long unsigned int; bool lhs_is_null_literal = false][m[K’
+[01m[K/home/agilex/limo_ros2_ws/src/costmap_converter/costmap_converter/test/costmap_polygons.cpp:180:3:[m[K   required from here
+[01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1467:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kconst long unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+ 1467 |   if ([01;35m[Klhs == rhs[m[K) {
+      |       [01;35m[K~~~~^~~~~~[m[K

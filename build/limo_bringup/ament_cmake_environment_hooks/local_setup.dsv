@@ -1,0 +1,2 @@
+source;share/limo_bringup/environment/ament_prefix_path.sh
+source;share/limo_bringup/environment/path.sh

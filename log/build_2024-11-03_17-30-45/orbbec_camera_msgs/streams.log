@@ -1,0 +1,512 @@
+[0.182s] Invoking command in '/home/agilex/limo_ros2_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs
+[0.855s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.855s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.855s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.855s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.855s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.856s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.203s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.554s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.206s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.954s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.332s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.412s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.412s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.485s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.485s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.486s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[4.198s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.299s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.315s] -- Added test 'lint_cmake' to check CMake code style
+[4.325s] -- Added test 'xmllint' to check XML markup files
+[4.391s] -- Configuring done
+[5.157s] -- Generating done
+[5.189s] -- Build files have been written to: /home/agilex/limo_ros2_ws/build/orbbec_camera_msgs
+[5.250s] Invoked command in '/home/agilex/limo_ros2_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs
+[5.252s] Invoking command in '/home/agilex/limo_ros2_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/orbbec_camera_msgs -- -j6 -l6
+[18.093s] [  1%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/device_info__functions.c.o[0m
+[18.094s] [  1%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/metadata__functions.c.o[0m
+[18.094s] [  2%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/imu_info__functions.c.o[0m
+[18.094s] [  2%] Built target orbbec_camera_msgs__cpp
+[18.094s] [  3%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/rgbd__functions.c.o[0m
+[18.094s] [  4%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/extrinsics__functions.c.o[0m
+[18.094s] [  4%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/device_info__type_support.cpp.o[0m
+[18.095s] [  5%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_bool__functions.c.o[0m
+[18.095s] [  6%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_device_info__functions.c.o[0m
+[18.095s] [  7%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_camera_info__functions.c.o[0m
+[18.095s] [  8%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_int32__functions.c.o[0m
+[18.095s] [  8%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_string__functions.c.o[0m
+[18.095s] [  9%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/set_int32__functions.c.o[0m
+[18.096s] [ 10%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/set_string__functions.c.o[0m
+[18.096s] [ 11%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/extrinsics__type_support.cpp.o[0m
+[18.096s] [ 12%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/metadata__type_support.cpp.o[0m
+[18.096s] [ 13%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/imu_info__type_support.cpp.o[0m
+[18.096s] [ 14%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/rgbd__type_support.cpp.o[0m
+[18.096s] [ 15%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_bool__type_support.cpp.o[0m
+[18.096s] [ 16%] [32m[1mLinking C shared library liborbbec_camera_msgs__rosidl_generator_c.so[0m
+[18.097s] [ 17%] Built target orbbec_camera_msgs__rosidl_generator_c
+[18.097s] [ 18%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[18.103s] [ 18%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_device_info__type_support.cpp.o[0m
+[18.104s] [ 19%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.cpp.o[0m
+[18.106s] [ 20%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_int32__type_support.cpp.o[0m
+[18.106s] [ 21%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_string__type_support.cpp.o[0m
+[18.106s] [ 22%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/set_int32__type_support.cpp.o[0m
+[18.106s] [ 23%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/set_string__type_support.cpp.o[0m
+[18.106s] [ 24%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[18.107s] [ 25%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o[0m
+[18.107s] [ 26%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o[0m
+[18.107s] [ 27%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/rgbd__type_support.cpp.o[0m
+[18.132s] [ 28%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[18.481s] [ 29%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_cpp
+[19.158s] [ 30%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_int32__type_support.cpp.o[0m
+[20.631s] [ 31%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_camera_info__type_support.cpp.o[0m
+[21.875s] [ 32%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_device_info__type_support.cpp.o[0m
+[22.979s] [ 33%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o[0m
+[24.224s] [ 34%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o[0m
+[25.371s] [ 34%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/set_string__type_support.cpp.o[0m
+[26.661s] [ 34%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_bool__type_support.cpp.o[0m
+[27.933s] [ 35%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[28.200s] [ 35%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[28.291s] [ 36%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/device_info__type_support.cpp.o[0m
+[29.154s] [ 37%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[30.022s] [ 38%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[30.937s] [ 38%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[31.696s] [ 39%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_bool__type_support.cpp.o[0m
+[32.418s] [ 40%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_device_info__type_support.cpp.o[0m
+[33.190s] [ 41%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_camera_info__type_support.cpp.o[0m
+[33.986s] [ 42%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_int32__type_support.cpp.o[0m
+[34.720s] [ 43%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_string__type_support.cpp.o[0m
+[35.499s] [ 43%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/set_int32__type_support.cpp.o[0m
+[36.227s] [ 44%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/set_string__type_support.cpp.o[0m
+[36.956s] [ 45%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[37.748s] [ 46%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_cpp.so[0m
+[37.880s] [ 47%] Built target orbbec_camera_msgs__rosidl_typesupport_cpp
+[37.971s] [ 48%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/device_info__type_support_c.cpp.o[0m
+[39.077s] [ 49%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/imu_info__type_support_c.cpp.o[0m
+[39.956s] [ 50%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/rgbd__type_support_c.cpp.o[0m
+[40.846s] [ 51%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_bool__type_support_c.cpp.o[0m
+[41.835s] [ 52%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o[0m
+[42.871s] [ 53%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_camera_info__type_support_c.cpp.o[0m
+[43.796s] [ 53%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_int32__type_support_c.cpp.o[0m
+[44.791s] [ 54%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_string__type_support_c.cpp.o[0m
+[45.850s] [ 55%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/set_int32__type_support_c.cpp.o[0m
+[46.993s] [ 56%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/set_string__type_support_c.cpp.o[0m
+[48.301s] [ 56%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/metadata__type_support_c.cpp.o[0m
+[49.318s] [ 57%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o[0m
+[50.228s] [ 58%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[50.453s] [ 59%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c
+[50.651s] [ 60%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/device_info__type_support.c.o[0m
+[50.776s] [ 61%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/rgbd__type_support.c.o[0m
+[50.902s] [ 62%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_bool__type_support.c.o[0m
+[51.044s] [ 63%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_device_info__type_support.c.o[0m
+[51.200s] [ 64%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.c.o[0m
+[51.323s] [ 65%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_int32__type_support.c.o[0m
+[51.444s] [ 66%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_string__type_support.c.o[0m
+[51.568s] [ 66%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/set_int32__type_support.c.o[0m
+[51.696s] [ 67%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/set_string__type_support.c.o[0m
+[51.815s] [ 67%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/imu_info__type_support.c.o[0m
+[51.927s] [ 68%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[52.055s] [ 69%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[52.197s] [ 70%] [32m[1mLinking C shared library liborbbec_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[52.371s] [ 71%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c
+[52.495s] [ 72%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/device_info__type_support.cpp.o[0m
+[52.625s] [ 73%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_bool__type_support.cpp.o[0m
+[52.739s] [ 74%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_device_info__type_support.cpp.o[0m
+[52.890s] [ 74%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_camera_info__type_support.cpp.o[0m
+[53.007s] [ 75%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_int32__type_support.cpp.o[0m
+[53.108s] [ 76%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_string__type_support.cpp.o[0m
+[53.235s] [ 77%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/set_int32__type_support.cpp.o[0m
+[53.376s] [ 78%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/set_string__type_support.cpp.o[0m
+[53.491s] [ 79%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[53.583s] [ 80%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[53.671s] [ 81%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[53.820s] [ 81%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[53.939s] [ 82%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_c.so[0m
+[54.092s] [ 83%] Built target orbbec_camera_msgs__rosidl_typesupport_c
+[54.207s] [ 83%] Built target orbbec_camera_msgs
+[54.351s] [ 84%] Built target orbbec_camera_msgs__py
+[54.508s] [ 85%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__python.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_device_info_s.c.o[0m
+[54.854s] [ 86%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__python.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_bool_s.c.o[0m
+[55.162s] [ 87%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__python.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_device_info_s.c.o[0m
+[55.503s] [ 88%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__python.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_camera_info_s.c.o[0m
+[55.830s] [ 89%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__python.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_int32_s.c.o[0m
+[56.230s] [ 90%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__python.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_string_s.c.o[0m
+[56.607s] [ 90%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__python.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_int32_s.c.o[0m
+[56.943s] [ 91%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__python.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_string_s.c.o[0m
+[57.298s] [ 91%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__python.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_rgbd_s.c.o[0m
+[57.634s] [ 92%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__python.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_imu_info_s.c.o[0m
+[58.034s] [ 93%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__python.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_metadata_s.c.o[0m
+[58.316s] [ 94%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__python.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_extrinsics_s.c.o[0m
+[58.639s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/liborbbec_camera_msgs__python.so[0m
+[58.787s] [ 95%] Built target orbbec_camera_msgs__python
+[58.891s] [ 95%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[59.931s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[60.072s] [ 96%] Built target orbbec_camera_msgs__rosidl_typesupport_c__pyext
+[60.185s] [ 97%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[61.205s] [ 98%] [32m[1mLinking CXX shared library rosidl_generator_py/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[61.409s] [ 98%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[61.515s] [ 99%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[62.474s] [100%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[62.607s] [100%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[62.659s] Invoked command in '/home/agilex/limo_ros2_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/orbbec_camera_msgs -- -j6 -l6
+[63.759s] Invoking command in '/home/agilex/limo_ros2_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/orbbec_camera_msgs
+[81.722s] -- Install configuration: "Release"
+[81.722s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/orbbec_camera_msgs
+[81.722s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs
+[81.722s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg
+[81.722s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[81.723s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/imu_info.h
+[81.723s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail
+[81.723s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__functions.c
+[81.723s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__struct.h
+[81.723s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__type_support.h
+[81.723s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__type_support.h
+[81.723s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__type_support.h
+[81.724s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__functions.h
+[81.724s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__struct.h
+[81.724s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__functions.c
+[81.724s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__functions.h
+[81.724s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__functions.c
+[81.724s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__struct.h
+[81.724s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__type_support.h
+[81.724s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__struct.h
+[81.725s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__functions.h
+[81.725s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__functions.c
+[81.725s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__type_support.h
+[81.725s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__functions.h
+[81.725s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__struct.h
+[81.725s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__functions.h
+[81.725s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__functions.c
+[81.726s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/extrinsics.h
+[81.726s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/metadata.h
+[81.726s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/rgbd.h
+[81.726s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/device_info.h
+[81.726s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv
+[81.726s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/get_camera_info.h
+[81.726s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/get_string.h
+[81.735s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/get_int32.h
+[81.736s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/set_string.h
+[81.736s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/get_bool.h
+[81.737s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/set_int32.h
+[81.737s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail
+[81.737s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__type_support.h
+[81.738s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__functions.c
+[81.739s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__functions.c
+[81.739s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__type_support.h
+[81.739s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.h
+[81.740s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__type_support.h
+[81.740s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__struct.h
+[81.741s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__functions.h
+[81.746s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__struct.h
+[81.747s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__type_support.h
+[81.747s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__type_support.h
+[81.747s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__functions.h
+[81.748s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__functions.h
+[81.748s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__functions.c
+[81.748s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__functions.h
+[81.748s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__struct.h
+[81.748s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__functions.h
+[81.748s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__type_support.h
+[81.749s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__functions.h
+[81.749s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__struct.h
+[81.749s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__functions.c
+[81.749s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__functions.c
+[81.749s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__functions.c
+[81.749s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__struct.h
+[81.749s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__struct.h
+[81.750s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__struct.h
+[81.750s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__functions.c
+[81.750s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__functions.h
+[81.750s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/get_device_info.h
+[81.750s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/library_path.sh
+[81.750s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/library_path.dsv
+[81.750s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_c.so
+[81.751s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_c.so" to ""
+[81.751s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs
+[81.751s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg
+[81.751s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[81.751s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail
+[81.751s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_c.h
+[81.751s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[81.752s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[81.752s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[81.752s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[81.752s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv
+[81.752s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail
+[81.752s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h
+[81.752s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h
+[81.753s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h
+[81.760s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_c.h
+[81.760s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h
+[81.761s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h
+[81.761s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h
+[81.761s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[81.761s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[81.761s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs
+[81.762s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg
+[81.762s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[81.762s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail
+[81.762s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[81.762s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[81.762s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/dds_fastrtps
+[81.762s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[81.763s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_cpp.hpp
+[81.763s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[81.763s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv
+[81.763s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail
+[81.763s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[81.763s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/dds_fastrtps
+[81.763s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp
+[81.769s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[81.770s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[81.770s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[81.770s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp
+[81.770s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[81.770s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[81.770s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[81.771s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs
+[81.771s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg
+[81.771s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[81.771s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail
+[81.771s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h
+[81.771s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[81.771s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__type_support.c
+[81.772s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__type_support.c
+[81.772s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__type_support.c
+[81.772s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_c.h
+[81.772s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__type_support.c
+[81.772s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__type_support.c
+[81.773s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[81.773s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[81.773s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv
+[81.773s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail
+[81.773s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.c
+[81.773s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__type_support.c
+[81.773s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__type_support.c
+[81.774s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h
+[81.774s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_c.h
+[81.774s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h
+[81.774s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__type_support.c
+[81.774s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__type_support.c
+[81.774s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h
+[81.774s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h
+[81.775s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h
+[81.775s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__type_support.c
+[81.775s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_introspection_c.h
+[81.775s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__type_support.c
+[81.775s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_c.so
+[81.775s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[81.776s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_c.so
+[81.776s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_c.so" to ""
+[81.776s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs
+[81.776s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg
+[81.776s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/device_info.hpp
+[81.776s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[81.777s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/metadata.hpp
+[81.777s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/imu_info.hpp
+[81.777s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail
+[81.777s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__struct.hpp
+[81.778s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__type_support.hpp
+[81.778s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__type_support.hpp
+[81.778s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__builder.hpp
+[81.778s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__builder.hpp
+[81.779s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__traits.hpp
+[81.779s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__struct.hpp
+[81.779s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__struct.hpp
+[81.779s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__traits.hpp
+[81.779s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__traits.hpp
+[81.779s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__builder.hpp
+[81.780s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__struct.hpp
+[81.780s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__builder.hpp
+[81.780s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__builder.hpp
+[81.780s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__traits.hpp
+[81.780s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__type_support.hpp
+[81.780s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__type_support.hpp
+[81.780s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__struct.hpp
+[81.781s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__traits.hpp
+[81.781s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__type_support.hpp
+[81.781s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/extrinsics.hpp
+[81.781s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/rgbd.hpp
+[81.781s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv
+[81.781s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/set_int32.hpp
+[81.782s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/set_string.hpp
+[81.785s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/get_string.hpp
+[81.786s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/get_int32.hpp
+[81.786s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail
+[81.786s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__traits.hpp
+[81.786s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__struct.hpp
+[81.786s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__builder.hpp
+[81.786s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__traits.hpp
+[81.787s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__builder.hpp
+[81.787s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__struct.hpp
+[81.787s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__struct.hpp
+[81.787s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__struct.hpp
+[81.787s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__type_support.hpp
+[81.787s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__struct.hpp
+[81.787s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.hpp
+[81.788s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__type_support.hpp
+[81.788s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__builder.hpp
+[81.788s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__type_support.hpp
+[81.788s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__builder.hpp
+[81.789s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__traits.hpp
+[81.789s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__struct.hpp
+[81.789s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__type_support.hpp
+[81.789s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__builder.hpp
+[81.789s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__traits.hpp
+[81.789s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__builder.hpp
+[81.790s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__traits.hpp
+[81.790s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__traits.hpp
+[81.790s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__type_support.hpp
+[81.790s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__traits.hpp
+[81.790s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__builder.hpp
+[81.790s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__struct.hpp
+[81.791s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__type_support.hpp
+[81.791s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/get_device_info.hpp
+[81.791s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/get_camera_info.hpp
+[81.791s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/get_bool.hpp
+[81.791s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs
+[81.792s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg
+[81.792s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail
+[81.792s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[81.792s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[81.792s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[81.792s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_cpp.hpp
+[81.793s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/rgbd__type_support.cpp
+[81.793s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[81.793s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[81.793s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/metadata__type_support.cpp
+[81.793s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/device_info__type_support.cpp
+[81.794s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/msg/detail/imu_info__type_support.cpp
+[81.794s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv
+[81.794s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail
+[81.794s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp
+[81.794s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp
+[81.794s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp
+[81.795s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__type_support.cpp
+[81.795s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.cpp
+[81.795s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__type_support.cpp
+[81.795s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[81.795s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_device_info__type_support.cpp
+[81.795s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_cpp.hpp
+[81.796s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_int32__type_support.cpp
+[81.796s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp
+[81.796s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp
+[81.796s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_int32__type_support.cpp
+[81.796s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/srv/detail/get_bool__type_support.cpp
+[81.797s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[81.797s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[81.797s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_cpp.so
+[81.797s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[81.797s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/pythonpath.sh
+[81.797s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/pythonpath.dsv
+[81.798s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/__init__.py
+[81.876s] Compiling '/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/__init__.py'...
+[81.898s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/msg
+[81.898s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/msg/_rgbd_s.c
+[81.898s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/msg/_extrinsics.py
+[81.898s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/msg/_device_info_s.c
+[81.898s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/msg/_imu_info_s.c
+[81.899s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/msg/__init__.py
+[81.899s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/msg/_metadata_s.c
+[81.899s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/msg/_device_info.py
+[81.899s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/msg/_metadata.py
+[81.899s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/msg/_extrinsics_s.c
+[81.899s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/msg/_rgbd.py
+[81.899s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/msg/_imu_info.py
+[81.900s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv
+[81.900s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_set_string_s.c
+[81.900s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_get_int32_s.c
+[81.900s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_get_device_info.py
+[81.900s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_get_string_s.c
+[81.900s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_set_string.py
+[81.900s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_get_camera_info.py
+[81.900s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_get_device_info_s.c
+[81.901s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_get_bool.py
+[81.905s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_get_int32.py
+[81.905s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/__init__.py
+[81.909s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_get_bool_s.c
+[81.910s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_get_camera_info_s.c
+[81.910s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_set_int32.py
+[81.913s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_get_string.py
+[81.914s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/srv/_set_int32_s.c
+[81.914s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[81.914s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[81.914s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[81.915s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[81.915s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[81.915s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[81.917s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__python.so
+[81.918s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__python.so" to ""
+[81.918s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceInfo.idl
+[81.919s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Extrinsics.idl
+[81.920s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Metadata.idl
+[81.920s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/IMUInfo.idl
+[81.921s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/RGBD.idl
+[81.921s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool.idl
+[81.922s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo.idl
+[81.922s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo.idl
+[81.923s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32.idl
+[81.924s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString.idl
+[81.924s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32.idl
+[81.925s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString.idl
+[81.925s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceInfo.msg
+[81.926s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Extrinsics.msg
+[81.926s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Metadata.msg
+[81.927s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/IMUInfo.msg
+[81.927s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/RGBD.msg
+[81.934s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool.srv
+[81.937s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool_Request.msg
+[81.938s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool_Response.msg
+[81.938s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo.srv
+[81.938s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo_Request.msg
+[81.939s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo_Response.msg
+[81.940s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo.srv
+[81.941s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo_Request.msg
+[81.941s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo_Response.msg
+[81.941s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32.srv
+[81.941s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32_Request.msg
+[81.941s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32_Response.msg
+[81.942s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString.srv
+[81.942s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString_Request.msg
+[81.942s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString_Response.msg
+[81.942s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32.srv
+[81.942s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32_Request.msg
+[81.942s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32_Response.msg
+[81.943s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString.srv
+[81.943s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString_Request.msg
+[81.943s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString_Response.msg
+[81.943s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/package_run_dependencies/orbbec_camera_msgs
+[81.943s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/parent_prefix_path/orbbec_camera_msgs
+[81.943s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/ament_prefix_path.sh
+[81.943s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/ament_prefix_path.dsv
+[81.944s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/path.sh
+[81.944s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/path.dsv
+[81.944s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.bash
+[81.945s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.sh
+[81.945s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.zsh
+[81.945s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.dsv
+[81.945s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv
+[81.945s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/packages/orbbec_camera_msgs
+[81.946s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_generator_cExport.cmake
+[81.946s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_generator_cExport-release.cmake
+[81.946s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[81.946s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[81.946s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cExport.cmake
+[81.946s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cExport-release.cmake
+[81.947s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_generator_cppExport.cmake
+[81.947s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[81.948s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[81.950s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cppExport.cmake
+[81.950s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cppExport-release.cmake
+[81.951s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[81.952s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[81.953s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[81.954s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[81.957s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[81.958s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[81.958s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[81.958s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgsConfig.cmake
+[81.959s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgsConfig-version.cmake
+[81.959s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.xml
+[81.969s] Invoked command in '/home/agilex/limo_ros2_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/orbbec_camera_msgs

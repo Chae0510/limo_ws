@@ -1,0 +1,9 @@
+/home/agilex/limo_ros2_ws/src/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/DeviceInfo.idl
+/home/agilex/limo_ros2_ws/src/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Extrinsics.idl
+/home/agilex/limo_ros2_ws/src/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Metadata.idl
+/home/agilex/limo_ros2_ws/src/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetDeviceInfo.idl
+/home/agilex/limo_ros2_ws/src/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraInfo.idl
+/home/agilex/limo_ros2_ws/src/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraParams.idl
+/home/agilex/limo_ros2_ws/src/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetInt32.idl
+/home/agilex/limo_ros2_ws/src/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetString.idl
+/home/agilex/limo_ros2_ws/src/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/SetInt32.idl

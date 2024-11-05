@@ -1,0 +1,68 @@
+[0.076s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/limo_ros2/limo_description -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/src/install/limo_description
+[0.437s] -- The C compiler identification is GNU 9.4.0
+[0.699s] -- The CXX compiler identification is GNU 9.4.0
+[0.717s] -- Check for working C compiler: /usr/bin/cc
+[1.032s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.033s] -- Detecting C compiler ABI info
+[1.481s] -- Detecting C compiler ABI info - done
+[1.511s] -- Detecting C compile features
+[1.512s] -- Detecting C compile features - done
+[1.521s] -- Check for working CXX compiler: /usr/bin/c++
+[2.041s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.041s] -- Detecting CXX compiler ABI info
+[2.449s] -- Detecting CXX compiler ABI info - done
+[2.487s] -- Detecting CXX compile features
+[2.489s] -- Detecting CXX compile features - done
+[2.519s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.701s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.701s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.658s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.074s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.080s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.083s] -- Added test 'lint_cmake' to check CMake code style
+[4.095s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.099s] -- Added test 'xmllint' to check XML markup files
+[4.112s] -- Configuring done
+[4.125s] -- Generating done
+[4.129s] -- Build files have been written to: /home/agilex/limo_ros2_ws/src/build/limo_description
+[4.159s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/limo_ros2/limo_description -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/src/install/limo_description
+[4.161s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/src/build/limo_description -- -j6 -l6
+[6.355s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/src/build/limo_description -- -j6 -l6
+[6.537s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/src/build/limo_description
+[6.577s] -- Install configuration: ""
+[6.578s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/launch
+[6.578s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/launch/gazebo_models_diff.launch.py
+[6.578s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/launch/display_models_diff.launch.py
+[6.581s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/meshes
+[6.581s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/meshes/limo_wheel.stl
+[6.602s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/meshes/limo_base.dae
+[6.732s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/meshes/limo_wheel.dae
+[6.762s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/meshes/limo_base.stl
+[6.876s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/rviz
+[6.877s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/rviz/model_display.rviz
+[6.880s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/rviz/urdf.rviz
+[6.881s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/urdf
+[6.882s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/urdf/limo_gazebo.gazebo
+[6.882s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/urdf/limo_ackerman.xacro
+[6.883s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/urdf/limo_ackerman.gazebo
+[6.884s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/urdf/limo_xacro.xacro
+[6.885s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/urdf/limo_steering_hinge.xacro
+[6.886s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/urdf/limo_four_diff.xacro
+[6.887s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/urdf/limo_four_diff.gazebo
+[6.888s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/urdf/limo_four_diff_2.gazebo
+[6.890s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/ament_index/resource_index/package_run_dependencies/limo_description
+[6.891s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/ament_index/resource_index/parent_prefix_path/limo_description
+[6.892s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/environment/ament_prefix_path.sh
+[6.893s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/environment/ament_prefix_path.dsv
+[6.894s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/environment/path.sh
+[6.895s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/environment/path.dsv
+[6.895s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/local_setup.bash
+[6.896s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/local_setup.sh
+[6.897s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/local_setup.zsh
+[6.898s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/local_setup.dsv
+[6.899s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/package.dsv
+[6.900s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/ament_index/resource_index/packages/limo_description
+[6.901s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/cmake/limo_descriptionConfig.cmake
+[6.901s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/cmake/limo_descriptionConfig-version.cmake
+[6.902s] -- Installing: /home/agilex/limo_ros2_ws/src/install/limo_description/share/limo_description/package.xml
+[6.959s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/src/build/limo_description

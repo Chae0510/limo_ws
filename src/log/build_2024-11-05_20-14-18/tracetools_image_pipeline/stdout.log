@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'lttng-ust'
+--   No package 'lttng-ust' found
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/agilex/limo_ros2_ws/src/build/tracetools_image_pipeline
+[35m[1mScanning dependencies of target tracetools_image_pipeline[0m
+[ 20%] [32mBuilding C object CMakeFiles/tracetools_image_pipeline.dir/src/tracetools.c.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/tracetools_image_pipeline.dir/src/utils.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libtracetools_image_pipeline.so[0m
+[ 60%] Built target tracetools_image_pipeline
+[35m[1mScanning dependencies of target status[0m
+[ 80%] [32mBuilding C object CMakeFiles/status.dir/src/status.c.o[0m
+[100%] [32m[1mLinking C executable status[0m
+[100%] Built target status
+-- Install configuration: ""
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.sh
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.dsv
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/lib/tracetools_image_pipeline/status
+-- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/lib/tracetools_image_pipeline/status" to ""
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/include
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/include/tracetools_image_pipeline
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/include/tracetools_image_pipeline/utils.hpp
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/include/tracetools_image_pipeline/visibility_control.hpp
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/include/tracetools_image_pipeline/tracetools.h
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/include/tracetools_image_pipeline/config.h
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/lib/libtracetools_image_pipeline.so
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/ament_index/resource_index/package_run_dependencies/tracetools_image_pipeline
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/ament_index/resource_index/parent_prefix_path/tracetools_image_pipeline
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.sh
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.dsv
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.sh
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.dsv
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.bash
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.sh
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.zsh
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.dsv
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/ament_index/resource_index/packages/tracetools_image_pipeline
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport.cmake
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport-noconfig.cmake
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig.cmake
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig-version.cmake
+-- Installing: /home/agilex/limo_ros2_ws/src/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.xml

@@ -1,0 +1,40 @@
+[0.049s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/limo_description -- -j6 -l6
+[0.229s] Invoked command in '/home/agilex/limo_ros2_ws/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/limo_description -- -j6 -l6
+[0.355s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/limo_description
+[0.395s] -- Install configuration: "Release"
+[0.396s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/launch
+[0.396s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/launch/gazebo_models_diff.launch.py
+[0.396s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/launch/display_models_diff.launch.py
+[0.404s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/meshes
+[0.404s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/meshes/limo_wheel.stl
+[0.404s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/meshes/limo_base.dae
+[0.404s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/meshes/limo_wheel.dae
+[0.404s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/meshes/limo_base.stl
+[0.404s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/rviz
+[0.404s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/rviz/model_display.rviz
+[0.404s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/rviz/urdf.rviz
+[0.405s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/urdf
+[0.405s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/urdf/limo_gazebo.gazebo
+[0.405s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/urdf/limo_ackerman.xacro
+[0.405s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/urdf/limo_ackerman.gazebo
+[0.405s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/urdf/limo_xacro.xacro
+[0.405s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/urdf/limo_steering_hinge.xacro
+[0.405s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/urdf/limo_four_diff.xacro
+[0.405s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/urdf/limo_four_diff.gazebo
+[0.406s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/urdf/limo_four_diff_2.gazebo
+[0.406s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/ament_index/resource_index/package_run_dependencies/limo_description
+[0.406s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/ament_index/resource_index/parent_prefix_path/limo_description
+[0.409s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/environment/ament_prefix_path.sh
+[0.409s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/environment/ament_prefix_path.dsv
+[0.409s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/environment/path.sh
+[0.409s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/environment/path.dsv
+[0.410s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/local_setup.bash
+[0.410s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/local_setup.sh
+[0.410s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/local_setup.zsh
+[0.410s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/local_setup.dsv
+[0.410s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/package.dsv
+[0.410s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/ament_index/resource_index/packages/limo_description
+[0.410s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/cmake/limo_descriptionConfig.cmake
+[0.419s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/cmake/limo_descriptionConfig-version.cmake
+[0.430s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_description/share/limo_description/package.xml
+[0.430s] Invoked command in '/home/agilex/limo_ros2_ws/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/limo_description

@@ -1,0 +1,172 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Found image_publisher: 2.3.0 (/opt/ros/foxy/share/image_publisher/cmake)
+-- Found orbbec_camera_msgs: 1.2.2 (/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake)
+-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+-- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+-- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+-- Found backward_ros: 1.0.1 (/opt/ros/foxy/share/backward_ros/cmake)
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- BACKWARD_HAS_UNWIND=1
+-- BACKWARD_HAS_BACKTRACE=0
+-- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+-- BACKWARD_HAS_DW=1
+-- BACKWARD_HAS_BFD=0
+-- Found Backward: /opt/ros/foxy/share/backward_ros/cmake  
+-- ORRBEC Machine : aarch64
+
+-- ORRBEC Machine Bits : 64
+
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/agilex/limo_ros2_ws/build/orbbec_camera
+[  8%] Built target orbbec_camera_node
+[ 16%] Built target frame_latency
+[ 24%] Built target frame_latency_node
+[ 68%] Built target orbbec_camera
+[ 80%] Built target list_depth_work_mode_node
+[ 84%] Built target topic_statistics_node
+[ 92%] Built target list_camera_profile_mode_node
+[100%] Built target list_devices_node
+-- Install configuration: "Release"
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/frame_latency_node
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/liborbbec_camera.so
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/libframe_latency.so
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/magic_enum
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/magic_enum/magic_enum.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/ros_param_backend.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/utils.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node_driver.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/jpeg_decoder.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/jetson_nv_decoder.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/image_publisher.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/synced_imu_publisher.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/d2c_viewer.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/rk_mpp_decoder.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/dynamic_params.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/constants.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/ob_camera.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_mega.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_pro.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_330_series.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_uw.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_max_pro.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_max.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_adv.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_ew.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2XL.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2L.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw2.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_stereo_u3.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_ew_lite.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_d1.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_bolt.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw2.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_intra_process_demo_launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_pro2.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera_synced.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcl.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e_lite.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_embedded_s.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra2.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2VL.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/deeya.launch.py
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config/OrbbecSDKConfig_v1.0.xml
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config/.gitkeep
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Gemini2_v1.7.json
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Openni_device.json
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config/camera_params.yaml
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/ObSensor.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/ObSensor.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Context.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Device.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/RecordPlayback.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Sensor.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Types.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Utils.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Filter.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Version.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/StreamProfile.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Frame.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Pipeline.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Error.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Sensor.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Pipeline.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Property.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/ObTypes.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Error.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Version.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Device.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Frame.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Filter.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Utils.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Context.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/RecordPlayback.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/MultipleDevices.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/StreamProfile.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//libdepthengine.so
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//liblive555.so
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//libdepthengine.so.2.0
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//libob_usb.so
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10.12
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_devices_node
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/topic_statistics_node
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/ament_index/resource_index/package_run_dependencies/orbbec_camera
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/ament_index/resource_index/parent_prefix_path/orbbec_camera
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.bash
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.sh
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.zsh
+-- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.dsv
+-- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/package.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/ament_index/resource_index/packages/orbbec_camera
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/ament_index/resource_index/rclcpp_components/orbbec_camera
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig-version.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/package.xml

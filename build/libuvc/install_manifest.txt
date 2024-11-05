@@ -1,0 +1,15 @@
+/home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.so.0.0.6
+/home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.so.0
+/home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.so
+/home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc.h
+/home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+/home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.a
+/home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc.h
+/home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+/home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+/home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+/home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+/home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+/home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+/home/agilex/limo_ros2_ws/install/libuvc/lib/pkgconfig/libuvc.pc
+/home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake

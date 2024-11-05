@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/agilex/limo_ros2_ws/src/ros2_astra_camera/libuvc/include/libuvc/libuvc.h
+stdio.h
+-
+stdint.h
+-
+sys/time.h
+-
+libuvc/libuvc_config.h
+-
+
+/home/agilex/limo_ros2_ws/src/ros2_astra_camera/libuvc/src/example.c
+libuvc/libuvc.h
+/home/agilex/limo_ros2_ws/src/ros2_astra_camera/libuvc/src/libuvc/libuvc.h
+stdio.h
+-
+unistd.h
+-
+
+include/libuvc/libuvc_config.h
+

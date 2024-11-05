@@ -1,0 +1,28 @@
+[0.053s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_visions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/limo_visions -- -j6 -l6
+[0.282s] [ 33%] Built target traffic_light
+[0.284s] [ 66%] Built target object_detect
+[0.294s] [100%] Built target detect_line
+[0.707s] Invoked command in '/home/agilex/limo_ros2_ws/build/limo_visions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/limo_visions -- -j6 -l6
+[0.850s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_visions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/limo_visions
+[0.903s] -- Install configuration: "Release"
+[0.903s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/object_detect
+[0.903s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/detect_line
+[0.903s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/traffic_light
+[0.903s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/package_run_dependencies/limo_visions
+[0.903s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/parent_prefix_path/limo_visions
+[0.904s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.sh
+[0.905s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.dsv
+[0.906s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/path.sh
+[0.906s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/path.dsv
+[0.907s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.bash
+[0.908s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.sh
+[0.909s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.zsh
+[0.910s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.dsv
+[0.911s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/package.dsv
+[0.912s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/packages/limo_visions
+[0.912s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.912s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.913s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig.cmake
+[0.913s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig-version.cmake
+[0.913s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/package.xml
+[1.031s] Invoked command in '/home/agilex/limo_ros2_ws/build/limo_visions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/limo_visions

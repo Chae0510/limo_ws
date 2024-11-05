@@ -1,0 +1,360 @@
+[0.045s] Invoking command in '/home/agilex/limo_ros2_ws/build/ydlidar_sdk': /usr/bin/cmake /home/agilex/limo_ros2_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/ydlidar_sdk
+[0.276s] -- The C compiler identification is GNU 9.4.0
+[0.437s] -- The CXX compiler identification is GNU 9.4.0
+[0.457s] -- Check for working C compiler: /usr/bin/cc
+[0.666s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.666s] -- Detecting C compiler ABI info
+[0.868s] -- Detecting C compiler ABI info - done
+[0.894s] -- Detecting C compile features
+[0.895s] -- Detecting C compile features - done
+[0.912s] -- Check for working CXX compiler: /usr/bin/c++
+[1.141s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.144s] -- Detecting CXX compiler ABI info
+[1.351s] -- Detecting CXX compiler ABI info - done
+[1.378s] -- Detecting CXX compile features
+[1.379s] -- Detecting CXX compile features - done
+[1.382s] -- Current platform: Linux
+[1.384s] CMake Deprecation Warning at CMakeLists.txt:50 (cmake_policy):
+[1.384s]   The OLD behavior for policy CMP0053 will be removed from a future version
+[1.384s]   of CMake.
+[1.384s] 
+[1.384s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[1.384s]   policies are deprecated and that a policy should be set to OLD only under
+[1.384s]   specific short-term circumstances.  Projects should be ported to the NEW
+[1.385s]   behavior and not rely on setting a policy to OLD.
+[1.385s] 
+[1.385s] 
+[1.385s] CMake Deprecation Warning at CMakeLists.txt:53 (cmake_policy):
+[1.385s]   The OLD behavior for policy CMP0037 will be removed from a future version
+[1.386s]   of CMake.
+[1.386s] 
+[1.386s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[1.386s]   policies are deprecated and that a policy should be set to OLD only under
+[1.386s]   specific short-term circumstances.  Projects should be ported to the NEW
+[1.387s]   behavior and not rely on setting a policy to OLD.
+[1.387s] 
+[1.387s] 
+[1.387s] CMake Deprecation Warning at CMakeLists.txt:56 (cmake_policy):
+[1.387s]   The OLD behavior for policy CMP0043 will be removed from a future version
+[1.387s]   of CMake.
+[1.387s] 
+[1.388s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[1.388s]   policies are deprecated and that a policy should be set to OLD only under
+[1.388s]   specific short-term circumstances.  Projects should be ported to the NEW
+[1.388s]   behavior and not rely on setting a policy to OLD.
+[1.388s] 
+[1.388s] 
+[1.417s] -- Found SWIG: /usr/bin/swig4.0 (found version "4.0.1") 
+[1.474s] -- Found PythonInterp: /usr/bin/python (found version "3.8.10") 
+[1.512s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+[1.593s] -- Found GTest: /usr/lib/aarch64-linux-gnu/libgtest.a  
+[2.359s] -- build python API....
+[2.363s] CMake Warning (dev) at /usr/share/cmake-3.16/Modules/UseSWIG.cmake:607 (message):
+[2.364s]   Policy CMP0078 is not set: UseSWIG generates standard target names.  Run
+[2.364s]   "cmake --help-policy CMP0078" for policy details.  Use the cmake_policy
+[2.364s]   command to set the policy and suppress this warning.
+[2.364s] 
+[2.364s] Call Stack (most recent call first):
+[2.365s]   python/CMakeLists.txt:35 (swig_add_library)
+[2.365s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.365s] 
+[2.367s] CMake Warning (dev) at /usr/share/cmake-3.16/Modules/UseSWIG.cmake:460 (message):
+[2.367s]   Policy CMP0086 is not set: UseSWIG honors SWIG_MODULE_NAME via -module
+[2.367s]   flag.  Run "cmake --help-policy CMP0086" for policy details.  Use the
+[2.367s]   cmake_policy command to set the policy and suppress this warning.
+[2.367s] 
+[2.368s] Call Stack (most recent call first):
+[2.368s]   /usr/share/cmake-3.16/Modules/UseSWIG.cmake:702 (SWIG_ADD_SOURCE_TO_MODULE)
+[2.368s]   python/CMakeLists.txt:35 (swig_add_library)
+[2.368s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.368s] 
+[2.443s] -- build test is ON.....
+[2.446s] CMake Deprecation Warning at cmake/install_package.cmake:101 (cmake_policy):
+[2.446s]   The OLD behavior for policy CMP0026 will be removed from a future version
+[2.447s]   of CMake.
+[2.447s] 
+[2.447s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[2.447s]   policies are deprecated and that a policy should be set to OLD only under
+[2.447s]   specific short-term circumstances.  Projects should be ported to the NEW
+[2.447s]   behavior and not rely on setting a policy to OLD.
+[2.447s] Call Stack (most recent call first):
+[2.447s]   CMakeLists.txt:168 (install_package)
+[2.448s] 
+[2.448s] 
+[2.453s] CMake Warning (dev) at cmake/install_package.cmake:191 (install):
+[2.453s]   Policy CMP0062 is not set: Disallow install() of export() result.  Run
+[2.453s]   "cmake --help-policy CMP0062" for policy details.  Use the cmake_policy
+[2.453s]   command to set the policy and suppress this warning.
+[2.453s] 
+[2.453s]   The file
+[2.453s] 
+[2.453s]     /home/agilex/limo_ros2_ws/build/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[2.454s] 
+[2.454s]   was generated by the export() command.  It should not be installed with the
+[2.454s]   install() command.  Use the install(EXPORT) mechanism instead.  See the
+[2.454s]   cmake-packages(7) manual for more.
+[2.454s] 
+[2.454s] Call Stack (most recent call first):
+[2.454s]   CMakeLists.txt:168 (install_package)
+[2.454s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.454s] 
+[2.476s] -- 
+[2.477s] -- +===========================================================================+
+[2.477s] -- |         Resulting configuration for                             |
+[2.477s] -- +===========================================================================+
+[2.477s] --  _________________________ PLATFORM _____________________________
+[2.477s] --  Host                        : Linux5.10.120-tegraaarch64
+[2.477s] --  Is the system big endian?   :  No 
+[2.478s] --  Word size (32/64 bit)       : 64
+[2.478s] --  CMake version               : 3.16.3
+[2.478s] --  CMake generator             : Unix Makefiles
+[2.478s] --  CMake build tool            : /usr/bin/make
+[2.478s] --  Compiler                    : GNU
+[2.478s] --  Configuration               : 
+[2.479s] -- 
+[2.479s] --  __________________________ OPTIONS _____________________________
+[2.479s] --  Build YDLidar-SDK as a shared library?　　 :  No 
+[2.479s] --  Build Examples?　　　　　　　　　　　　　　 : Yes 
+[2.479s] --  Build C Sharp API?　　　　　　　　　　　　 :  No 
+[2.479s] --  Build TEST?  			　　　 : Yes 
+[2.479s] -- 
+[2.479s] --  _________________________ INSTALL _____________________
+[2.480s] --  Install prefix                    : /home/agilex/limo_ros2_ws/install/ydlidar_sdk
+[2.480s] -- 
+[2.480s] --  _______________________ WRAPPERS/BINDINGS ______________________
+[2.480s] --  Python bindings (pyydlidar)   : Yes 
+[2.480s] --   - dep: Swig found?       : Yes [Version: 4.0.1]
+[2.480s] --   - dep: PythonLibs found?  : Yes [Version: 3.8.10]
+[2.480s] -- 
+[2.487s] -- Configuring done
+[2.543s] -- Generating done
+[2.548s] -- Build files have been written to: /home/agilex/limo_ros2_ws/build/ydlidar_sdk
+[2.593s] Invoked command in '/home/agilex/limo_ros2_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake /home/agilex/limo_ros2_ws/src/YDLidar-SDK -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/ydlidar_sdk
+[2.626s] Invoking command in '/home/agilex/limo_ros2_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/ydlidar_sdk -- -j6 -l6
+[2.794s] [35m[1mScanning dependencies of target ydlidar_sdk[0m
+[2.794s] [  2%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/base/timer.cpp.o[0m
+[3.188s] [  5%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o[0m
+[4.259s] [  8%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o[0m
+[4.998s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/core/serial/common.h:45[m[K,
+[4.998s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/core/serial/serial.cpp:12[m[K:
+[4.998s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[4.999s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[4.999s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[4.999s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[4.999s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[4.999s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[4.999s]       |                 [32m[K%lX[m[K
+[5.464s] [ 11%] [32mBuilding C object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o[0m
+[5.705s] [ 13%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o[0m
+[6.845s] [ 16%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o[0m
+[7.715s] [ 19%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o[0m
+[8.304s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[8.304s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[8.305s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/CYdLidar.cpp:29[m[K:
+[8.305s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[8.305s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[8.305s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[8.306s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[8.306s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[8.306s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[8.306s]       |                 [32m[K%lX[m[K
+[9.841s] [ 22%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o[0m
+[10.449s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/ETLidarDriver.h:46[m[K,
+[10.449s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/ETLidarDriver.cpp:32[m[K:
+[10.449s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[10.449s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[10.449s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[10.449s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[10.450s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[10.450s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[10.450s]       |                 [32m[K%lX[m[K
+[11.332s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/GS1LidarDriver.cpp.o[0m
+[12.126s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/GS1LidarDriver.h:57[m[K,
+[12.126s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/GS1LidarDriver.cpp:35[m[K:
+[12.126s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[12.126s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[12.126s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[12.127s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[12.127s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[12.127s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[12.127s]       |                 [32m[K%lX[m[K
+[12.244s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/GS1LidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::GS1LidarDriver::waitPackage(node_info*, uint32_t)[m[K’:
+[12.244s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/GS1LidarDriver.cpp:981:87:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[Knode_info[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.244s]   981 |                 angTransform((*node).distance_q2, package_Sample_Index, &sampleAngle, [01;35m[K&(*node).distance_q2[m[K);
+[12.244s]       |                                                                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[13.022s] [ 27%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/GS2LidarDriver.cpp.o[0m
+[13.846s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/GS2LidarDriver.h:57[m[K,
+[13.847s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp:35[m[K:
+[13.847s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[13.847s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[13.847s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[13.847s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[13.847s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[13.847s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[13.848s]       |                 [32m[K%lX[m[K
+[13.978s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::GS2LidarDriver::waitPackage(node_info*, uint32_t)[m[K’:
+[13.978s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp:885:83:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[Knode_info[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[13.979s]   885 |             angTransform((*node).distance_q2, package_Sample_Index, &sampleAngle, [01;35m[K&(*node).distance_q2[m[K);
+[13.979s]       |                                                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[13.998s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::GS2LidarDriver::createThread()[m[K’:
+[13.998s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/GS2LidarDriver.cpp:1480:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[13.999s]  1480 |     printf("[GS2Lidar] Create GS2 thread 0x[01;35m[K%X[m[K\n", [32m[K_thread.getHandle()[m[K);
+[13.999s]       |                                            [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[13.999s]       |                                             [01;35m[K|[m[K                      [32m[K|[m[K
+[13.999s]       |                                             [01;35m[Kunsigned int[m[K           [32m[K_size_t {aka long unsigned int}[m[K
+[13.999s]       |                                            [32m[K%lX[m[K
+[14.826s] [ 30%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o[0m
+[15.706s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/YDlidarDriver.h:46[m[K,
+[15.706s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/YDlidarDriver.cpp:26[m[K:
+[15.706s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[15.706s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[15.707s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[15.707s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[15.707s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[15.707s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[15.707s]       |                 [32m[K%lX[m[K
+[15.874s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/YDlidarDriver.cpp:[m[K In member function ‘[01m[Kresult_t ydlidar::YDlidarDriver::createThread()[m[K’:
+[15.874s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/YDlidarDriver.cpp:1956:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[15.874s]  1956 |   printf("[YDlidar] Create thread 0x[01;35m[K%X[m[K\n", [32m[K_thread.getHandle()[m[K);
+[15.874s]       |                                     [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[15.874s]       |                                      [01;35m[K|[m[K                      [32m[K|[m[K
+[15.874s]       |                                      [01;35m[Kunsigned int[m[K           [32m[K_size_t {aka long unsigned int}[m[K
+[15.875s]       |                                     [32m[K%lX[m[K
+[16.704s] [ 33%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_sdk.cpp.o[0m
+[17.206s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[17.206s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[17.206s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/ydlidar_sdk.cpp:27[m[K:
+[17.206s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[17.206s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[17.207s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[17.207s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[17.207s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[17.207s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[17.207s]       |                 [32m[K%lX[m[K
+[17.630s] [ 36%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/filters/NoiseFilter.cpp.o[0m
+[18.705s] [ 38%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/PassiveSocket.cpp.o[0m
+[19.394s] [ 41%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/ActiveSocket.cpp.o[0m
+[20.080s] [ 44%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/common/ydlidar_def.cpp.o[0m
+[20.172s] [ 47%] [32m[1mLinking CXX static library libydlidar_sdk.a[0m
+[20.292s] [ 47%] Built target ydlidar_sdk
+[20.329s] [35m[1mScanning dependencies of target ydlidar_swig_compilation[0m
+[20.363s] [ 50%] [34m[1mSwig compile ydlidar_sdk.i for python[0m
+[21.422s] [ 50%] Built target ydlidar_swig_compilation
+[21.451s] [35m[1mScanning dependencies of target tri_and_gs_test[0m
+[21.486s] [ 52%] [32mBuilding CXX object samples/CMakeFiles/tri_and_gs_test.dir/tri_and_gs_test.cpp.o[0m
+[21.808s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[21.808s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[21.808s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/samples/tri_and_gs_test.cpp:1[m[K:
+[21.808s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[21.808s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[21.808s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[21.809s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[21.809s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[21.809s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[21.809s]       |                 [32m[K%lX[m[K
+[22.329s] [ 55%] [32m[1mLinking CXX executable ../tri_and_gs_test[0m
+[22.592s] [ 55%] Built target tri_and_gs_test
+[22.620s] [35m[1mScanning dependencies of target tmini_test[0m
+[22.654s] [ 58%] [32mBuilding CXX object samples/CMakeFiles/tmini_test.dir/tmini_test.cpp.o[0m
+[23.001s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[23.001s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[23.001s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/samples/tmini_test.cpp:34[m[K:
+[23.002s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[23.002s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[23.002s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[23.002s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[23.002s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[23.002s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[23.002s]       |                 [32m[K%lX[m[K
+[23.776s] [ 61%] [32m[1mLinking CXX executable ../tmini_test[0m
+[24.039s] [ 61%] Built target tmini_test
+[24.072s] [35m[1mScanning dependencies of target lidar_c_api_test[0m
+[24.101s] [ 63%] [32mBuilding C object samples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o[0m
+[24.114s] [01m[Kcc1:[m[K [01;35m[Kwarning: [m[Kcommand line option ‘[01m[K-std=c++11[m[K’ is valid for C++/ObjC++ but not for C
+[24.201s] [ 66%] [32m[1mLinking CXX executable ../lidar_c_api_test[0m
+[24.482s] [ 66%] Built target lidar_c_api_test
+[24.511s] [35m[1mScanning dependencies of target _ydlidar[0m
+[24.565s] [ 69%] [32mBuilding CXX object python/CMakeFiles/_ydlidar.dir/CMakeFiles/_ydlidar.dir/ydlidar_sdkPYTHON_wrap.cxx.o[0m
+[25.486s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[25.486s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/core/../src/CYdLidar.h:48[m[K,
+[25.486s]                  from [01m[K/home/agilex/limo_ros2_ws/build/ydlidar_sdk/python/CMakeFiles/_ydlidar.dir/ydlidar_sdkPYTHON_wrap.cxx:3331[m[K:
+[25.486s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[25.486s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[25.487s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[25.487s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[25.487s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[25.487s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[25.487s]       |                 [32m[K%lX[m[K
+[28.792s] [ 72%] [32m[1mLinking CXX shared module _ydlidar.so[0m
+[29.100s] [ 72%] Built target _ydlidar
+[29.130s] [35m[1mScanning dependencies of target lidar_test[0m
+[29.163s] [ 75%] [32mBuilding CXX object test/CMakeFiles/lidar_test.dir/lidar_test.cpp.o[0m
+[30.388s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[30.388s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[30.388s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/test/lidar_test.h:5[m[K,
+[30.388s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/test/lidar_test.cpp:1[m[K:
+[30.389s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[30.389s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[30.389s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[30.389s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[30.389s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[30.389s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[30.389s]       |                 [32m[K%lX[m[K
+[31.019s] [ 77%] [32m[1mLinking CXX executable lidar_test[0m
+[31.322s] [ 77%] Built target lidar_test
+[31.351s] [35m[1mScanning dependencies of target tof_test[0m
+[31.393s] [ 80%] [32mBuilding CXX object samples/CMakeFiles/tof_test.dir/tof_test.cpp.o[0m
+[31.897s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[31.897s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[31.897s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/samples/tof_test.cpp:38[m[K:
+[31.897s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[31.897s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[31.897s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[31.898s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[31.898s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[31.898s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[31.898s]       |                 [32m[K%lX[m[K
+[32.449s] [ 83%] [32m[1mLinking CXX executable ../tof_test[0m
+[32.731s] [ 83%] Built target tof_test
+[32.759s] [35m[1mScanning dependencies of target gs_test[0m
+[32.792s] [ 86%] [32mBuilding CXX object samples/CMakeFiles/gs_test.dir/gs_test.cpp.o[0m
+[33.121s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[33.122s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[33.122s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/samples/gs_test.cpp:34[m[K:
+[33.122s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[33.122s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[33.122s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[33.122s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[33.122s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[33.123s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[33.123s]       |                 [32m[K%lX[m[K
+[33.884s] [ 88%] [32m[1mLinking CXX executable ../gs_test[0m
+[34.144s] [ 88%] Built target gs_test
+[34.172s] [35m[1mScanning dependencies of target tri_test[0m
+[34.208s] [ 91%] [32mBuilding CXX object samples/CMakeFiles/tri_test.dir/tri_test.cpp.o[0m
+[34.557s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[34.557s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[34.558s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/samples/tri_test.cpp:34[m[K:
+[34.558s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[34.558s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[34.558s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[34.558s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[34.558s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[34.558s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[34.558s]       |                 [32m[K%lX[m[K
+[35.367s] [ 94%] [32m[1mLinking CXX executable ../tri_test[0m
+[35.614s] [ 94%] Built target tri_test
+[35.639s] [35m[1mScanning dependencies of target et_test[0m
+[35.671s] [ 97%] [32mBuilding CXX object samples/CMakeFiles/et_test.dir/et_test.cpp.o[0m
+[35.989s] In file included from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/common/DriverInterface.h:3[m[K,
+[35.990s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/src/CYdLidar.h:48[m[K,
+[35.990s]                  from [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/samples/et_test.cpp:34[m[K:
+[35.990s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[35.990s] [01m[K/home/agilex/limo_ros2_ws/src/YDLidar-SDK/./core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[35.990s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[35.990s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[35.990s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[35.991s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[35.991s]       |                 [32m[K%lX[m[K
+[36.508s] [100%] [32m[1mLinking CXX executable ../et_test[0m
+[36.761s] [100%] Built target et_test

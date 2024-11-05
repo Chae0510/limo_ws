@@ -1,0 +1,2 @@
+Invoking command in '/home/agilex/limo_ros2_ws/build/orbbec_camera_msgs': /usr/bin/cmake /home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs
+Invoked command in '/home/agilex/limo_ros2_ws/build/orbbec_camera_msgs' returned '1': /usr/bin/cmake /home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs

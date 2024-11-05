@@ -1,0 +1,1223 @@
+The system is: Linux - 5.10.120-tegra - aarch64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b278d/fast && /usr/bin/make -f CMakeFiles/cmTC_b278d.dir/build.make CMakeFiles/cmTC_b278d.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b278d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_b278d.dir/testCXXCompiler.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b278d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b278d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b278d.dir/testCXXCompiler.cxx.o  -o cmTC_b278d 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7cd47/fast && /usr/bin/make -f CMakeFiles/cmTC_7cd47.dir/build.make CMakeFiles/cmTC_7cd47.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccimdJTn.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/aarch64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/aarch64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 76f300a9566415b293c4e87b0a05621d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccimdJTn.s
+GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+Linking CXX executable cmTC_7cd47
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cd47.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7cd47 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cd47' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc83kH7Q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_7cd47 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cd47' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/aarch64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/aarch64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/aarch64-linux-gnu/c++/9] ==> [/usr/include/aarch64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/9/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/aarch64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/aarch64-linux-gnu/9/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_7cd47/fast && /usr/bin/make -f CMakeFiles/cmTC_7cd47.dir/build.make CMakeFiles/cmTC_7cd47.dir/build]
+  ignore line: [make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccimdJTn.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/aarch64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 76f300a9566415b293c4e87b0a05621d]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccimdJTn.s]
+  ignore line: [GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking CXX executable cmTC_7cd47]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cd47.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7cd47 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7cd47' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc83kH7Q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_7cd47 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc83kH7Q.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7cd47] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/9] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_7cd47.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9] ==> [/usr/lib/gcc/aarch64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/9;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining the gflags namespace passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02bae/fast && /usr/bin/make -f CMakeFiles/cmTC_02bae.dir/build.make CMakeFiles/cmTC_02bae.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_02bae.dir/DetermineGflagsNamespace.cxx.o
+/usr/bin/c++  -DGFLAGS_IS_A_DLL=0 -DGLOG_GFLAGS_NAMESPACE=gflags  -fPIE   -o CMakeFiles/cmTC_02bae.dir/DetermineGflagsNamespace.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/DetermineGflagsNamespace.cxx
+Linking CXX executable cmTC_02bae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02bae.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_02bae.dir/DetermineGflagsNamespace.cxx.o  -o cmTC_02bae  /usr/lib/aarch64-linux-gnu/libgflags.so.2.2.2 -lpthread 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e0330/fast && /usr/bin/make -f CMakeFiles/cmTC_e0330.dir/build.make CMakeFiles/cmTC_e0330.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0330.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_e0330.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e0330
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0330.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e0330.dir/CheckIncludeFile.cxx.o  -o cmTC_e0330 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c84db/fast && /usr/bin/make -f CMakeFiles/cmTC_c84db.dir/build.make CMakeFiles/cmTC_c84db.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c84db.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_c84db.dir/CheckFunctionExists.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_c84db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c84db.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c84db.dir/CheckFunctionExists.cxx.o  -o cmTC_c84db  -lpthread 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unwind.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7576/fast && /usr/bin/make -f CMakeFiles/cmTC_c7576.dir/build.make CMakeFiles/cmTC_c7576.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c7576.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_c7576.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c7576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7576.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_c7576.dir/CheckIncludeFile.cxx.o  -o cmTC_c7576 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2455e/fast && /usr/bin/make -f CMakeFiles/cmTC_2455e.dir/build.make CMakeFiles/cmTC_2455e.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2455e.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_2455e.dir/CheckSymbolExists.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_2455e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2455e.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2455e.dir/CheckSymbolExists.cxx.o  -o cmTC_2455e 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+File /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_55303/fast && /usr/bin/make -f CMakeFiles/cmTC_55303.dir/build.make CMakeFiles/cmTC_55303.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_55303.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_55303.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_55303
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55303.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_55303.dir/CheckIncludeFile.cxx.o  -o cmTC_55303 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2c273/fast && /usr/bin/make -f CMakeFiles/cmTC_2c273.dir/build.make CMakeFiles/cmTC_2c273.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2c273.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_2c273.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2c273
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c273.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2c273.dir/CheckIncludeFile.cxx.o  -o cmTC_2c273 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1e214/fast && /usr/bin/make -f CMakeFiles/cmTC_1e214.dir/build.make CMakeFiles/cmTC_1e214.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e214.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_1e214.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_1e214
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e214.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_1e214.dir/CheckIncludeFile.cxx.o  -o cmTC_1e214 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_695c4/fast && /usr/bin/make -f CMakeFiles/cmTC_695c4.dir/build.make CMakeFiles/cmTC_695c4.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_695c4.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_695c4.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_695c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_695c4.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_695c4.dir/CheckIncludeFile.cxx.o  -o cmTC_695c4 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64230/fast && /usr/bin/make -f CMakeFiles/cmTC_64230.dir/build.make CMakeFiles/cmTC_64230.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64230.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_64230.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_64230
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64230.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_64230.dir/CheckIncludeFile.cxx.o  -o cmTC_64230 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_86c7c/fast && /usr/bin/make -f CMakeFiles/cmTC_86c7c.dir/build.make CMakeFiles/cmTC_86c7c.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86c7c.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_86c7c.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_86c7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86c7c.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_86c7c.dir/CheckIncludeFile.cxx.o  -o cmTC_86c7c 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_36cda/fast && /usr/bin/make -f CMakeFiles/cmTC_36cda.dir/build.make CMakeFiles/cmTC_36cda.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36cda.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_36cda.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_36cda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36cda.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_36cda.dir/CheckIncludeFile.cxx.o  -o cmTC_36cda 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f12f5/fast && /usr/bin/make -f CMakeFiles/cmTC_f12f5.dir/build.make CMakeFiles/cmTC_f12f5.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f12f5.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_f12f5.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_f12f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f12f5.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_f12f5.dir/CheckIncludeFile.cxx.o  -o cmTC_f12f5 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_63ecd/fast && /usr/bin/make -f CMakeFiles/cmTC_63ecd.dir/build.make CMakeFiles/cmTC_63ecd.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_63ecd.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_63ecd.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_63ecd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63ecd.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_63ecd.dir/CheckIncludeFile.cxx.o  -o cmTC_63ecd 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09d4a/fast && /usr/bin/make -f CMakeFiles/cmTC_09d4a.dir/build.make CMakeFiles/cmTC_09d4a.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_09d4a.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_09d4a.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_09d4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09d4a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_09d4a.dir/CheckIncludeFile.cxx.o  -o cmTC_09d4a 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e75b1/fast && /usr/bin/make -f CMakeFiles/cmTC_e75b1.dir/build.make CMakeFiles/cmTC_e75b1.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e75b1.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_e75b1.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e75b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e75b1.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e75b1.dir/CheckIncludeFile.cxx.o  -o cmTC_e75b1 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ddb36/fast && /usr/bin/make -f CMakeFiles/cmTC_ddb36.dir/build.make CMakeFiles/cmTC_ddb36.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ddb36.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_ddb36.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_ddb36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddb36.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_ddb36.dir/CheckIncludeFile.cxx.o  -o cmTC_ddb36 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c75f/fast && /usr/bin/make -f CMakeFiles/cmTC_5c75f.dir/build.make CMakeFiles/cmTC_5c75f.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5c75f.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_5c75f.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_5c75f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c75f.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_5c75f.dir/CheckIncludeFile.cxx.o  -o cmTC_5c75f 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d628d/fast && /usr/bin/make -f CMakeFiles/cmTC_d628d.dir/build.make CMakeFiles/cmTC_d628d.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d628d.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_d628d.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_d628d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d628d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d628d.dir/CheckIncludeFile.cxx.o  -o cmTC_d628d 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file syscall.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7737b/fast && /usr/bin/make -f CMakeFiles/cmTC_7737b.dir/build.make CMakeFiles/cmTC_7737b.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7737b.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_7737b.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_7737b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7737b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_7737b.dir/CheckIncludeFile.cxx.o  -o cmTC_7737b 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2fd36/fast && /usr/bin/make -f CMakeFiles/cmTC_2fd36.dir/build.make CMakeFiles/cmTC_2fd36.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2fd36.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_2fd36.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2fd36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fd36.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2fd36.dir/CheckIncludeFile.cxx.o  -o cmTC_2fd36 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ucontext.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_487cb/fast && /usr/bin/make -f CMakeFiles/cmTC_487cb.dir/build.make CMakeFiles/cmTC_487cb.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_487cb.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_487cb.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_487cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_487cb.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_487cb.dir/CheckIncludeFile.cxx.o  -o cmTC_487cb 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56285/fast && /usr/bin/make -f CMakeFiles/cmTC_56285.dir/build.make CMakeFiles/cmTC_56285.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_56285.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_56285.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_56285
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56285.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_56285.dir/CheckIncludeFile.cxx.o  -o cmTC_56285 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ext/hash_map exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_01587/fast && /usr/bin/make -f CMakeFiles/cmTC_01587.dir/build.make CMakeFiles/cmTC_01587.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01587.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_01587.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/9/ext/hash_map:60,
+                 from /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/9/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_01587
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01587.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_01587.dir/CheckIncludeFile.cxx.o  -o cmTC_01587 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ext/hash_set exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_da1ca/fast && /usr/bin/make -f CMakeFiles/cmTC_da1ca.dir/build.make CMakeFiles/cmTC_da1ca.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da1ca.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_da1ca.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/9/ext/hash_set:60,
+                 from /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/9/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+   32 | #warning \
+      |  ^~~~~~~
+Linking CXX executable cmTC_da1ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da1ca.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_da1ca.dir/CheckIncludeFile.cxx.o  -o cmTC_da1ca 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ext/slist exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b3ac6/fast && /usr/bin/make -f CMakeFiles/cmTC_b3ac6.dir/build.make CMakeFiles/cmTC_b3ac6.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b3ac6.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_b3ac6.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_b3ac6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3ac6.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b3ac6.dir/CheckIncludeFile.cxx.o  -o cmTC_b3ac6 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file tr1/unordered_map exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_07c0d/fast && /usr/bin/make -f CMakeFiles/cmTC_07c0d.dir/build.make CMakeFiles/cmTC_07c0d.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07c0d.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_07c0d.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_07c0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07c0d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_07c0d.dir/CheckIncludeFile.cxx.o  -o cmTC_07c0d 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file tr1/unordered_set exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fa694/fast && /usr/bin/make -f CMakeFiles/cmTC_fa694.dir/build.make CMakeFiles/cmTC_fa694.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fa694.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_fa694.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_fa694
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa694.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_fa694.dir/CheckIncludeFile.cxx.o  -o cmTC_fa694 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d70af/fast && /usr/bin/make -f CMakeFiles/cmTC_d70af.dir/build.make CMakeFiles/cmTC_d70af.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d70af.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_d70af.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_d70af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d70af.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d70af.dir/CheckIncludeFile.cxx.o  -o cmTC_d70af 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_018af/fast && /usr/bin/make -f CMakeFiles/cmTC_018af.dir/build.make CMakeFiles/cmTC_018af.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_018af.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_018af.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_018af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_018af.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_018af.dir/CheckIncludeFile.cxx.o  -o cmTC_018af 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_40919/fast && /usr/bin/make -f CMakeFiles/cmTC_40919.dir/build.make CMakeFiles/cmTC_40919.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_40919.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_40919.dir/CheckIncludeFile.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_40919
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40919.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_40919.dir/CheckIncludeFile.cxx.o  -o cmTC_40919 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_28f26/fast && /usr/bin/make -f CMakeFiles/cmTC_28f26.dir/build.make CMakeFiles/cmTC_28f26.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28f26.dir/HAVE_U_INT16_T.cpp.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_28f26.dir/HAVE_U_INT16_T.cpp.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE_U_INT16_T.cpp
+Linking CXX executable cmTC_28f26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28f26.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_28f26.dir/HAVE_U_INT16_T.cpp.o  -o cmTC_28f26 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2814f/fast && /usr/bin/make -f CMakeFiles/cmTC_2814f.dir/build.make CMakeFiles/cmTC_2814f.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2814f.dir/HAVE_UINT16_T.cpp.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_2814f.dir/HAVE_UINT16_T.cpp.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.cpp
+Linking CXX executable cmTC_2814f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2814f.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2814f.dir/HAVE_UINT16_T.cpp.o  -o cmTC_2814f 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aa325/fast && /usr/bin/make -f CMakeFiles/cmTC_aa325.dir/build.make CMakeFiles/cmTC_aa325.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa325.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=fcntl -fPIE   -o CMakeFiles/cmTC_aa325.dir/CheckFunctionExists.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_aa325
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa325.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=fcntl    CMakeFiles/cmTC_aa325.dir/CheckFunctionExists.cxx.o  -o cmTC_aa325 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_51dcb/fast && /usr/bin/make -f CMakeFiles/cmTC_51dcb.dir/build.make CMakeFiles/cmTC_51dcb.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_51dcb.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pread -fPIE   -o CMakeFiles/cmTC_51dcb.dir/CheckFunctionExists.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_51dcb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51dcb.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pread    CMakeFiles/cmTC_51dcb.dir/CheckFunctionExists.cxx.o  -o cmTC_51dcb 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5473a/fast && /usr/bin/make -f CMakeFiles/cmTC_5473a.dir/build.make CMakeFiles/cmTC_5473a.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5473a.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pwrite -fPIE   -o CMakeFiles/cmTC_5473a.dir/CheckFunctionExists.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_5473a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5473a.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pwrite    CMakeFiles/cmTC_5473a.dir/CheckFunctionExists.cxx.o  -o cmTC_5473a 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0bea8/fast && /usr/bin/make -f CMakeFiles/cmTC_0bea8.dir/build.make CMakeFiles/cmTC_0bea8.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0bea8.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=sigaction -fPIE   -o CMakeFiles/cmTC_0bea8.dir/CheckFunctionExists.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_0bea8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bea8.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=sigaction    CMakeFiles/cmTC_0bea8.dir/CheckFunctionExists.cxx.o  -o cmTC_0bea8 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sigaltstack exists passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09572/fast && /usr/bin/make -f CMakeFiles/cmTC_09572.dir/build.make CMakeFiles/cmTC_09572.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_09572.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=sigaltstack -fPIE   -o CMakeFiles/cmTC_09572.dir/CheckFunctionExists.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_09572
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09572.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=sigaltstack    CMakeFiles/cmTC_09572.dir/CheckFunctionExists.cxx.o  -o cmTC_09572 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_708f2/fast && /usr/bin/make -f CMakeFiles/cmTC_708f2.dir/build.make CMakeFiles/cmTC_708f2.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_708f2.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_NO_DEPRECATED -fPIE   -Wdeprecated -o CMakeFiles/cmTC_708f2.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_708f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_708f2.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_NO_DEPRECATED    CMakeFiles/cmTC_708f2.dir/src.cxx.o  -o cmTC_708f2 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d89d/fast && /usr/bin/make -f CMakeFiles/cmTC_7d89d.dir/build.make CMakeFiles/cmTC_7d89d.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d89d.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTC_7d89d.dir/CheckSymbolExists.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_7d89d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d89d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_7d89d.dir/CheckSymbolExists.cxx.o  -o cmTC_7d89d 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+File /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstdio>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__ succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f5554/fast && /usr/bin/make -f CMakeFiles/cmTC_f5554.dir/build.make CMakeFiles/cmTC_f5554.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5554.dir/src.cxx.o
+/usr/bin/c++    -DHAVE___ATTRIBUTE__ -fPIE   -o CMakeFiles/cmTC_f5554.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f5554
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5554.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE___ATTRIBUTE__    CMakeFiles/cmTC_f5554.dir/src.cxx.o  -o cmTC_f5554 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((unused));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e6168/fast && /usr/bin/make -f CMakeFiles/cmTC_e6168.dir/build.make CMakeFiles/cmTC_e6168.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6168.dir/src.cxx.o
+/usr/bin/c++    -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT -fPIE   -o CMakeFiles/cmTC_e6168.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx:3:61: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("default")));
+      |                                                             ^
+Linking CXX executable cmTC_e6168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6168.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT    CMakeFiles/cmTC_e6168.dir/src.cxx.o  -o cmTC_e6168 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((visibility("default")));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f2c21/fast && /usr/bin/make -f CMakeFiles/cmTC_f2c21.dir/build.make CMakeFiles/cmTC_f2c21.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2c21.dir/src.cxx.o
+/usr/bin/c++    -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN -fPIE   -o CMakeFiles/cmTC_f2c21.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx:3:60: warning: ‘visibility’ attribute ignored [-Wattributes]
+    3 | static void foo(void) __attribute__ ((visibility("hidden")));
+      |                                                            ^
+Linking CXX executable cmTC_f2c21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2c21.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN    CMakeFiles/cmTC_f2c21.dir/src.cxx.o  -o cmTC_f2c21 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((visibility("hidden")));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c90b7/fast && /usr/bin/make -f CMakeFiles/cmTC_c90b7.dir/build.make CMakeFiles/cmTC_c90b7.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c90b7.dir/src.cxx.o
+/usr/bin/c++    -DHAVE___BUILTIN_EXPECT -fPIE   -o CMakeFiles/cmTC_c90b7.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c90b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c90b7.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE___BUILTIN_EXPECT    CMakeFiles/cmTC_c90b7.dir/src.cxx.o  -o cmTC_c90b7 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+int main(void) { if (__builtin_expect(0, 0)) return 1; return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___SYNC_VAL_COMPARE_AND_SWAP succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_27009/fast && /usr/bin/make -f CMakeFiles/cmTC_27009.dir/build.make CMakeFiles/cmTC_27009.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_27009.dir/src.cxx.o
+/usr/bin/c++    -DHAVE___SYNC_VAL_COMPARE_AND_SWAP -fPIE   -o CMakeFiles/cmTC_27009.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_27009
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27009.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE___SYNC_VAL_COMPARE_AND_SWAP    CMakeFiles/cmTC_27009.dir/src.cxx.o  -o cmTC_27009 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+int main(void)
+{
+  int a; if (__sync_val_compare_and_swap(&a, 0, 1)) return 1; return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_RWLOCK succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_edac8/fast && /usr/bin/make -f CMakeFiles/cmTC_edac8.dir/build.make CMakeFiles/cmTC_edac8.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_edac8.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_RWLOCK -fPIE   -o CMakeFiles/cmTC_edac8.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_edac8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edac8.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_RWLOCK    CMakeFiles/cmTC_edac8.dir/src.cxx.o  -o cmTC_edac8  -lpthread 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#define _XOPEN_SOURCE 500
+#include <pthread.h>
+int main(void)
+{
+  pthread_rwlock_t l;
+  pthread_rwlock_init(&l, NULL);
+  pthread_rwlock_rdlock(&l);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75f0f/fast && /usr/bin/make -f CMakeFiles/cmTC_75f0f.dir/build.make CMakeFiles/cmTC_75f0f.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_75f0f.dir/src.cxx.o
+/usr/bin/c++    -DSTL_STD_NAMESPACE -fPIE   -o CMakeFiles/cmTC_75f0f.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_75f0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75f0f.dir/link.txt --verbose=1
+/usr/bin/c++   -DSTL_STD_NAMESPACE    CMakeFiles/cmTC_75f0f.dir/src.cxx.o  -o cmTC_75f0f 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <vector>
+std::vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52fb1/fast && /usr/bin/make -f CMakeFiles/cmTC_52fb1.dir/build.make CMakeFiles/cmTC_52fb1.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52fb1.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_USING_OPERATOR -fPIE   -o CMakeFiles/cmTC_52fb1.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_52fb1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52fb1.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_USING_OPERATOR    CMakeFiles/cmTC_52fb1.dir/src.cxx.o  -o cmTC_52fb1 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <iostream>
+std::ostream& operator<<(std::ostream&, struct s);
+using ::operator<<;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c49fa/fast && /usr/bin/make -f CMakeFiles/cmTC_c49fa.dir/build.make CMakeFiles/cmTC_c49fa.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c49fa.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_NAMESPACES -fPIE   -o CMakeFiles/cmTC_c49fa.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c49fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c49fa.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_NAMESPACES    CMakeFiles/cmTC_c49fa.dir/src.cxx.o  -o cmTC_c49fa 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+namespace Outer { namespace Inner { int i = 0; }}
+using namespace Outer::Inner;;
+int main() { return i; }
+
+Performing C++ SOURCE FILE Test HAVE_GCC_TLS succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9890a/fast && /usr/bin/make -f CMakeFiles/cmTC_9890a.dir/build.make CMakeFiles/cmTC_9890a.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9890a.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_GCC_TLS -fPIE   -o CMakeFiles/cmTC_9890a.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9890a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9890a.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_GCC_TLS    CMakeFiles/cmTC_9890a.dir/src.cxx.o  -o cmTC_9890a 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+__thread int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_TLS succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_276de/fast && /usr/bin/make -f CMakeFiles/cmTC_276de.dir/build.make CMakeFiles/cmTC_276de.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_276de.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX11_TLS -fPIE   -o CMakeFiles/cmTC_276de.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_276de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_276de.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX11_TLS    CMakeFiles/cmTC_276de.dir/src.cxx.o  -o cmTC_276de 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+thread_local int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_ALIGNED_STORAGE succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c21e8/fast && /usr/bin/make -f CMakeFiles/cmTC_c21e8.dir/build.make CMakeFiles/cmTC_c21e8.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c21e8.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_ALIGNED_STORAGE -fPIE   -o CMakeFiles/cmTC_c21e8.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c21e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c21e8.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_ALIGNED_STORAGE    CMakeFiles/cmTC_c21e8.dir/src.cxx.o  -o cmTC_c21e8 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+std::aligned_storage<sizeof(char), alignof(char)>::type data;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_ATOMIC succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cca2b/fast && /usr/bin/make -f CMakeFiles/cmTC_cca2b.dir/build.make CMakeFiles/cmTC_cca2b.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cca2b.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX11_ATOMIC -fPIE   -o CMakeFiles/cmTC_cca2b.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cca2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cca2b.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX11_ATOMIC    CMakeFiles/cmTC_cca2b.dir/src.cxx.o  -o cmTC_cca2b 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> i;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_CONSTEXPR succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_97de3/fast && /usr/bin/make -f CMakeFiles/cmTC_97de3.dir/build.make CMakeFiles/cmTC_97de3.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_97de3.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX11_CONSTEXPR -fPIE   -o CMakeFiles/cmTC_97de3.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_97de3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97de3.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX11_CONSTEXPR    CMakeFiles/cmTC_97de3.dir/src.cxx.o  -o cmTC_97de3 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+constexpr int x = 0;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_CHRONO succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_420a6/fast && /usr/bin/make -f CMakeFiles/cmTC_420a6.dir/build.make CMakeFiles/cmTC_420a6.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_420a6.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX11_CHRONO -fPIE   -o CMakeFiles/cmTC_420a6.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_420a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_420a6.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX11_CHRONO    CMakeFiles/cmTC_420a6.dir/src.cxx.o  -o cmTC_420a6 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <chrono>
+std::chrono::seconds s;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_NULLPTR_T succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b9a9f/fast && /usr/bin/make -f CMakeFiles/cmTC_b9a9f.dir/build.make CMakeFiles/cmTC_b9a9f.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b9a9f.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX11_NULLPTR_T -fPIE   -o CMakeFiles/cmTC_b9a9f.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b9a9f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9a9f.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX11_NULLPTR_T    CMakeFiles/cmTC_b9a9f.dir/src.cxx.o  -o cmTC_b9a9f 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <cstddef>
+void foo(std::nullptr_t) {}
+int main(void) { foo(nullptr); }
+
+Performing C++ SOURCE FILE Test HAVE_LOCALTIME_R succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ec965/fast && /usr/bin/make -f CMakeFiles/cmTC_ec965.dir/build.make CMakeFiles/cmTC_ec965.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ec965.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_LOCALTIME_R -fPIE   -o CMakeFiles/cmTC_ec965.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ec965
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec965.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_LOCALTIME_R    CMakeFiles/cmTC_ec965.dir/src.cxx.o  -o cmTC_ec965 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <cstdlib>
+#include <ctime>
+int main()
+{
+    time_t timep;
+    struct tm result;
+    localtime_r(&timep, &result);
+    return EXIT_SUCCESS;
+}
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_03208/fast && /usr/bin/make -f CMakeFiles/cmTC_03208.dir/build.make CMakeFiles/cmTC_03208.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_03208.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_VISIBILITY -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_03208.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_03208
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03208.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_VISIBILITY    CMakeFiles/cmTC_03208.dir/src.cxx.o  -o cmTC_03208 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b8c7e/fast && /usr/bin/make -f CMakeFiles/cmTC_b8c7e.dir/build.make CMakeFiles/cmTC_b8c7e.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b8c7e.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY -fPIE   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_b8c7e.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b8c7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8c7e.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY    CMakeFiles/cmTC_b8c7e.dir/src.cxx.o  -o cmTC_b8c7e 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_812fb/fast && /usr/bin/make -f CMakeFiles/cmTC_812fb.dir/build.make CMakeFiles/cmTC_812fb.dir/build
+make[1]: Entering directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_812fb.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_DEPRECATED_ATTR -fPIE   -o CMakeFiles/cmTC_812fb.dir/src.cxx.o -c /home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                                  ^
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                                  ^
+/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+Linking CXX executable cmTC_812fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_812fb.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_DEPRECATED_ATTR    CMakeFiles/cmTC_812fb.dir/src.cxx.o  -o cmTC_812fb 
+make[1]: Leaving directory '/home/agilex/limo_ros2_ws/build/glog/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

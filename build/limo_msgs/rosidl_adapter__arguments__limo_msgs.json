@@ -1,0 +1,6 @@
+{
+  "package_name": "limo_msgs",
+  "non_idl_tuples": [
+    "/home/agilex/limo_ros2_ws/src/limo_ros2/limo_msgs:msg/LimoStatus.msg"
+  ]
+}

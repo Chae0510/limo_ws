@@ -1,0 +1,25 @@
+[0.075s] Invoking command in '/home/agilex/limo_ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/rf2o_laser_odometry -- -j6 -l6
+[0.287s] [ 40%] Built target rf2o_laser_odometry
+[0.324s] [100%] Built target rf2o_laser_odometry_node
+[0.359s] Invoked command in '/home/agilex/limo_ros2_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/rf2o_laser_odometry -- -j6 -l6
+[0.519s] Invoking command in '/home/agilex/limo_ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/rf2o_laser_odometry
+[0.574s] -- Install configuration: "Release"
+[0.576s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[0.576s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[0.576s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[0.577s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[0.577s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[0.578s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[0.579s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[0.579s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[0.579s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[0.579s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[0.580s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[0.580s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[0.580s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[0.580s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[0.580s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[0.580s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[0.581s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[0.581s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[0.590s] Invoked command in '/home/agilex/limo_ros2_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/rf2o_laser_odometry

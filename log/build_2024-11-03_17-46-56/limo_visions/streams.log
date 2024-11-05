@@ -1,0 +1,53 @@
+[0.043s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_visions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/limo_visions -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/limo_visions
+[0.099s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.155s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.597s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.673s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.679s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.973s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.077s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.084s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.409s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.475s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.609s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.660s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.889s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.111s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.112s] -- Configured cppcheck include dirs: 
+[2.112s] -- Configured cppcheck exclude dirs and/or files: 
+[2.113s] -- Added test 'lint_cmake' to check CMake code style
+[2.115s] -- Added test 'uncrustify' to check C / C++ code style
+[2.115s] -- Configured uncrustify additional arguments: 
+[2.116s] -- Added test 'xmllint' to check XML markup files
+[2.124s] -- Configuring done
+[2.219s] -- Generating done
+[2.224s] -- Build files have been written to: /home/agilex/limo_ros2_ws/build/limo_visions
+[2.253s] Invoked command in '/home/agilex/limo_ros2_ws/build/limo_visions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/limo_visions -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/limo_visions
+[2.255s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_visions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/limo_visions -- -j6 -l6
+[2.526s] [ 33%] Built target detect_line
+[2.536s] [ 66%] Built target traffic_light
+[2.544s] [100%] Built target object_detect
+[2.588s] Invoked command in '/home/agilex/limo_ros2_ws/build/limo_visions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/limo_visions -- -j6 -l6
+[2.723s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_visions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/limo_visions
+[2.754s] -- Install configuration: "Release"
+[2.756s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/object_detect
+[2.757s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/detect_line
+[2.764s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/traffic_light
+[2.764s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/package_run_dependencies/limo_visions
+[2.765s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/parent_prefix_path/limo_visions
+[2.765s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.sh
+[2.765s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.dsv
+[2.765s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/path.sh
+[2.765s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/path.dsv
+[2.765s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.bash
+[2.766s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.sh
+[2.766s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.zsh
+[2.766s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.dsv
+[2.766s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/package.dsv
+[2.766s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/packages/limo_visions
+[2.766s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.766s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.767s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig.cmake
+[2.767s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig-version.cmake
+[2.767s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/package.xml
+[2.773s] Invoked command in '/home/agilex/limo_ros2_ws/build/limo_visions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/limo_visions

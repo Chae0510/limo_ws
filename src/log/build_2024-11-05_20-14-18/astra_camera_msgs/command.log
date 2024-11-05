@@ -1,0 +1,1 @@
+Invoking command in '/home/agilex/limo_ros2_ws/src/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/src/install/astra_camera_msgs

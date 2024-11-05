@@ -1,0 +1,4 @@
+CMake Error at CMakeLists.txt:112 (ament_auto_add_gtest):
+  Unknown CMake command "ament_auto_add_gtest".
+
+

@@ -1,0 +1,15 @@
+[0.076s] Invoking command in '/home/agilex/limo_ros2_ws/build/nav_2d_msgs': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/nav_2d_msgs -- -j6 -l6
+[0.251s] [ 12%] Built target nav_2d_msgs__cpp
+[0.252s] [ 12%] Built target nav_2d_msgs__rosidl_generator_c
+[0.350s] [ 23%] Built target nav_2d_msgs__rosidl_typesupport_c
+[0.367s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[0.398s] [ 46%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[0.405s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[0.441s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[0.506s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[0.549s] [ 80%] Built target nav_2d_msgs
+[0.589s] [ 81%] Built target nav_2d_msgs__py
+[0.649s] [ 91%] Built target nav_2d_msgs__python
+[0.713s] [ 94%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[0.722s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[0.737s] [100%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext

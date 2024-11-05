@@ -1,0 +1,16 @@
+[0.158s] Invoking command in '/home/agilex/limo_ros2_ws/build/nav2_msgs': AMENT_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/nav2_msgs -- -j6 -l6
+[0.313s] [  0%] Built target nav2_msgs__cpp
+[0.342s] [ 12%] Built target nav2_msgs__rosidl_generator_c
+[0.434s] [ 24%] Built target nav2_msgs__rosidl_typesupport_cpp
+[0.436s] [ 37%] Built target nav2_msgs__rosidl_typesupport_introspection_cpp
+[0.448s] [ 49%] Built target nav2_msgs__rosidl_typesupport_introspection_c
+[0.473s] [ 61%] Built target nav2_msgs__rosidl_typesupport_c
+[0.486s] [ 73%] Built target nav2_msgs__rosidl_typesupport_fastrtps_cpp
+[0.581s] [ 85%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c
+[0.632s] [ 85%] Built target nav2_msgs
+[0.694s] [ 86%] Built target nav2_msgs__py
+[0.786s] [ 97%] Built target nav2_msgs__python
+[0.852s] [ 99%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.853s] [ 99%] Built target nav2_msgs__rosidl_typesupport_introspection_c__pyext
+[0.857s] [100%] Built target nav2_msgs__rosidl_typesupport_c__pyext
+[0.959s] Invoked command in '/home/agilex/limo_ros2_ws/build/nav2_msgs' returned '0': AMENT_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/nav2_common CMAKE_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/nav2_common:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/nav2_msgs -- -j6 -l6

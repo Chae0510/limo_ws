@@ -1,0 +1,151 @@
+[0.087s] Invoking command in '/home/agilex/limo_ros2_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/ydlidar_sdk -- -j6 -l6
+[0.261s] [  2%] Built target ydlidar_swig_compilation
+[0.341s] [ 50%] Built target ydlidar_sdk
+[0.482s] [ 55%] Built target gs_test
+[0.485s] [ 61%] Built target tri_test
+[0.505s] [ 66%] Built target et_test
+[0.521s] [ 72%] Built target tof_test
+[0.522s] [ 77%] Built target tri_and_gs_test
+[0.573s] [ 83%] Built target tmini_test
+[0.601s] [ 88%] Built target lidar_c_api_test
+[0.604s] [ 94%] Built target lidar_test
+[0.608s] [100%] Built target _ydlidar
+[0.647s] Invoked command in '/home/agilex/limo_ros2_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/ydlidar_sdk -- -j6 -l6
+[0.936s] Invoking command in '/home/agilex/limo_ros2_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/ydlidar_sdk
+[0.966s] -- Install configuration: ""
+[0.966s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/datatype.h
+[0.968s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/locker.h
+[0.968s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/thread.h
+[0.973s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/timer.h
+[0.974s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/typedef.h
+[0.974s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/utils.h
+[0.974s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/v8stdint.h
+[0.975s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h
+[0.976s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/common/ChannelDevice.h
+[0.976s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h
+[0.977s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h
+[0.978s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_def.h
+[0.978s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_help.h
+[0.979s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h
+[0.980s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/math/angles.h
+[0.980s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/network/ActiveSocket.h
+[0.981s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/network/PassiveSocket.h
+[0.981s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/network/SimpleSocket.h
+[0.982s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/network/StatTimer.h
+[0.982s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/serial/common.h
+[0.983s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/serial/serial.h
+[0.984s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h
+[0.984s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h
+[0.985s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h
+[0.985s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/src/CYdLidar.h
+[0.986s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/src/ETLidarDriver.h
+[0.986s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/src/GS1LidarDriver.h
+[0.987s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/src/GS2LidarDriver.h
+[0.987s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/src/YDlidarDriver.h
+[0.988s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/src/ydlidar_sdk.h
+[0.988s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/src/filters/FilterInterface.h
+[0.989s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/src/filters/NoiseFilter.h
+[0.990s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/ydlidar_config.h
+[0.990s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/libydlidar_sdk.a
+[0.996s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc
+[0.997s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake
+[0.997s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[0.997s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake
+[0.997s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake
+[0.997s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK
+[0.998s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in
+[0.998s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in
+[0.998s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in
+[0.999s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake
+[0.999s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common
+[0.999s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake
+[0.999s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake
+[1.000s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake
+[1.000s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in
+[1.000s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in
+[1.000s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt
+[1.001s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md
+[1.001s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc
+[1.001s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images
+[1.001s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png
+[1.001s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png
+[1.002s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png
+[1.002s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png
+[1.002s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png
+[1.002s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png
+[1.003s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png
+[1.003s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png
+[1.003s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png
+[1.005s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png
+[1.006s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png
+[1.006s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg
+[1.006s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png
+[1.006s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf
+[1.007s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md
+[1.008s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md
+[1.008s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto
+[1.008s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md
+[1.008s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md
+[1.009s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images
+[1.009s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png
+[1.009s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png
+[1.009s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode
+[1.009s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg
+[1.011s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png
+[1.013s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png
+[1.013s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png
+[1.013s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png
+[1.013s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png
+[1.014s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png
+[1.014s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png
+[1.014s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png
+[1.015s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png
+[1.015s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png
+[1.015s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png
+[1.016s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md
+[1.016s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md
+[1.016s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md
+[1.017s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md
+[1.017s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md
+[1.018s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md
+[1.019s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md
+[1.019s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart
+[1.026s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md
+[1.027s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md
+[1.027s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html
+[1.027s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md
+[1.027s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs
+[1.027s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md
+[1.027s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md
+[1.027s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md
+[1.028s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md
+[1.028s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md
+[1.028s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md
+[1.028s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md
+[1.028s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials
+[1.028s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md
+[1.029s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md
+[1.029s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md
+[1.029s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md
+[1.029s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md
+[1.029s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf
+[1.030s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf
+[1.030s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md
+[1.030s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md
+[1.030s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/startup/initenv.sh
+[1.030s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin/et_test
+[1.031s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin/gs_test
+[1.033s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin/tmini_test
+[1.035s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin/tof_test
+[1.037s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin/tri_and_gs_test
+[1.040s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin/tri_test
+[1.046s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin/lidar_c_api_test
+[1.048s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/python3/dist-packages/_ydlidar.so
+[1.051s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/lib/python3/dist-packages/ydlidar.py
+[1.052s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin/etlidar_test.py
+[1.052s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin/plot_tof_test.py
+[1.053s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin/plot_ydlidar_test.py
+[1.053s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin/test.py
+[1.054s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin/tof_test.py
+[1.054s] -- Installing: /home/agilex/limo_ros2_ws/install/ydlidar_sdk/bin/ydlidar_test.py
+[1.060s] Invoked command in '/home/agilex/limo_ros2_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/ydlidar_sdk

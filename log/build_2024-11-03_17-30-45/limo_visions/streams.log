@@ -1,0 +1,123 @@
+[0.085s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_visions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/limo_visions -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/limo_visions
+[0.124s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.210s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.700s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.790s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.797s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.255s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.262s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.664s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.748s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.894s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.957s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[2.198s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.392s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.393s] -- Configured cppcheck include dirs: 
+[2.393s] -- Configured cppcheck exclude dirs and/or files: 
+[2.395s] -- Added test 'lint_cmake' to check CMake code style
+[2.398s] -- Added test 'uncrustify' to check C / C++ code style
+[2.399s] -- Configured uncrustify additional arguments: 
+[2.399s] -- Added test 'xmllint' to check XML markup files
+[2.410s] -- Configuring done
+[2.553s] -- Generating done
+[2.560s] -- Build files have been written to: /home/agilex/limo_ros2_ws/build/limo_visions
+[2.648s] Invoked command in '/home/agilex/limo_ros2_ws/build/limo_visions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/limo_visions -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/limo_visions
+[2.657s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_visions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/limo_visions -- -j6 -l6
+[3.338s] [ 16%] [32mBuilding CXX object CMakeFiles/traffic_light.dir/src/traffic_light.cpp.o[0m
+[8.465s] [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:26:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[8.465s]    26 | Image::ConstPtr &msg[01;35m[K)[m[K
+[8.466s]       |                     [01;35m[K^[m[K
+[8.466s] 
+[8.466s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/image.hpp:7[m[K,
+[8.466s]                  from [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:2[m[K:
+[8.466s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:172:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.466s]   172 |     [01;36m[KConstPtr[m[K;
+[8.467s]       |     [01;36m[K^~~~~~~~[m[K
+[8.535s] [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:[m[K In member function ‘[01m[Kvoid TrafficLight::image_callback(const ConstPtr&)[m[K’:
+[8.536s] [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:127:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[8.536s]   127 | sg::Image::ConstPtr [01;35m[Khsv_image_[m[K = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", cimg).toImageMsg();
+[8.536s]       |                     [01;35m[K^~~~~~~~~~[m[K
+[8.536s] 
+[8.537s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/image.hpp:7[m[K,
+[8.537s]                  from [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:2[m[K:
+[8.537s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:172:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.537s]   172 |     [01;36m[KConstPtr[m[K;
+[8.537s]       |     [01;36m[K^~~~~~~~[m[K
+[8.546s] [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:79:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[8.546s]    79 |     int [01;35m[Kh[m[K = img.rows;
+[8.546s]       |         [01;35m[K^[m[K
+[8.547s] [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:80:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[8.547s]    80 |     int [01;35m[Kw[m[K = img.cols;
+[8.547s]       |         [01;35m[K^[m[K
+[12.155s] [ 33%] [32m[1mLinking CXX executable traffic_light[0m
+[13.693s] [ 33%] Built target traffic_light
+[13.835s] [ 50%] [32mBuilding CXX object CMakeFiles/object_detect.dir/src/object_detect.cpp.o[0m
+[19.453s] [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:[m[K In member function ‘[01m[Kvoid FollowLine::image_callback(const ConstSharedPtr&)[m[K’:
+[19.454s] [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:75:55:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[19.454s]    75 | (image,cv::Point(cx,cy),10,([01;35m[K0[m[K,0,255));
+[19.454s]       |                             [01;35m[K^[m[K
+[19.454s] 
+[19.454s] [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:75:59:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[19.455s]    75 | oint(cx,cy),10,(0,0,[01;35m[K255[m[K));
+[19.455s]       |                     [01;35m[K^~~[m[K
+[19.455s] 
+[19.456s] [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:84:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[19.456s]    84 | sg::Image::ConstPtr [01;35m[Khsv_image_[m[K = cv_bridge::CvImage(std_msgs::msg::Header(),"bgr8",image).toImageMsg();
+[19.456s]       |                     [01;35m[K^~~~~~~~~~[m[K
+[19.456s] 
+[19.456s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/image.hpp:7[m[K,
+[19.456s]                  from [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:5[m[K:
+[19.457s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:172:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.457s]   172 |     [01;36m[KConstPtr[m[K;
+[19.457s]       |     [01;36m[K^~~~~~~~[m[K
+[26.481s] [ 66%] [32m[1mLinking CXX executable object_detect[0m
+[27.521s] [ 66%] Built target object_detect
+[27.620s] [ 83%] [32mBuilding CXX object CMakeFiles/detect_line.dir/src/detect_line.cpp.o[0m
+[32.625s] [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:[m[K In member function ‘[01m[Kvoid Detectline::image_callback(const ConstSharedPtr&)[m[K’:
+[32.625s] [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:77:55:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[32.626s]    77 | (image,cv::Point(cx,cy),10,([01;35m[K0[m[K,0,255));
+[32.626s]       |                             [01;35m[K^[m[K
+[32.626s] 
+[32.627s] [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:77:59:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[32.627s]    77 | oint(cx,cy),10,(0,0,[01;35m[K255[m[K));
+[32.627s]       |                     [01;35m[K^~~[m[K
+[32.627s] 
+[32.627s] [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:86:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[32.628s]    86 | sg::Image::ConstPtr [01;35m[Khsv_image_[m[K = cv_bridge::CvImage(std_msgs::msg::Header(),"bgr8",image).toImageMsg();
+[32.628s]       |                     [01;35m[K^~~~~~~~~~[m[K
+[32.628s] 
+[32.628s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/image.hpp:7[m[K,
+[32.628s]                  from [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:5[m[K:
+[32.628s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:172:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[32.628s]   172 |     [01;36m[KConstPtr[m[K;
+[32.629s]       |     [01;36m[K^~~~~~~~[m[K
+[39.623s] [100%] [32m[1mLinking CXX executable detect_line[0m
+[40.859s] [100%] Built target detect_line
+[40.918s] Invoked command in '/home/agilex/limo_ros2_ws/build/limo_visions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/limo_visions -- -j6 -l6
+[41.054s] Invoking command in '/home/agilex/limo_ros2_ws/build/limo_visions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/limo_visions
+[41.674s] -- Install configuration: "Release"
+[41.674s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/object_detect
+[41.674s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/object_detect" to ""
+[41.674s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/detect_line
+[41.674s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/detect_line" to ""
+[41.674s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/traffic_light
+[41.675s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/traffic_light" to ""
+[41.675s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/package_run_dependencies/limo_visions
+[41.675s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/parent_prefix_path/limo_visions
+[41.675s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.sh
+[41.675s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.dsv
+[41.675s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/path.sh
+[41.676s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/path.dsv
+[41.676s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.bash
+[41.676s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.sh
+[41.676s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.zsh
+[41.676s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.dsv
+[41.676s] -- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/package.dsv
+[41.676s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/packages/limo_visions
+[41.676s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.677s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.677s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig.cmake
+[41.677s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig-version.cmake
+[41.677s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/package.xml
+[41.677s] Invoked command in '/home/agilex/limo_ros2_ws/build/limo_visions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/limo_visions

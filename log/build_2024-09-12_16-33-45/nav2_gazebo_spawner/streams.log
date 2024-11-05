@@ -1,0 +1,21 @@
+[2.192s] Invoking command in '/home/agilex/limo_ros2_ws/src/navigation2/nav2_bringup/nav2_gazebo_spawner': PYTHONPATH=/home/agilex/limo_ros2_ws/build/nav2_gazebo_spawner/prefix_override:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/nav2_gazebo_spawner build --build-base /home/agilex/limo_ros2_ws/build/nav2_gazebo_spawner/build install --record /home/agilex/limo_ros2_ws/build/nav2_gazebo_spawner/install.log --install-scripts $base/lib/nav2_gazebo_spawner --single-version-externally-managed install_data
+[2.792s] running egg_info
+[2.793s] writing ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/PKG-INFO
+[2.794s] writing dependency_links to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/dependency_links.txt
+[2.794s] writing entry points to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/entry_points.txt
+[2.795s] writing requirements to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/requires.txt
+[2.795s] writing top-level names to ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/top_level.txt
+[2.875s] reading manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[2.877s] writing manifest file '../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[2.878s] running build
+[2.878s] running build_py
+[2.879s] running install
+[2.880s] running install_lib
+[2.884s] running install_data
+[2.884s] running install_egg_info
+[2.888s] removing '/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner-0.3.0-py3.8.egg-info' (and everything under it)
+[2.888s] Copying ../../../../build/nav2_gazebo_spawner/nav2_gazebo_spawner.egg-info to /home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2_gazebo_spawner-0.3.0-py3.8.egg-info
+[2.891s] running install_scripts
+[2.946s] Installing nav2_gazebo_spawner script to /home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+[2.947s] writing list of installed files to '/home/agilex/limo_ros2_ws/build/nav2_gazebo_spawner/install.log'
+[3.082s] Invoked command in '/home/agilex/limo_ros2_ws/src/navigation2/nav2_bringup/nav2_gazebo_spawner' returned '0': PYTHONPATH=/home/agilex/limo_ros2_ws/build/nav2_gazebo_spawner/prefix_override:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/nav2_gazebo_spawner build --build-base /home/agilex/limo_ros2_ws/build/nav2_gazebo_spawner/build install --record /home/agilex/limo_ros2_ws/build/nav2_gazebo_spawner/install.log --install-scripts $base/lib/nav2_gazebo_spawner --single-version-externally-managed install_data

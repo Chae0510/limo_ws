@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/agilex/limo_ros2_ws/src/image_pipeline/tracetools_image_pipeline/src/tracetools.c
+tracetools_image_pipeline/tracetools.h
+/home/agilex/limo_ros2_ws/src/image_pipeline/tracetools_image_pipeline/src/tracetools_image_pipeline/tracetools.h
+tracetools_image_pipeline/tp_call.h
+/home/agilex/limo_ros2_ws/src/image_pipeline/tracetools_image_pipeline/src/tracetools_image_pipeline/tp_call.h
+
+include/tracetools_image_pipeline/config.h
+
+include/tracetools_image_pipeline/tracetools.h
+stdint.h
+-
+string.h
+-
+stdbool.h
+-
+tracetools_image_pipeline/config.h
+include/tracetools_image_pipeline/tracetools_image_pipeline/config.h
+tracetools_image_pipeline/visibility_control.hpp
+include/tracetools_image_pipeline/tracetools_image_pipeline/visibility_control.hpp
+
+include/tracetools_image_pipeline/visibility_control.hpp
+

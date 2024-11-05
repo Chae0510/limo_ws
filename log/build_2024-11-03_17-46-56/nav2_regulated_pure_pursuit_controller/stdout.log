@@ -1,0 +1,55 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found nav2_common: 0.4.7 (/home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/cmake)
+-- Found nav2_core: 0.4.7 (/home/agilex/limo_ros2_ws/install/nav2_core/share/nav2_core/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/agilex/limo_ros2_ws/src/navigation2/nav2_regulated_pure_pursuit_controller/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/agilex/limo_ros2_ws/build/nav2_regulated_pure_pursuit_controller
+[ 25%] Built target gtest_main
+[ 50%] Built target gtest
+[ 75%] Built target nav2_regulated_pure_pursuit_controller
+[100%] Built target test_regulated_pp
+-- Install configuration: "Release"
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/include/
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/nav2_regulated_pure_pursuit_controller.xml
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/nav2_regulated_pure_pursuit_controller
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/nav2_regulated_pure_pursuit_controller
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.bash
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.sh
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.zsh
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.dsv
+-- Installing: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/packages/nav2_regulated_pure_pursuit_controller
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_regulated_pure_pursuit_controller
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_definitions-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig-version.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.xml

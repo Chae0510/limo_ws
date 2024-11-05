@@ -1,0 +1,4 @@
+source;share/limo_visions/local_setup.bash
+source;share/limo_visions/local_setup.dsv
+source;share/limo_visions/local_setup.sh
+source;share/limo_visions/local_setup.zsh

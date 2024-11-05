@@ -1,0 +1,38 @@
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test HAS_CPP20_FLAG
+-- Performing Test HAS_CPP20_FLAG - Failed
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/agilex/limo_ros2_ws/build/magic_enum
+[35m[1mScanning dependencies of target example_switch[0m
+[  8%] [32mBuilding CXX object example/CMakeFiles/example_switch.dir/example_switch.cpp.o[0m
+[ 16%] [32m[1mLinking CXX executable example_switch[0m
+[ 16%] Built target example_switch
+[35m[1mScanning dependencies of target test-cpp17[0m
+[ 25%] [32mBuilding CXX object test/CMakeFiles/test-cpp17.dir/test.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable test-cpp17[0m
+/usr/bin/c++     CMakeFiles/test-cpp17.dir/test.cpp.o  -o test-cpp17 
+[ 33%] Built target test-cpp17
+[35m[1mScanning dependencies of target test_flags-cpp17[0m
+[ 41%] [32mBuilding CXX object test/CMakeFiles/test_flags-cpp17.dir/test_flags.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable test_flags-cpp17[0m
+/usr/bin/c++     CMakeFiles/test_flags-cpp17.dir/test_flags.cpp.o  -o test_flags-cpp17 
+[ 50%] Built target test_flags-cpp17
+[35m[1mScanning dependencies of target example[0m
+[ 58%] [32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable example[0m
+[ 66%] Built target example
+[35m[1mScanning dependencies of target enum_flag_example[0m
+[ 75%] [32mBuilding CXX object example/CMakeFiles/enum_flag_example.dir/enum_flag_example.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable enum_flag_example[0m
+[ 83%] Built target enum_flag_example
+[35m[1mScanning dependencies of target example_custom_name[0m
+[ 91%] [32mBuilding CXX object example/CMakeFiles/example_custom_name.dir/example_custom_name.cpp.o[0m
+[100%] [32m[1mLinking CXX executable example_custom_name[0m
+[100%] Built target example_custom_name

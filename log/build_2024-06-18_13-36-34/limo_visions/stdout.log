@@ -1,0 +1,24 @@
+[ 33%] Built target detect_line
+[ 66%] Built target traffic_light
+[100%] Built target object_detect
+-- Install configuration: ""
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/object_detect
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/detect_line
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/traffic_light
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/package_run_dependencies/limo_visions
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/parent_prefix_path/limo_visions
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.sh
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/path.sh
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.bash
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.sh
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.zsh
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.dsv
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/package.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/packages/limo_visions
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig-version.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/package.xml

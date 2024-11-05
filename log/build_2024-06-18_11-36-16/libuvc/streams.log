@@ -1,0 +1,80 @@
+[0.077s] Invoking command in '/home/agilex/limo_ros2_ws/build/libuvc': /usr/bin/cmake /home/agilex/limo_ros2_ws/src/ros2_astra_camera/libuvc -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/libuvc
+[0.263s] -- The C compiler identification is GNU 9.4.0
+[0.286s] -- Check for working C compiler: /usr/bin/cc
+[0.496s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.496s] -- Detecting C compiler ABI info
+[0.712s] -- Detecting C compiler ABI info - done
+[0.735s] -- Detecting C compile features
+[0.735s] -- Detecting C compile features - done
+[0.738s] -- No build type selected, default to Release
+[0.738s] -- No target type selected, default to both shared and static library
+[0.761s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.762s] -- Checking for module 'libusb-1.0'
+[0.823s] --   Found libusb-1.0, version 1.0.23
+[0.991s] -- libusb-1.0 found using pkgconfig
+[1.047s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[1.047s] -- Found JPEG library using standard module
+[1.058s] -- Building libuvc with JPEG support.
+[1.059s] -- Looking for pthread.h
+[1.304s] -- Looking for pthread.h - found
+[1.305s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.525s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.525s] -- Check if compiler accepts -pthread
+[1.782s] -- Check if compiler accepts -pthread - yes
+[1.784s] -- Found Threads: TRUE  
+[1.796s] -- Configuring done
+[1.817s] -- Generating done
+[1.823s] -- Build files have been written to: /home/agilex/limo_ros2_ws/build/libuvc
+[1.847s] Invoked command in '/home/agilex/limo_ros2_ws/build/libuvc' returned '0': /usr/bin/cmake /home/agilex/limo_ros2_ws/src/ros2_astra_camera/libuvc -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/libuvc
+[1.859s] Invoking command in '/home/agilex/limo_ros2_ws/build/libuvc': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/libuvc -- -j6 -l6
+[2.467s] [35m[1mScanning dependencies of target uvc[0m
+[2.467s] [  4%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl.c.o[0m
+[2.467s] [  9%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame.c.o[0m
+[2.903s] [ 13%] [32mBuilding C object CMakeFiles/uvc.dir/src/init.c.o[0m
+[3.045s] [ 18%] [32mBuilding C object CMakeFiles/uvc.dir/src/stream.c.o[0m
+[3.699s] [ 22%] [32mBuilding C object CMakeFiles/uvc.dir/src/misc.c.o[0m
+[3.786s] [ 27%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame-mjpeg.c.o[0m
+[4.004s] [ 31%] [32mBuilding C object CMakeFiles/uvc.dir/src/diag.c.o[0m
+[4.275s] [ 36%] [32mBuilding C object CMakeFiles/uvc.dir/src/device.c.o[0m
+[5.097s] [ 40%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl-gen.c.o[0m
+[6.077s] [ 45%] [32m[1mLinking C shared library libuvc.so[0m
+[6.213s] [ 45%] Built target uvc
+[6.241s] [35m[1mScanning dependencies of target uvc_static[0m
+[6.285s] [ 50%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl.c.o[0m
+[6.433s] [ 54%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame.c.o[0m
+[7.107s] [ 59%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/init.c.o[0m
+[7.245s] [ 63%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/stream.c.o[0m
+[8.013s] [ 68%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/misc.c.o[0m
+[8.092s] [ 72%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame-mjpeg.c.o[0m
+[8.272s] [ 77%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/diag.c.o[0m
+[8.538s] [ 81%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/device.c.o[0m
+[9.467s] [ 86%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl-gen.c.o[0m
+[10.526s] [ 90%] [32m[1mLinking C static library libuvc.a[0m
+[10.640s] [ 90%] Built target uvc_static
+[10.673s] [35m[1mScanning dependencies of target example[0m
+[10.724s] [ 95%] [32mBuilding C object CMakeFiles/example.dir/src/example.c.o[0m
+[10.768s] [01m[K/home/agilex/limo_ros2_ws/src/ros2_astra_camera/libuvc/src/example.c:[m[K In function ‘[01m[Kcb[m[K’:
+[10.768s] [01m[K/home/agilex/limo_ros2_ws/src/ros2_astra_camera/libuvc/src/example.c:26:74:[m[K [01;35m[Kwarning: [m[Kcast from pointer to integer of different size [[01;35m[K-Wpointer-to-int-cast[m[K]
+[10.768s]    26 |     frame->frame_format, frame->width, frame->height, frame->data_bytes, [01;35m[K([m[Kint) ptr);
+[10.768s]       |                                                                          [01;35m[K^[m[K
+[10.898s] [100%] [32m[1mLinking C executable example[0m
+[10.992s] [100%] Built target example
+[11.025s] Invoked command in '/home/agilex/limo_ros2_ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/libuvc -- -j6 -l6
+[11.202s] Invoking command in '/home/agilex/limo_ros2_ws/build/libuvc': /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/libuvc
+[11.239s] -- Install configuration: "Release"
+[11.239s] -- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.so.0.0.6
+[11.240s] -- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.so.0
+[11.240s] -- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.so
+[11.240s] -- Installing: /home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc.h
+[11.241s] -- Installing: /home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+[11.241s] -- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.a
+[11.241s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc.h
+[11.242s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+[11.242s] -- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+[11.242s] -- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+[11.242s] -- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+[11.243s] -- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+[11.243s] -- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+[11.243s] -- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/pkgconfig/libuvc.pc
+[11.244s] -- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake
+[11.252s] Invoked command in '/home/agilex/limo_ros2_ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/libuvc

@@ -1,0 +1,235 @@
+[0.124s] Invoking command in '/home/agilex/limo_ros2_ws/build/glog': /usr/bin/cmake /home/agilex/limo_ros2_ws/src/ros2_astra_camera/glog-0.6.0 -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/glog
+[0.922s] -- The CXX compiler identification is GNU 9.4.0
+[0.922s] -- Check for working CXX compiler: /usr/bin/c++
+[0.923s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.923s] -- Detecting CXX compiler ABI info
+[0.923s] -- Detecting CXX compiler ABI info - done
+[0.923s] -- Detecting CXX compile features
+[0.923s] -- Detecting CXX compile features - done
+[1.016s] -- Could NOT find GTest (missing: GTest_DIR)
+[1.032s] -- Looking for gflags namespace
+[1.732s] -- Looking for gflags namespace - gflags
+[1.734s] -- Looking for C++ include pthread.h
+[1.943s] -- Looking for C++ include pthread.h - found
+[1.944s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.151s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.151s] -- Looking for pthread_create in pthreads
+[2.321s] -- Looking for pthread_create in pthreads - not found
+[2.323s] -- Looking for pthread_create in pthread
+[2.522s] -- Looking for pthread_create in pthread - found
+[2.524s] -- Found Threads: TRUE  
+[2.553s] -- Could NOT find Unwind (missing: Unwind_INCLUDE_DIR Unwind_LIBRARY) 
+[2.554s] -- Looking for C++ include unwind.h
+[2.751s] -- Looking for C++ include unwind.h - found
+[2.752s] -- Looking for _Unwind_Backtrace
+[2.944s] -- Looking for _Unwind_Backtrace - found
+[2.944s] -- Looking for C++ include dlfcn.h
+[3.151s] -- Looking for C++ include dlfcn.h - found
+[3.151s] -- Looking for C++ include execinfo.h
+[3.351s] -- Looking for C++ include execinfo.h - found
+[3.359s] -- Looking for C++ include glob.h
+[3.532s] -- Looking for C++ include glob.h - found
+[3.539s] -- Looking for C++ include inttypes.h
+[3.719s] -- Looking for C++ include inttypes.h - found
+[3.722s] -- Looking for C++ include memory.h
+[3.924s] -- Looking for C++ include memory.h - found
+[3.924s] -- Looking for C++ include pwd.h
+[4.140s] -- Looking for C++ include pwd.h - found
+[4.141s] -- Looking for C++ include stdint.h
+[4.331s] -- Looking for C++ include stdint.h - found
+[4.331s] -- Looking for C++ include strings.h
+[4.519s] -- Looking for C++ include strings.h - found
+[4.519s] -- Looking for C++ include sys/stat.h
+[4.726s] -- Looking for C++ include sys/stat.h - found
+[4.727s] -- Looking for C++ include sys/syscall.h
+[5.019s] -- Looking for C++ include sys/syscall.h - found
+[5.019s] -- Looking for C++ include sys/time.h
+[5.243s] -- Looking for C++ include sys/time.h - found
+[5.243s] -- Looking for C++ include sys/types.h
+[5.643s] -- Looking for C++ include sys/types.h - found
+[5.643s] -- Looking for C++ include sys/utsname.h
+[6.143s] -- Looking for C++ include sys/utsname.h - found
+[6.144s] -- Looking for C++ include sys/wait.h
+[6.768s] -- Looking for C++ include sys/wait.h - found
+[6.768s] -- Looking for C++ include syscall.h
+[7.270s] -- Looking for C++ include syscall.h - found
+[7.270s] -- Looking for C++ include syslog.h
+[7.926s] -- Looking for C++ include syslog.h - found
+[7.926s] -- Looking for C++ include ucontext.h
+[8.601s] -- Looking for C++ include ucontext.h - found
+[8.602s] -- Looking for C++ include unistd.h
+[9.035s] -- Looking for C++ include unistd.h - found
+[9.035s] -- Looking for C++ include ext/hash_map
+[11.302s] -- Looking for C++ include ext/hash_map - found
+[11.304s] -- Looking for C++ include ext/hash_set
+[13.891s] -- Looking for C++ include ext/hash_set - found
+[13.891s] -- Looking for C++ include ext/slist
+[15.189s] -- Looking for C++ include ext/slist - found
+[15.190s] -- Looking for C++ include tr1/unordered_map
+[16.985s] -- Looking for C++ include tr1/unordered_map - found
+[16.985s] -- Looking for C++ include tr1/unordered_set
+[18.235s] -- Looking for C++ include tr1/unordered_set - found
+[18.235s] -- Looking for C++ include unordered_map
+[19.759s] -- Looking for C++ include unordered_map - found
+[19.760s] -- Looking for C++ include unordered_set
+[21.227s] -- Looking for C++ include unordered_set - found
+[21.227s] -- Looking for C++ include stddef.h
+[21.569s] -- Looking for C++ include stddef.h - found
+[21.569s] -- Check size of unsigned __int16
+[21.743s] -- Check size of unsigned __int16 - failed
+[21.743s] -- Check size of u_int16_t
+[22.219s] -- Check size of u_int16_t - done
+[22.219s] -- Check size of uint16_t
+[22.761s] -- Check size of uint16_t - done
+[22.762s] -- Looking for dladdr
+[23.455s] -- Looking for dladdr - not found
+[23.456s] -- Looking for fcntl
+[24.139s] -- Looking for fcntl - found
+[24.140s] -- Looking for pread
+[24.827s] -- Looking for pread - found
+[24.827s] -- Looking for pwrite
+[25.304s] -- Looking for pwrite - found
+[25.307s] -- Looking for sigaction
+[25.773s] -- Looking for sigaction - found
+[25.773s] -- Looking for sigaltstack
+[26.212s] -- Looking for sigaltstack - found
+[26.213s] -- Performing Test HAVE_NO_DEPRECATED
+[26.687s] -- Performing Test HAVE_NO_DEPRECATED - Success
+[26.687s] -- Performing Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS
+[26.827s] -- Performing Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS - Failed
+[26.828s] -- Looking for pthread_threadid_np
+[26.987s] -- Looking for pthread_threadid_np - not found
+[26.987s] -- Looking for snprintf
+[27.348s] -- Looking for snprintf - found
+[27.348s] -- Looking for UnDecorateSymbolName in dbghelp
+[27.565s] -- Looking for UnDecorateSymbolName in dbghelp - not found
+[27.566s] -- Performing Test HAVE___ATTRIBUTE__
+[27.840s] -- Performing Test HAVE___ATTRIBUTE__ - Success
+[27.843s] -- Performing Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT
+[28.163s] -- Performing Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT - Success
+[28.163s] -- Performing Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN
+[28.392s] -- Performing Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN - Success
+[28.393s] -- Performing Test HAVE___BUILTIN_EXPECT
+[28.688s] -- Performing Test HAVE___BUILTIN_EXPECT - Success
+[28.688s] -- Performing Test HAVE___SYNC_VAL_COMPARE_AND_SWAP
+[28.947s] -- Performing Test HAVE___SYNC_VAL_COMPARE_AND_SWAP - Success
+[28.947s] -- Performing Test HAVE_RWLOCK
+[29.547s] -- Performing Test HAVE_RWLOCK - Success
+[29.547s] -- Performing Test HAVE___DECLSPEC
+[29.737s] -- Performing Test HAVE___DECLSPEC - Failed
+[29.741s] -- Performing Test STL_NO_NAMESPACE
+[30.307s] -- Performing Test STL_NO_NAMESPACE - Failed
+[30.307s] -- Performing Test STL_STD_NAMESPACE
+[30.912s] -- Performing Test STL_STD_NAMESPACE - Success
+[30.913s] -- Performing Test HAVE_USING_OPERATOR
+[31.851s] -- Performing Test HAVE_USING_OPERATOR - Success
+[31.851s] -- Performing Test HAVE_NAMESPACES
+[32.111s] -- Performing Test HAVE_NAMESPACES - Success
+[32.111s] -- Performing Test HAVE_GCC_TLS
+[32.372s] -- Performing Test HAVE_GCC_TLS - Success
+[32.372s] -- Performing Test HAVE_MSVC_TLS
+[32.487s] -- Performing Test HAVE_MSVC_TLS - Failed
+[32.487s] -- Performing Test HAVE_CXX11_TLS
+[32.752s] -- Performing Test HAVE_CXX11_TLS - Success
+[32.752s] -- Performing Test HAVE_ALIGNED_STORAGE
+[33.087s] -- Performing Test HAVE_ALIGNED_STORAGE - Success
+[33.087s] -- Performing Test HAVE_CXX11_ATOMIC
+[33.465s] -- Performing Test HAVE_CXX11_ATOMIC - Success
+[33.466s] -- Performing Test HAVE_CXX11_CONSTEXPR
+[33.679s] -- Performing Test HAVE_CXX11_CONSTEXPR - Success
+[33.680s] -- Performing Test HAVE_CXX11_CHRONO
+[34.103s] -- Performing Test HAVE_CXX11_CHRONO - Success
+[34.104s] -- Performing Test HAVE_CXX11_NULLPTR_T
+[34.465s] -- Performing Test HAVE_CXX11_NULLPTR_T - Success
+[37.431s] -- Performing Test HAVE_LOCALTIME_R
+[37.667s] -- Performing Test HAVE_LOCALTIME_R - Success
+[37.676s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[37.927s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[37.928s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[38.159s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[38.160s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[38.357s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[38.397s] -- Configuring done
+[38.454s] -- Generating done
+[38.464s] -- Build files have been written to: /home/agilex/limo_ros2_ws/build/glog
+[38.484s] Invoked command in '/home/agilex/limo_ros2_ws/build/glog' returned '0': /usr/bin/cmake /home/agilex/limo_ros2_ws/src/ros2_astra_camera/glog-0.6.0 -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/glog
+[38.490s] Invoking command in '/home/agilex/limo_ros2_ws/build/glog': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/glog -- -j6 -l6
+[40.953s] [35m[1mScanning dependencies of target glogbase[0m
+[40.954s] [  3%] [32mBuilding CXX object CMakeFiles/glogbase.dir/src/demangle.cc.o[0m
+[40.954s] [  6%] [32mBuilding CXX object CMakeFiles/glogbase.dir/src/vlog_is_on.cc.o[0m
+[40.954s] [  9%] [32mBuilding CXX object CMakeFiles/glogbase.dir/src/signalhandler.cc.o[0m
+[41.604s] [ 12%] [32mBuilding CXX object CMakeFiles/glogbase.dir/src/utilities.cc.o[0m
+[42.540s] [ 16%] [32mBuilding CXX object CMakeFiles/glogbase.dir/src/symbolize.cc.o[0m
+[43.589s] [ 19%] [32mBuilding CXX object CMakeFiles/glogbase.dir/src/raw_logging.cc.o[0m
+[44.478s] [ 22%] [32mBuilding CXX object CMakeFiles/glogbase.dir/src/logging.cc.o[0m
+[46.782s] [ 22%] Built target glogbase
+[46.814s] [35m[1mScanning dependencies of target glogtest[0m
+[46.844s] [ 25%] [32m[1mLinking CXX static library libglogtest.a[0m
+[46.935s] [ 25%] Built target glogtest
+[46.961s] [35m[1mScanning dependencies of target glog[0m
+[46.996s] [ 29%] [32m[1mLinking CXX shared library libglog.so[0m
+[47.234s] [ 29%] Built target glog
+[47.259s] [35m[1mScanning dependencies of target demangle_unittest[0m
+[47.290s] [ 32%] [32mBuilding CXX object CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o[0m
+[48.704s] [ 35%] [32m[1mLinking CXX executable demangle_unittest[0m
+[48.924s] [ 35%] Built target demangle_unittest
+[48.951s] [35m[1mScanning dependencies of target symbolize_unittest[0m
+[48.983s] [ 38%] [32mBuilding CXX object CMakeFiles/symbolize_unittest.dir/src/symbolize_unittest.cc.o[0m
+[50.415s] [ 41%] [32m[1mLinking CXX executable symbolize_unittest[0m
+[50.615s] [ 41%] Built target symbolize_unittest
+[50.651s] [35m[1mScanning dependencies of target logging_custom_prefix_unittest[0m
+[50.682s] [ 45%] [32mBuilding CXX object CMakeFiles/logging_custom_prefix_unittest.dir/src/logging_custom_prefix_unittest.cc.o[0m
+[53.568s] [ 48%] [32m[1mLinking CXX executable logging_custom_prefix_unittest[0m
+[53.799s] [ 48%] Built target logging_custom_prefix_unittest
+[53.827s] [35m[1mScanning dependencies of target logging_unittest[0m
+[53.874s] [ 51%] [32mBuilding CXX object CMakeFiles/logging_unittest.dir/src/logging_unittest.cc.o[0m
+[56.732s] [ 54%] [32m[1mLinking CXX executable logging_unittest[0m
+[56.971s] [ 54%] Built target logging_unittest
+[57.001s] [35m[1mScanning dependencies of target stacktrace_unittest[0m
+[57.032s] [ 58%] [32mBuilding CXX object CMakeFiles/stacktrace_unittest.dir/src/stacktrace_unittest.cc.o[0m
+[57.975s] [ 61%] [32m[1mLinking CXX executable stacktrace_unittest[0m
+[58.174s] [ 61%] Built target stacktrace_unittest
+[58.202s] [35m[1mScanning dependencies of target cleanup_with_relative_prefix_unittest[0m
+[58.230s] [ 64%] [32mBuilding CXX object CMakeFiles/cleanup_with_relative_prefix_unittest.dir/src/cleanup_with_relative_prefix_unittest.cc.o[0m
+[59.551s] [ 67%] [32m[1mLinking CXX executable cleanup_with_relative_prefix_unittest[0m
+[59.755s] [ 67%] Built target cleanup_with_relative_prefix_unittest
+[59.788s] [35m[1mScanning dependencies of target stl_logging_unittest[0m
+[59.829s] [ 70%] [32mBuilding CXX object CMakeFiles/stl_logging_unittest.dir/src/stl_logging_unittest.cc.o[0m
+[62.812s] [ 74%] [32m[1mLinking CXX executable stl_logging_unittest[0m
+[63.074s] [ 74%] Built target stl_logging_unittest
+[63.106s] [35m[1mScanning dependencies of target utilities_unittest[0m
+[63.138s] [ 77%] [32mBuilding CXX object CMakeFiles/utilities_unittest.dir/src/utilities_unittest.cc.o[0m
+[64.489s] [ 80%] [32m[1mLinking CXX executable utilities_unittest[0m
+[64.745s] [ 80%] Built target utilities_unittest
+[64.782s] [35m[1mScanning dependencies of target signalhandler_unittest[0m
+[64.842s] [ 83%] [32mBuilding CXX object CMakeFiles/signalhandler_unittest.dir/src/signalhandler_unittest.cc.o[0m
+[65.763s] [ 87%] [32m[1mLinking CXX executable signalhandler_unittest[0m
+[65.991s] [ 87%] Built target signalhandler_unittest
+[66.024s] [35m[1mScanning dependencies of target cleanup_immediately_unittest[0m
+[66.056s] [ 90%] [32mBuilding CXX object CMakeFiles/cleanup_immediately_unittest.dir/src/cleanup_immediately_unittest.cc.o[0m
+[67.495s] [ 93%] [32m[1mLinking CXX executable cleanup_immediately_unittest[0m
+[67.700s] [ 93%] Built target cleanup_immediately_unittest
+[67.733s] [35m[1mScanning dependencies of target cleanup_with_absolute_prefix_unittest[0m
+[67.768s] [ 96%] [32mBuilding CXX object CMakeFiles/cleanup_with_absolute_prefix_unittest.dir/src/cleanup_with_absolute_prefix_unittest.cc.o[0m
+[69.154s] [100%] [32m[1mLinking CXX executable cleanup_with_absolute_prefix_unittest[0m
+[69.423s] [100%] Built target cleanup_with_absolute_prefix_unittest
+[69.459s] Invoked command in '/home/agilex/limo_ros2_ws/build/glog' returned '0': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/glog -- -j6 -l6
+[69.872s] Invoking command in '/home/agilex/limo_ros2_ws/build/glog': /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/glog
+[73.726s] -- Install configuration: ""
+[73.726s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/lib/libglog.so.0.6.0
+[73.727s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/lib/libglog.so.1
+[73.735s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/lib/libglog.so
+[73.736s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/include/glog/export.h
+[73.736s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/include/glog/logging.h
+[73.736s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/include/glog/raw_logging.h
+[73.736s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/include/glog/stl_logging.h
+[73.736s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/include/glog/vlog_is_on.h
+[73.737s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/include/glog/log_severity.h
+[73.737s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/include/glog/platform.h
+[73.737s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/lib/pkgconfig/libglog.pc
+[73.737s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-modules.cmake
+[73.737s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-config.cmake
+[73.737s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-config-version.cmake
+[73.737s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-targets.cmake
+[73.737s] -- Installing: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-targets-noconfig.cmake
+[73.752s] Invoked command in '/home/agilex/limo_ros2_ws/build/glog' returned '0': /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/glog

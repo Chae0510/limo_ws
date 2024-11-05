@@ -1,0 +1,53 @@
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:26:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   26 |         void image_callback(const sensor_msgs::msg::Image::ConstPtr &msg[01;35m[K)[m[K
+      |                                                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:172:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  172 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:[m[K In member function ‘[01m[Kvoid TrafficLight::image_callback(const ConstPtr&)[m[K’:
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:127:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  127 |     sensor_msgs::msg::Image::ConstPtr [01;35m[Khsv_image_[m[K = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", cimg).toImageMsg();
+      |                                       [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:172:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  172 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:79:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   79 |     int [01;35m[Kh[m[K = img.rows;
+      |         [01;35m[K^[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:80:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   80 |     int [01;35m[Kw[m[K = img.cols;
+      |         [01;35m[K^[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:[m[K In member function ‘[01m[Kvoid FollowLine::image_callback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:75:55:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   75 |                 cv::circle(image,cv::Point(cx,cy),10,([01;35m[K0[m[K,0,255));
+      |                                                       [01;35m[K^[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:75:59:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   75 |                 cv::circle(image,cv::Point(cx,cy),10,(0,0,[01;35m[K255[m[K));
+      |                                                           [01;35m[K^~~[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:84:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   84 |             sensor_msgs::msg::Image::ConstPtr [01;35m[Khsv_image_[m[K = cv_bridge::CvImage(std_msgs::msg::Header(),"bgr8",image).toImageMsg();
+      |                                               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:172:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  172 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:[m[K In member function ‘[01m[Kvoid Detectline::image_callback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:77:55:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   77 |                 cv::circle(image,cv::Point(cx,cy),10,([01;35m[K0[m[K,0,255));
+      |                                                       [01;35m[K^[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:77:59:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   77 |                 cv::circle(image,cv::Point(cx,cy),10,(0,0,[01;35m[K255[m[K));
+      |                                                           [01;35m[K^~~[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:86:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   86 |             sensor_msgs::msg::Image::ConstPtr [01;35m[Khsv_image_[m[K = cv_bridge::CvImage(std_msgs::msg::Header(),"bgr8",image).toImageMsg();
+      |                                               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:172:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  172 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K

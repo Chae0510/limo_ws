@@ -1,0 +1,56 @@
+[0.037s] Invoking command in '/home/agilex/limo_ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry
+[0.253s] -- The C compiler identification is GNU 9.4.0
+[0.395s] -- The CXX compiler identification is GNU 9.4.0
+[0.417s] -- Check for working C compiler: /usr/bin/cc
+[0.670s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.672s] -- Detecting C compiler ABI info
+[0.875s] -- Detecting C compiler ABI info - done
+[0.900s] -- Detecting C compile features
+[0.901s] -- Detecting C compile features - done
+[0.906s] -- Check for working CXX compiler: /usr/bin/c++
+[1.156s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.158s] -- Detecting CXX compiler ABI info
+[1.369s] -- Detecting CXX compiler ABI info - done
+[1.390s] -- Detecting CXX compile features
+[1.390s] -- Detecting CXX compile features - done
+[1.398s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.475s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.476s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.057s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.210s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.493s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.584s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.788s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.928s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.941s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.943s] -- Looking for pthread.h
+[3.133s] -- Looking for pthread.h - found
+[3.133s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.310s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.310s] -- Looking for pthread_create in pthreads
+[3.478s] -- Looking for pthread_create in pthreads - not found
+[3.480s] -- Looking for pthread_create in pthread
+[3.675s] -- Looking for pthread_create in pthread - found
+[3.678s] -- Found Threads: TRUE  
+[4.028s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.104s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[4.128s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[4.142s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[5.030s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.191s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[5.364s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[5.573s] -- Configuring done
+[5.612s] -- Generating done
+[5.615s] -- Build files have been written to: /home/agilex/limo_ros2_ws/build/rf2o_laser_odometry
+[5.656s] Invoked command in '/home/agilex/limo_ros2_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry
+[5.666s] Invoking command in '/home/agilex/limo_ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/ultraarm:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/home/agilex/limo_ros2_ws/install/mypalletizer_260_pi:/home/agilex/limo_ros2_ws/install/mypalletizer_260:/home/agilex/limo_ros2_ws/install/mypalletizer_communication:/home/agilex/limo_ros2_ws/install/mycobot_630:/home/agilex/limo_ros2_ws/install/mycobot_600:/home/agilex/limo_ros2_ws/install/mycobot_320pi:/home/agilex/limo_ros2_ws/install/mycobot_320:/home/agilex/limo_ros2_ws/install/mycobot_280pi:/home/agilex/limo_ros2_ws/install/mycobot_280jn:/home/agilex/limo_ros2_ws/install/mycobot_280_x3pi:/home/agilex/limo_ros2_ws/install/mycobot_280:/home/agilex/limo_ros2_ws/install/myarm_300:/home/agilex/limo_ros2_ws/install/mycobot_communication:/home/agilex/limo_ros2_ws/install/mecharm_pi:/home/agilex/limo_ros2_ws/install/mecharm:/home/agilex/limo_ros2_ws/install/mecharm_communication:/home/agilex/limo_ros2_ws/install/mybuddy:/home/agilex/limo_ros2_ws/install/mycobot_description:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/rf2o_laser_odometry -- -j6 -l6
+[5.823s] [35m[1mScanning dependencies of target rf2o_laser_odometry[0m
+[5.926s] [ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[53.401s] [ 40%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[53.778s] [ 40%] Built target rf2o_laser_odometry
+[53.807s] [35m[1mScanning dependencies of target rf2o_laser_odometry_node[0m
+[53.915s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[76.070s] [ 80%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+[116.592s] [100%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[118.659s] [100%] Built target rf2o_laser_odometry_node

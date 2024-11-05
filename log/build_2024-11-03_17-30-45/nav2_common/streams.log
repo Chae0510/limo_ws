@@ -1,0 +1,42 @@
+[0.137s] Invoking command in '/home/agilex/limo_ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/navigation2/nav2_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/nav2_common
+[0.225s] -- Found ament_cmake_core: 0.9.12 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[0.259s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.797s] -- Found ament_cmake_python: 0.9.12 (/opt/ros/foxy/share/ament_cmake_python/cmake)
+[0.943s] -- Configuring done
+[0.953s] -- Generating done
+[0.955s] -- Build files have been written to: /home/agilex/limo_ros2_ws/build/nav2_common
+[0.970s] Invoked command in '/home/agilex/limo_ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/navigation2/nav2_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/nav2_common
+[0.972s] Invoking command in '/home/agilex/limo_ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/nav2_common -- -j6 -l6
+[2.986s] Invoked command in '/home/agilex/limo_ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/nav2_common -- -j6 -l6
+[3.136s] Invoking command in '/home/agilex/limo_ros2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/nav2_common
+[3.329s] -- Install configuration: "Release"
+[3.329s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[3.329s] -- Installing: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[3.329s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common
+[3.329s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py
+[3.330s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch
+[3.330s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py
+[3.330s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py
+[3.330s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py
+[3.330s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py
+[3.330s] Listing '/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common'...
+[3.331s] Listing '/home/agilex/limo_ros2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch'...
+[3.331s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[3.331s] -- Installing: /home/agilex/limo_ros2_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[3.331s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[3.331s] -- Installing: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[3.331s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[3.331s] -- Installing: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[3.331s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[3.332s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[3.332s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[3.332s] -- Installing: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[3.332s] -- Installing: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/package.dsv
+[3.332s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[3.333s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[3.333s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[3.333s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[3.333s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/package.xml
+[3.333s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/cmake
+[3.333s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[3.334s] Invoked command in '/home/agilex/limo_ros2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/nav2_common

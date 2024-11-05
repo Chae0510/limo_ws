@@ -1,0 +1,128 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found nav2_common: 0.4.7 (/home/agilex/limo_ros2_ws/install/nav2_common/share/nav2_common/cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+-- Found nav2_util: 0.4.7 (/home/agilex/limo_ros2_ws/install/nav2_util/share/nav2_util/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found nav2_core: 0.4.7 (/home/agilex/limo_ros2_ws/install/nav2_core/share/nav2_core/cmake)
+-- Found installed version of Eigen: /usr/lib/cmake/eigen3
+-- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found installed version of gflags: /usr/lib/aarch64-linux-gnu/cmake/gflags
+-- Detected gflags version: 2.2.2
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+-- Found OpenMP_C: -fopenmp  
+-- Found OpenMP_CXX: -fopenmp  
+-- Found OpenMP: TRUE   
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/agilex/limo_ros2_ws/src/navigation2/smac_planner/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/agilex/limo_ros2_ws/build/smac_planner
+[  2%] [32mBuilding CXX object CMakeFiles/smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/smac_planner_2d.dir/src/node_se2.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/smac_planner_2d.dir/src/costmap_downsampler.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/smac_planner_2d.dir/src/a_star.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/smac_planner_2d.dir/src/node_2d.cpp.o[0m
+[ 17%] [32m[1mLinking CXX shared library libsmac_planner_2d.so[0m
+[ 17%] Built target smac_planner_2d
+[ 29%] Built target gtest_main
+[ 29%] Built target gtest
+[ 32%] [32mBuilding CXX object CMakeFiles/smac_planner.dir/src/smac_planner.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/smac_planner.dir/src/node_se2.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/smac_planner.dir/src/a_star.cpp.o[0m
+[ 41%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[ 44%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/smac_planner.dir/src/costmap_downsampler.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable test_smoother[0m
+[ 52%] [32m[1mLinking CXX executable test_smac_2d[0m
+[ 52%] Built target test_smoother
+[ 52%] Built target test_smac_2d
+[ 55%] [32mBuilding CXX object CMakeFiles/smac_planner.dir/src/node_2d.cpp.o[0m
+[ 58%] [32m[1mLinking CXX shared library libsmac_planner.so[0m
+[ 58%] Built target smac_planner
+[ 64%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[ 64%] [32mBuilding CXX object test/CMakeFiles/test_costmap_downsampler.dir/test_costmap_downsampler.cpp.o[0m
+[ 67%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[ 70%] [32mBuilding CXX object test/CMakeFiles/test_smac_se2.dir/test_smac_se2.cpp.o[0m
+[ 73%] [32mBuilding CXX object test/CMakeFiles/test_nodese2.dir/test_nodese2.cpp.o[0m
+[ 76%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable test_costmap_downsampler[0m
+[ 79%] Built target test_costmap_downsampler
+[ 82%] [32m[1mLinking CXX executable test_nodebasic[0m
+[ 85%] [32mBuilding CXX object test/CMakeFiles/test_collision_checker.dir/test_collision_checker.cpp.o[0m
+[ 85%] Built target test_nodebasic
+[ 88%] [32m[1mLinking CXX executable test_a_star[0m
+[ 91%] [32m[1mLinking CXX executable test_node2d[0m
+[ 91%] Built target test_a_star
+[ 91%] Built target test_node2d
+[ 94%] [32m[1mLinking CXX executable test_nodese2[0m
+[ 94%] Built target test_nodese2
+[ 97%] [32m[1mLinking CXX executable test_smac_se2[0m
+[100%] [32m[1mLinking CXX executable test_collision_checker[0m
+[100%] Built target test_smac_se2
+[100%] Built target test_collision_checker
+-- Install configuration: "Release"
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/smac_plugin.xml
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/smac_plugin_2d.xml
+-- Installing: /home/agilex/limo_ros2_ws/install/smac_planner/lib/libsmac_planner.so
+-- Set runtime path of "/home/agilex/limo_ros2_ws/install/smac_planner/lib/libsmac_planner.so" to ""
+-- Installing: /home/agilex/limo_ros2_ws/install/smac_planner/lib/libsmac_planner_2d.so
+-- Set runtime path of "/home/agilex/limo_ros2_ws/install/smac_planner/lib/libsmac_planner_2d.so" to ""
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include/
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner/constants.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner/smoother.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner/smac_planner.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner/a_star.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner/costmap_downsampler.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner/node_2d.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner/node_basic.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner/smoother_cost_function.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner/collision_checker.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner/options.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner/node_se2.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner/smac_planner_2d.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/include//smac_planner/types.hpp
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/environment/library_path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/environment/library_path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/ament_index/resource_index/package_run_dependencies/smac_planner
+-- Installing: /home/agilex/limo_ros2_ws/install/smac_planner/share/ament_index/resource_index/parent_prefix_path/smac_planner
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/environment/ament_prefix_path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/environment/path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/environment/path.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/local_setup.bash
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/local_setup.sh
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/local_setup.zsh
+-- Installing: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/local_setup.dsv
+-- Installing: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/package.dsv
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/ament_index/resource_index/packages/smac_planner
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/smac_planner
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/cmake/ament_cmake_export_definitions-extras.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/cmake/smac_plannerConfig.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/cmake/smac_plannerConfig-version.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/smac_planner/share/smac_planner/package.xml

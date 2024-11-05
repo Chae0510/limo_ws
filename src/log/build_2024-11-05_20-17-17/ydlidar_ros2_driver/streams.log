@@ -1,0 +1,180 @@
+[0.052s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver
+[0.242s] -- The C compiler identification is GNU 9.4.0
+[0.390s] -- The CXX compiler identification is GNU 9.4.0
+[0.406s] -- Check for working C compiler: /usr/bin/cc
+[0.633s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.635s] -- Detecting C compiler ABI info
+[0.857s] -- Detecting C compiler ABI info - done
+[0.877s] -- Detecting C compile features
+[0.879s] -- Detecting C compile features - done
+[0.891s] -- Check for working CXX compiler: /usr/bin/c++
+[1.123s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.125s] -- Detecting CXX compiler ABI info
+[1.359s] -- Detecting CXX compiler ABI info - done
+[1.379s] -- Detecting CXX compile features
+[1.381s] -- Detecting CXX compile features - done
+[1.395s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.475s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.476s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.098s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.338s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.704s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.791s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.216s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.223s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.225s] -- Looking for pthread.h
+[3.441s] -- Looking for pthread.h - found
+[3.441s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.638s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.638s] -- Looking for pthread_create in pthreads
+[3.819s] -- Looking for pthread_create in pthreads - not found
+[3.820s] -- Looking for pthread_create in pthread
+[4.044s] -- Looking for pthread_create in pthread - found
+[4.044s] -- Found Threads: TRUE  
+[4.460s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.724s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[4.896s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[4.947s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.248s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.271s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.272s] -- Configured cppcheck include dirs: /home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver/src
+[5.272s] -- Configured cppcheck exclude dirs and/or files: 
+[5.296s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.296s] -- Configured cpplint exclude dirs and/or files: 
+[5.303s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.311s] -- Added test 'lint_cmake' to check CMake code style
+[5.317s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.340s] -- Added test 'uncrustify' to check C / C++ code style
+[5.340s] -- Configured uncrustify additional arguments: 
+[5.346s] -- Added test 'xmllint' to check XML markup files
+[5.357s] -- Configuring done
+[5.396s] -- Generating done
+[5.400s] -- Build files have been written to: /home/agilex/limo_ros2_ws/src/build/ydlidar_ros2_driver
+[5.452s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver
+[5.454s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/src/build/ydlidar_ros2_driver -- -j6 -l6
+[5.634s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_client[0m
+[5.770s] [ 25%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[17.777s] [ 50%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[18.348s] [ 50%] Built target ydlidar_ros2_driver_client
+[18.385s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_node[0m
+[18.504s] [ 75%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[18.977s] In file included from [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/v8stdint.h:142[m[K,
+[18.978s]                  from [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:2[m[K,
+[18.978s]                  from [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/src/CYdLidar.h:48[m[K,
+[18.978s]                  from [01m[K/home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:16[m[K:
+[18.978s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:[m[K In function ‘[01m[Kbool ydlidar::core::base::fileExists(const string&)[m[K’:
+[18.978s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ino[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.978s]   183 |   struct stat info = {0[01;35m[K}[m[K;
+[18.979s]       |                        [01;35m[K^[m[K
+[18.979s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mode[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.979s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_nlink[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.979s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_uid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.979s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_gid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.979s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_rdev[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.979s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad1[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.980s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_size[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.980s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blksize[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.980s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__pad2[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.980s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_blocks[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.980s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_atim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.981s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_mtim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.981s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::st_ctim[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.981s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/ydlidar.h:183:24:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Kstat::__glibc_reserved[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[18.981s] In file included from [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:3[m[K,
+[18.981s]                  from [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/src/CYdLidar.h:48[m[K,
+[18.981s]                  from [01m[K/home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:16[m[K:
+[18.981s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/thread.h:[m[K In static member function ‘[01m[Kstatic ydlidar::core::base::Thread ydlidar::core::base::Thread::createThread(thread_proc_t, void*)[m[K’:
+[18.981s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/thread.h:46:76:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[18.982s]    46 | ead_._handle, NULL, (void *(*)(void *))[01;35m[Kproc[m[K,
+[18.982s]       |                                        [01;35m[K^~~~[m[K
+[18.982s] 
+[18.982s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/thread.h:[m[K In member function ‘[01m[Kint ydlidar::core::base::Thread::join(long unsigned int)[m[K’:
+[18.982s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/base/thread.h:118:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[K_size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[18.982s]   118 |       printf("0x[01;35m[K%X[m[K thread has been canceled\n", [32m[Kthis->_handle[m[K);
+[18.982s]       |                 [01;35m[K~^[m[K                              [32m[K~~~~~~~~~~~~~[m[K
+[18.982s]       |                  [01;35m[K|[m[K                                    [32m[K|[m[K
+[18.982s]       |                  [01;35m[Kunsigned int[m[K                         [32m[K_size_t {aka long unsigned int}[m[K
+[18.983s]       |                 [32m[K%lX[m[K
+[19.162s] In file included from [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/src/CYdLidar.h:48[m[K,
+[19.162s]                  from [01m[K/home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:16[m[K:
+[19.162s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:[m[K In member function ‘[01m[Kvirtual result_t ydlidar::core::common::DriverInterface::setWorkMode(int, uint8_t)[m[K’:
+[19.162s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:443:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.163s]   443 |   virtual result_t setWorkMode([01;35m[Kint mode=0[m[K, uint8_t addr=0x00) {return RESULT_FAIL;}
+[19.163s]       |                                [01;35m[K~~~~^~~~~~[m[K
+[19.163s] [01m[K/home/agilex/limo_ros2_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h:443:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kaddr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.163s]   443 | sult_t setWorkMode(int mode=0, [01;35m[Kuint8_t addr=0x00[m[K) {return RESULT_FAIL;}
+[19.163s]       |                                [01;35m[K~~~~~~~~^~~~~~~~~[m[K
+[19.163s] 
+[21.793s] [01m[K/home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[21.794s] [01m[K/home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:168:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.794s]   168 | ]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[21.794s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[21.794s] 
+[21.794s] [01m[K/home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.794s]   169 | [01;35m[Kred_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[21.794s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[21.795s] 
+[21.795s] [01m[K/home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.795s]   170 | [01;35m[Kred_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[21.795s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[21.795s] 
+[21.804s] [01m[K/home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[21.804s] [01m[K/home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:178:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.805s]   178 | ]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[21.805s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[21.805s] 
+[21.806s] [01m[K/home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.806s]   179 | [01;35m[Kred_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[21.806s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[21.806s] 
+[21.807s] [01m[K/home/agilex/limo_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.807s]   180 | [01;35m[Kred_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[21.807s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[21.807s] 
+[27.081s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[27.663s] [100%] Built target ydlidar_ros2_driver_node
+[27.706s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/src/build/ydlidar_ros2_driver -- -j6 -l6
+[27.858s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/src/build/ydlidar_ros2_driver
+[27.896s] -- Install configuration: ""
+[27.898s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[27.909s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node" to ""
+[27.910s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[27.911s] -- Set runtime path of "/home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client" to ""
+[27.911s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch
+[27.911s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[27.911s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[27.911s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[27.912s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params
+[27.912s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[27.912s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[27.912s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[27.912s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[27.912s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[27.913s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[27.913s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[27.913s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[27.913s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[27.913s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[27.915s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[27.915s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup
+[27.915s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[27.915s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config
+[27.915s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[27.916s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[27.916s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[27.917s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[27.917s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[27.918s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[27.918s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[27.918s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[27.919s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[27.919s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[27.919s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[27.920s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[27.923s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[27.923s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[27.923s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[27.924s] -- Installing: /home/agilex/limo_ros2_ws/src/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[27.988s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/src/build/ydlidar_ros2_driver

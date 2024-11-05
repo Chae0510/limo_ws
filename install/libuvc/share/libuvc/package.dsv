@@ -1,0 +1,10 @@
+source;share/libuvc/hook/cmake_module_path1.ps1
+source;share/libuvc/hook/cmake_prefix_path.ps1
+source;share/libuvc/hook/cmake_prefix_path.dsv
+source;share/libuvc/hook/cmake_prefix_path.sh
+source;share/libuvc/hook/ld_library_path_lib.ps1
+source;share/libuvc/hook/ld_library_path_lib.dsv
+source;share/libuvc/hook/ld_library_path_lib.sh
+source;share/libuvc/hook/pkg_config.ps1
+source;share/libuvc/hook/pkg_config.dsv
+source;share/libuvc/hook/pkg_config.sh

@@ -1,0 +1,11 @@
+prefix=/home/agilex/limo_ros2_ws/install/glog
+exec_prefix=/home/agilex/limo_ros2_ws/install/glog/bin
+libdir=/home/agilex/limo_ros2_ws/install/glog/lib
+includedir=/home/agilex/limo_ros2_ws/install/glog/include
+
+Name: libglog
+Description: Google Log (glog) C++ logging framework
+Version: 0.6.0
+Libs: -L${libdir} -lglog
+Libs.private: -lpthread -lgflags
+Cflags: -I${includedir}

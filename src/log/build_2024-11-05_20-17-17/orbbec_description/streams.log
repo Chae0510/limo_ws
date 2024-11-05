@@ -1,0 +1,67 @@
+[0.086s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/src/install/orbbec_description
+[0.444s] -- The C compiler identification is GNU 9.4.0
+[0.618s] -- The CXX compiler identification is GNU 9.4.0
+[0.635s] -- Check for working C compiler: /usr/bin/cc
+[0.998s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.000s] -- Detecting C compiler ABI info
+[1.320s] -- Detecting C compiler ABI info - done
+[1.341s] -- Detecting C compile features
+[1.342s] -- Detecting C compile features - done
+[1.348s] -- Check for working CXX compiler: /usr/bin/c++
+[1.681s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.682s] -- Detecting CXX compiler ABI info
+[2.096s] -- Detecting CXX compiler ABI info - done
+[2.136s] -- Detecting CXX compile features
+[2.137s] -- Detecting CXX compile features - done
+[2.163s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.272s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.272s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.081s] -- Configuring done
+[3.085s] -- Generating done
+[3.087s] -- Build files have been written to: /home/agilex/limo_ros2_ws/src/build/orbbec_description
+[3.121s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/src/install/orbbec_description
+[3.123s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/src/build/orbbec_description -- -j6 -l6
+[3.339s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/agilex/limo_ros2_ws/src/build/orbbec_description -- -j6 -l6
+[3.542s] Invoking command in '/home/agilex/limo_ros2_ws/src/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/src/build/orbbec_description
+[5.341s] -- Install configuration: ""
+[5.342s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/launch
+[5.342s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/launch/launch_utils.py
+[5.342s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/launch/view_model.launch.py
+[5.343s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes
+[5.343s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/femto_bolt
+[5.343s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/femto_bolt/femto_bolt.stl
+[5.343s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/AstraPlus.stl
+[5.343s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/gemini335_336
+[5.343s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_bottom_screw_frame.STL
+[5.344s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_infra_1_frame.STL
+[5.344s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_depth_frame.STL
+[5.344s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_infra2_frame.STL
+[5.344s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_color_optical_frame.STL
+[5.344s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_link.STL
+[5.344s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_infra2_optical_frame.STL
+[5.345s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_infra_1_optical_frame.STL
+[5.345s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_depth_optical_frame.STL
+[5.345s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_color_frame.STL
+[5.345s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/urdf
+[5.345s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/urdf/test_gemini_336.urdf.xarco
+[5.345s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/urdf/_gemini_335_336.urdf.xacro
+[5.345s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/urdf/femto_bolt.urdf.xacro
+[5.345s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/urdf/test_gemini_335.urdf.xarco
+[5.346s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/rviz
+[5.346s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/rviz/urdf.rviz
+[5.346s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/ament_index/resource_index/package_run_dependencies/orbbec_description
+[5.346s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/ament_index/resource_index/parent_prefix_path/orbbec_description
+[5.346s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.sh
+[5.346s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.dsv
+[5.346s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/environment/path.sh
+[5.346s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/environment/path.dsv
+[5.346s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/local_setup.bash
+[5.347s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/local_setup.sh
+[5.347s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/local_setup.zsh
+[5.347s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/local_setup.dsv
+[5.347s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/package.dsv
+[5.347s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/ament_index/resource_index/packages/orbbec_description
+[5.347s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig.cmake
+[5.347s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig-version.cmake
+[5.347s] -- Installing: /home/agilex/limo_ros2_ws/src/install/orbbec_description/share/orbbec_description/package.xml
+[5.364s] Invoked command in '/home/agilex/limo_ros2_ws/src/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/agilex/limo_ros2_ws/src/build/orbbec_description

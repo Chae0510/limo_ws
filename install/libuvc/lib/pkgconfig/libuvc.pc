@@ -1,0 +1,11 @@
+libdir=/home/agilex/limo_ros2_ws/install/libuvc/lib
+includedir=/home/agilex/limo_ros2_ws/install/libuvc/include
+
+Name: libuvc
+Description: A cross-platform library for USB video devices
+URL: https://github.com/libuvc/libuvc
+Version: 0.0.6
+Libs: -L${libdir} -luvc
+Libs.private: -lusb-1.0 -ljpeg
+Cflags: -I${includedir}
+Requires: libusb-1.0

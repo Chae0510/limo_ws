@@ -1,0 +1,65 @@
+[1.803s] Invoking command in '/home/agilex/limo_ros2_ws/src/image_pipeline/camera_calibration': PYTHONPATH=/home/agilex/limo_ros2_ws/build/camera_calibration/prefix_override:/home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/camera_calibration build --build-base /home/agilex/limo_ros2_ws/build/camera_calibration/build install --record /home/agilex/limo_ros2_ws/build/camera_calibration/install.log --single-version-externally-managed install_data
+[2.354s] running egg_info
+[2.355s] creating ../../../build/camera_calibration/camera_calibration.egg-info
+[2.356s] writing ../../../build/camera_calibration/camera_calibration.egg-info/PKG-INFO
+[2.356s] writing dependency_links to ../../../build/camera_calibration/camera_calibration.egg-info/dependency_links.txt
+[2.357s] writing entry points to ../../../build/camera_calibration/camera_calibration.egg-info/entry_points.txt
+[2.357s] writing requirements to ../../../build/camera_calibration/camera_calibration.egg-info/requires.txt
+[2.358s] writing top-level names to ../../../build/camera_calibration/camera_calibration.egg-info/top_level.txt
+[2.361s] writing manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[2.427s] reading manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[2.429s] writing manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[2.430s] running build
+[2.430s] running build_py
+[2.430s] creating /home/agilex/limo_ros2_ws/build/camera_calibration/build
+[2.430s] creating /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib
+[2.431s] creating /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration
+[2.431s] copying src/camera_calibration/camera_checker.py -> /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration
+[2.431s] copying src/camera_calibration/mono_calibrator.py -> /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration
+[2.431s] copying src/camera_calibration/calibrator.py -> /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration
+[2.431s] copying src/camera_calibration/__init__.py -> /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration
+[2.432s] copying src/camera_calibration/stereo_calibrator.py -> /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration
+[2.432s] copying src/camera_calibration/camera_calibrator.py -> /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration
+[2.433s] creating /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[2.433s] copying src/camera_calibration/nodes/cameracheck.py -> /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[2.433s] copying src/camera_calibration/nodes/__init__.py -> /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[2.433s] copying src/camera_calibration/nodes/tarfile_calibration.py -> /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[2.434s] copying src/camera_calibration/nodes/cameracalibrator.py -> /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[2.434s] running install
+[2.436s] running install_lib
+[2.439s] creating /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration
+[2.439s] creating /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes
+[2.440s] copying /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes/cameracheck.py -> /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes
+[2.440s] copying /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes/__init__.py -> /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes
+[2.441s] copying /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes/tarfile_calibration.py -> /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes
+[2.441s] copying /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes/cameracalibrator.py -> /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes
+[2.441s] copying /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/camera_checker.py -> /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration
+[2.441s] copying /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/mono_calibrator.py -> /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration
+[2.441s] copying /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/calibrator.py -> /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration
+[2.442s] copying /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/__init__.py -> /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration
+[2.443s] copying /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/stereo_calibrator.py -> /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration
+[2.444s] copying /home/agilex/limo_ros2_ws/build/camera_calibration/build/lib/camera_calibration/camera_calibrator.py -> /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration
+[2.446s] byte-compiling /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes/cameracheck.py to cameracheck.cpython-38.pyc
+[2.450s] byte-compiling /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes/__init__.py to __init__.cpython-38.pyc
+[2.450s] byte-compiling /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes/tarfile_calibration.py to tarfile_calibration.cpython-38.pyc
+[2.454s] byte-compiling /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes/cameracalibrator.py to cameracalibrator.cpython-38.pyc
+[2.457s] byte-compiling /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/camera_checker.py to camera_checker.cpython-38.pyc
+[2.460s] byte-compiling /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/mono_calibrator.py to mono_calibrator.cpython-38.pyc
+[2.465s] byte-compiling /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/calibrator.py to calibrator.cpython-38.pyc
+[2.475s] byte-compiling /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/__init__.py to __init__.cpython-38.pyc
+[2.476s] byte-compiling /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/stereo_calibrator.py to stereo_calibrator.cpython-38.pyc
+[2.482s] byte-compiling /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/camera_calibrator.py to camera_calibrator.cpython-38.pyc
+[2.489s] running install_data
+[2.489s] creating /home/agilex/limo_ros2_ws/install/camera_calibration/share/ament_index
+[2.489s] creating /home/agilex/limo_ros2_ws/install/camera_calibration/share/ament_index/resource_index
+[2.489s] creating /home/agilex/limo_ros2_ws/install/camera_calibration/share/ament_index/resource_index/packages
+[2.490s] copying resource/camera_calibration -> /home/agilex/limo_ros2_ws/install/camera_calibration/share/ament_index/resource_index/packages
+[2.490s] copying package.xml -> /home/agilex/limo_ros2_ws/install/camera_calibration/share/camera_calibration
+[2.490s] running install_egg_info
+[2.494s] Copying ../../../build/camera_calibration/camera_calibration.egg-info to /home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration-6.0.5-py3.8.egg-info
+[2.496s] running install_scripts
+[2.542s] Installing cameracalibrator script to /home/agilex/limo_ros2_ws/install/camera_calibration/lib/camera_calibration
+[2.543s] Installing cameracheck script to /home/agilex/limo_ros2_ws/install/camera_calibration/lib/camera_calibration
+[2.544s] Installing tarfile_calibration script to /home/agilex/limo_ros2_ws/install/camera_calibration/lib/camera_calibration
+[2.545s] writing list of installed files to '/home/agilex/limo_ros2_ws/build/camera_calibration/install.log'
+[2.622s] Invoked command in '/home/agilex/limo_ros2_ws/src/image_pipeline/camera_calibration' returned '0': PYTHONPATH=/home/agilex/limo_ros2_ws/build/camera_calibration/prefix_override:/home/agilex/limo_ros2_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/camera_calibration build --build-base /home/agilex/limo_ros2_ws/build/camera_calibration/build install --record /home/agilex/limo_ros2_ws/build/camera_calibration/install.log --single-version-externally-managed install_data

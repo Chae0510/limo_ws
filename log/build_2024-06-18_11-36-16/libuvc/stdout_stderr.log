@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- No build type selected, default to Release
+-- No target type selected, default to both shared and static library
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.23
+-- libusb-1.0 found using pkgconfig
+-- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+-- Found JPEG library using standard module
+-- Building libuvc with JPEG support.
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/agilex/limo_ros2_ws/build/libuvc
+[35m[1mScanning dependencies of target uvc[0m
+[  4%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/uvc.dir/src/init.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/uvc.dir/src/stream.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/uvc.dir/src/misc.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame-mjpeg.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/uvc.dir/src/diag.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/uvc.dir/src/device.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl-gen.c.o[0m
+[ 45%] [32m[1mLinking C shared library libuvc.so[0m
+[ 45%] Built target uvc
+[35m[1mScanning dependencies of target uvc_static[0m
+[ 50%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/init.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/stream.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/misc.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame-mjpeg.c.o[0m
+[ 77%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/diag.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/device.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl-gen.c.o[0m
+[ 90%] [32m[1mLinking C static library libuvc.a[0m
+[ 90%] Built target uvc_static
+[35m[1mScanning dependencies of target example[0m
+[ 95%] [32mBuilding C object CMakeFiles/example.dir/src/example.c.o[0m
+[01m[K/home/agilex/limo_ros2_ws/src/ros2_astra_camera/libuvc/src/example.c:[m[K In function ‘[01m[Kcb[m[K’:
+[01m[K/home/agilex/limo_ros2_ws/src/ros2_astra_camera/libuvc/src/example.c:26:74:[m[K [01;35m[Kwarning: [m[Kcast from pointer to integer of different size [[01;35m[K-Wpointer-to-int-cast[m[K]
+   26 |     frame->frame_format, frame->width, frame->height, frame->data_bytes, [01;35m[K([m[Kint) ptr);
+      |                                                                          [01;35m[K^[m[K
+[100%] [32m[1mLinking C executable example[0m
+[100%] Built target example
+-- Install configuration: "Release"
+-- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.so.0.0.6
+-- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.so.0
+-- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.so
+-- Installing: /home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc.h
+-- Installing: /home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+-- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.a
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+-- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+-- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+-- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+-- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+-- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+-- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/pkgconfig/libuvc.pc
+-- Installing: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake

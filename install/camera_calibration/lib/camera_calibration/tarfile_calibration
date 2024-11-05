@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'camera-calibration==6.0.5','console_scripts','tarfile_calibration'
+__requires__ = 'camera-calibration==6.0.5'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('camera-calibration==6.0.5', 'console_scripts', 'tarfile_calibration')()
+    )

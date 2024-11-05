@@ -1,0 +1,23 @@
+[0.052s] Invoking command in '/home/agilex/limo_ros2_ws/build/libuvc': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/libuvc -- -j6 -l6
+[0.307s] [ 45%] Built target uvc
+[0.316s] [ 90%] Built target uvc_static
+[0.400s] [100%] Built target example
+[0.460s] Invoked command in '/home/agilex/limo_ros2_ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/libuvc -- -j6 -l6
+[0.758s] Invoking command in '/home/agilex/limo_ros2_ws/build/libuvc': /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/libuvc
+[0.844s] -- Install configuration: "Release"
+[0.845s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.so.0.0.6
+[0.846s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.so.0
+[0.846s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.so
+[0.846s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc.h
+[0.846s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+[0.847s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/lib/libuvc.a
+[0.847s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc.h
+[0.847s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/include/libuvc/libuvc_config.h
+[0.848s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+[0.848s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+[0.848s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+[0.849s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+[0.849s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+[0.849s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/lib/pkgconfig/libuvc.pc
+[0.849s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake
+[0.858s] Invoked command in '/home/agilex/limo_ros2_ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/libuvc

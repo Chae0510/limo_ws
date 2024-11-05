@@ -1,0 +1,221 @@
+[0.140s] Invoking command in '/home/agilex/limo_ros2_ws/build/orbbec_camera': AMENT_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/magic_enum:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/libuvc:/home/agilex/limo_ros2_ws/install/glog:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/home/agilex/limo_ros2_ws/install/astra_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/orbbec_camera
+[0.184s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.270s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.709s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[0.716s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.773s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.779s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.105s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.157s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.467s] -- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+[1.547s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.554s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.840s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[1.977s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[2.067s] -- Found image_publisher: 2.3.0 (/opt/ros/foxy/share/image_publisher/cmake)
+[2.664s] -- Found orbbec_camera_msgs: 1.2.2 (/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake)
+[3.382s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[3.402s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[3.424s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[4.119s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[4.156s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[4.277s] -- Found backward_ros: 1.0.1 (/opt/ros/foxy/share/backward_ros/cmake)
+[4.289s] -- Found libdw: /usr/lib/aarch64-linux-gnu/libdw.so  
+[4.301s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[4.301s] -- BACKWARD_HAS_UNWIND=1
+[4.301s] -- BACKWARD_HAS_BACKTRACE=0
+[4.301s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[4.301s] -- BACKWARD_HAS_DW=1
+[4.302s] -- BACKWARD_HAS_BFD=0
+[4.302s] -- Found Backward: /opt/ros/foxy/share/backward_ros/cmake  
+[4.313s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[4.325s] -- ORRBEC Machine : aarch64
+[4.326s] 
+[4.326s] -- ORRBEC Machine Bits : 64
+[4.326s] 
+[9.651s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.821s] -- Configuring done
+[10.353s] -- Generating done
+[10.358s] -- Build files have been written to: /home/agilex/limo_ros2_ws/build/orbbec_camera
+[10.387s] Invoked command in '/home/agilex/limo_ros2_ws/build/orbbec_camera' returned '0': AMENT_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/magic_enum:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/libuvc:/home/agilex/limo_ros2_ws/install/glog:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/home/agilex/limo_ros2_ws/install/astra_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera -DCMAKE_INSTALL_PREFIX=/home/agilex/limo_ros2_ws/install/orbbec_camera
+[10.393s] Invoking command in '/home/agilex/limo_ros2_ws/build/orbbec_camera': AMENT_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/magic_enum:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/libuvc:/home/agilex/limo_ros2_ws/install/glog:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/home/agilex/limo_ros2_ws/install/astra_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/orbbec_camera -- -j6 -l6
+[10.526s] [35m[1mScanning dependencies of target orbbec_camera_node[0m
+[10.527s] [35m[1mScanning dependencies of target frame_latency[0m
+[10.527s] [35m[1mScanning dependencies of target frame_latency_node[0m
+[10.527s] [35m[1mScanning dependencies of target orbbec_camera[0m
+[10.673s] [  4%] [32mBuilding CXX object CMakeFiles/frame_latency.dir/tools/frame_latency.cpp.o[0m
+[10.675s] [ 12%] [32mBuilding CXX object CMakeFiles/frame_latency_node.dir/rclcpp_components/node_main_frame_latency_node.cpp.o[0m
+[10.675s] [ 12%] [32mBuilding CXX object CMakeFiles/orbbec_camera_node.dir/rclcpp_components/node_main_orbbec_camera_node.cpp.o[0m
+[11.097s] [ 16%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o[0m
+[11.103s] [ 20%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/dynamic_params.cpp.o[0m
+[11.120s] [ 24%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/image_publisher.cpp.o[0m
+[18.668s] [ 28%] [32m[1mLinking CXX executable frame_latency_node[0m
+[18.805s] [ 32%] [32m[1mLinking CXX executable orbbec_camera_node[0m
+[19.008s] [ 32%] Built target frame_latency_node
+[19.040s] [ 36%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node_driver.cpp.o[0m
+[19.168s] [ 36%] Built target orbbec_camera_node
+[19.203s] [ 40%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o[0m
+[21.099s] [ 44%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_param_backend.cpp.o[0m
+[22.587s] [ 48%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_service.cpp.o[0m
+[26.408s] [ 52%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/synced_imu_publisher.cpp.o[0m
+[41.896s] [ 56%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/utils.cpp.o[0m
+[50.724s] [ 60%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/jpeg_decoder.cpp.o[0m
+[73.531s] [ 64%] [32m[1mLinking CXX shared library libframe_latency.so[0m
+[74.318s] [ 64%] Built target frame_latency
+[100.640s] [ 68%] [32m[1mLinking CXX shared library liborbbec_camera.so[0m
+[101.789s] [ 68%] Built target orbbec_camera
+[101.825s] [35m[1mScanning dependencies of target topic_statistics_node[0m
+[101.826s] [35m[1mScanning dependencies of target list_devices_node[0m
+[101.826s] [35m[1mScanning dependencies of target list_camera_profile_mode_node[0m
+[101.826s] [35m[1mScanning dependencies of target list_depth_work_mode_node[0m
+[101.954s] [ 72%] [32mBuilding CXX object CMakeFiles/topic_statistics_node.dir/tools/topic_statistics.cpp.o[0m
+[102.718s] [ 76%] [32mBuilding CXX object CMakeFiles/list_camera_profile_mode_node.dir/tools/list_camera_profile.cpp.o[0m
+[102.734s] [ 80%] [32mBuilding CXX object CMakeFiles/list_devices_node.dir/tools/list_devices_node.cpp.o[0m
+[102.747s] [ 84%] [32mBuilding CXX object CMakeFiles/list_depth_work_mode_node.dir/tools/list_depth_work_mode.cpp.o[0m
+[121.502s] [ 88%] [32m[1mLinking CXX executable list_depth_work_mode_node[0m
+[122.028s] [ 88%] Built target list_depth_work_mode_node
+[123.681s] [ 92%] [32m[1mLinking CXX executable list_devices_node[0m
+[124.000s] [ 96%] [32m[1mLinking CXX executable list_camera_profile_mode_node[0m
+[124.036s] [100%] [32m[1mLinking CXX executable topic_statistics_node[0m
+[124.713s] [100%] Built target topic_statistics_node
+[125.169s] [100%] Built target list_devices_node
+[125.362s] [100%] Built target list_camera_profile_mode_node
+[125.400s] Invoked command in '/home/agilex/limo_ros2_ws/build/orbbec_camera' returned '0': AMENT_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/magic_enum:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/libuvc:/home/agilex/limo_ros2_ws/install/glog:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/home/agilex/limo_ros2_ws/install/astra_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/agilex/limo_ros2_ws/build/orbbec_camera -- -j6 -l6
+[125.657s] Invoking command in '/home/agilex/limo_ros2_ws/build/orbbec_camera': AMENT_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/magic_enum:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/libuvc:/home/agilex/limo_ros2_ws/install/glog:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/home/agilex/limo_ros2_ws/install/astra_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/orbbec_camera
+[125.686s] -- Install configuration: "Release"
+[125.687s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node
+[125.688s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node" to ":/home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[125.688s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/frame_latency_node
+[125.689s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/frame_latency_node" to ":/home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[125.689s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/liborbbec_camera.so
+[125.696s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera/lib/liborbbec_camera.so" to ":/home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[125.696s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/libframe_latency.so
+[125.701s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera/lib/libframe_latency.so" to ":/home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[125.701s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include
+[125.701s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/magic_enum
+[125.702s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/magic_enum/magic_enum.hpp
+[125.702s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera
+[125.702s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/ros_param_backend.h
+[125.702s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/utils.h
+[125.702s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node_driver.h
+[125.703s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/jpeg_decoder.h
+[125.703s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/jetson_nv_decoder.h
+[125.703s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/image_publisher.h
+[125.703s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node.h
+[125.704s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/synced_imu_publisher.h
+[125.704s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/d2c_viewer.h
+[125.704s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/rk_mpp_decoder.h
+[125.704s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/dynamic_params.h
+[125.704s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/orbbec_camera/constants.h
+[125.705s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch
+[125.705s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw.launch.py
+[125.706s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/ob_camera.launch.py
+[125.706s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_mega.launch.py
+[125.706s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_pro.launch.py
+[125.707s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_330_series.launch.py
+[125.707s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_uw.launch.py
+[125.708s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw.launch.py
+[125.708s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_max_pro.launch.py
+[125.709s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_max.launch.py
+[125.709s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_adv.launch.py
+[125.709s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_ew.launch.py
+[125.709s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2XL.launch.py
+[125.710s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2L.launch.py
+[125.710s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw2.launch.py
+[125.710s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto.launch.py
+[125.711s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e.launch.py
+[125.711s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra.launch.py
+[125.711s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_stereo_u3.launch.py
+[125.712s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_ew_lite.launch.py
+[125.712s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_d1.launch.py
+[125.712s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_bolt.launch.py
+[125.712s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw2.launch.py
+[125.713s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2.launch.py
+[125.713s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera.launch.py
+[125.713s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_intra_process_demo_launch.py
+[125.714s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_pro2.launch.py
+[125.714s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai.launch.py
+[125.715s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera_synced.launch.py
+[125.715s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcl.py
+[125.716s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e_lite.launch.py
+[125.716s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_embedded_s.launch.py
+[125.716s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra2.launch.py
+[125.717s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2VL.launch.py
+[125.717s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/deeya.launch.py
+[125.717s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config
+[125.718s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config/OrbbecSDKConfig_v1.0.xml
+[125.718s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config/.gitkeep
+[125.719s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter
+[125.719s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Gemini2_v1.7.json
+[125.719s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Openni_device.json
+[125.720s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera//config/camera_params.yaml
+[125.720s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/include
+[125.720s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor
+[125.721s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/ObSensor.h
+[125.722s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/ObSensor.hpp
+[125.723s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp
+[125.723s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Context.hpp
+[125.723s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Device.hpp
+[125.723s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/RecordPlayback.hpp
+[125.724s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Sensor.hpp
+[125.724s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Types.hpp
+[125.724s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Utils.hpp
+[125.725s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Filter.hpp
+[125.725s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Version.hpp
+[125.725s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/StreamProfile.hpp
+[125.725s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Frame.hpp
+[125.725s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Pipeline.hpp
+[125.725s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Error.hpp
+[125.725s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h
+[125.726s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Sensor.h
+[125.726s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Pipeline.h
+[125.726s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Property.h
+[125.726s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/ObTypes.h
+[125.726s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Error.h
+[125.727s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Version.h
+[125.727s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Device.h
+[125.728s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Frame.h
+[125.728s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Filter.h
+[125.729s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Utils.h
+[125.729s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/Context.h
+[125.729s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/RecordPlayback.h
+[125.729s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/MultipleDevices.h
+[125.730s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/include/libobsensor/h/StreamProfile.h
+[125.730s] -- Up-to-date: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/
+[125.730s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//libdepthengine.so
+[125.731s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//liblive555.so
+[125.734s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10
+[125.734s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//libdepthengine.so.2.0
+[125.736s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//libob_usb.so
+[125.737s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so
+[125.737s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10.12
+[125.763s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_devices_node
+[125.764s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_devices_node" to ":/home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[125.764s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node
+[125.765s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node" to ":/home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[125.765s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node
+[125.766s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node" to ":/home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[125.766s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/topic_statistics_node
+[125.767s] -- Set runtime path of "/home/agilex/limo_ros2_ws/install/orbbec_camera/lib/orbbec_camera/topic_statistics_node" to ":/home/agilex/limo_ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/arm64"
+[125.769s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.sh
+[125.770s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.dsv
+[125.771s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/ament_index/resource_index/package_run_dependencies/orbbec_camera
+[125.772s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/ament_index/resource_index/parent_prefix_path/orbbec_camera
+[125.773s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.sh
+[125.774s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.dsv
+[125.774s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/path.sh
+[125.774s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/path.dsv
+[125.775s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.bash
+[125.775s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.sh
+[125.776s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.zsh
+[125.776s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.dsv
+[125.776s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/package.dsv
+[125.777s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/ament_index/resource_index/packages/orbbec_camera
+[125.778s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/ament_index/resource_index/rclcpp_components/orbbec_camera
+[125.778s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[125.779s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[125.779s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[125.780s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig.cmake
+[125.780s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig-version.cmake
+[125.780s] -- Installing: /home/agilex/limo_ros2_ws/install/orbbec_camera/share/orbbec_camera/package.xml
+[125.788s] Invoked command in '/home/agilex/limo_ros2_ws/build/orbbec_camera' returned '0': AMENT_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs:/home/agilex/limo_ros2_ws/install/ydlidar_sdk:/home/agilex/limo_ros2_ws/install/ydlidar_ros2_driver:/home/agilex/limo_ros2_ws/install/teb_local_planner:/home/agilex/limo_ros2_ws/install/teb_msgs:/home/agilex/limo_ros2_ws/install/nav2_system_tests:/home/agilex/limo_ros2_ws/install/nav2_bringup:/home/agilex/limo_ros2_ws/install/navigation2:/home/agilex/limo_ros2_ws/install/smac_planner:/home/agilex/limo_ros2_ws/install/rf2o_laser_odometry:/home/agilex/limo_ros2_ws/install/nav2_dwb_controller:/home/agilex/limo_ros2_ws/install/nav2_controller:/home/agilex/limo_ros2_ws/install/dwb_plugins:/home/agilex/limo_ros2_ws/install/dwb_critics:/home/agilex/limo_ros2_ws/install/dwb_core:/home/agilex/limo_ros2_ws/install/nav_2d_utils:/home/agilex/limo_ros2_ws/install/dwb_msgs:/home/agilex/limo_ros2_ws/install/nav_2d_msgs:/home/agilex/limo_ros2_ws/install/nav2_waypoint_follower:/home/agilex/limo_ros2_ws/install/nav2_regulated_pure_pursuit_controller:/home/agilex/limo_ros2_ws/install/nav2_recoveries:/home/agilex/limo_ros2_ws/install/nav2_planner:/home/agilex/limo_ros2_ws/install/nav2_navfn_planner:/home/agilex/limo_ros2_ws/install/nav2_core:/home/agilex/limo_ros2_ws/install/costmap_queue:/home/agilex/limo_ros2_ws/install/costmap_converter:/home/agilex/limo_ros2_ws/install/nav2_costmap_2d:/home/agilex/limo_ros2_ws/install/nav2_voxel_grid:/home/agilex/limo_ros2_ws/install/nav2_rviz_plugins:/home/agilex/limo_ros2_ws/install/nav2_map_server:/home/agilex/limo_ros2_ws/install/nav2_lifecycle_manager:/home/agilex/limo_ros2_ws/install/nav2_bt_navigator:/home/agilex/limo_ros2_ws/install/nav2_behavior_tree:/home/agilex/limo_ros2_ws/install/nav2_amcl:/home/agilex/limo_ros2_ws/install/nav2_util:/home/agilex/limo_ros2_ws/install/nav2_msgs:/home/agilex/limo_ros2_ws/install/nav2_common:/home/agilex/limo_ros2_ws/install/magic_enum:/home/agilex/limo_ros2_ws/install/limo_visions:/home/agilex/limo_ros2_ws/install/limo_bringup:/home/agilex/limo_ros2_ws/install/limo_base:/home/agilex/limo_ros2_ws/install/limo_msgs:/home/agilex/limo_ros2_ws/install/limo_description:/home/agilex/limo_ros2_ws/install/libuvc:/home/agilex/limo_ros2_ws/install/glog:/home/agilex/limo_ros2_ws/install/costmap_converter_msgs:/home/agilex/limo_ros2_ws/install/astra_camera_msgs:/home/agilex/limo_ros2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/agilex/limo_ros2_ws/install/orbbec_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/agilex/limo_ros2_ws/build/orbbec_camera

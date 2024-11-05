@@ -1,0 +1,138 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/agilex/limo_ros2_ws/build/limo_visions
+[35m[1mScanning dependencies of target traffic_light[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/traffic_light.dir/src/traffic_light.cpp.o[0m
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:26:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   26 |         void image_callback(const sensor_msgs::msg::Image::ConstPtr &msg[01;35m[K)[m[K
+      |                                                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:172:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  172 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:[m[K In member function ‘[01m[Kvoid TrafficLight::image_callback(const ConstPtr&)[m[K’:
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:127:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  127 |     sensor_msgs::msg::Image::ConstPtr [01;35m[Khsv_image_[m[K = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", cimg).toImageMsg();
+      |                                       [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:172:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  172 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:79:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   79 |     int [01;35m[Kh[m[K = img.rows;
+      |         [01;35m[K^[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/traffic_light.cpp:80:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   80 |     int [01;35m[Kw[m[K = img.cols;
+      |         [01;35m[K^[m[K
+[ 33%] [32m[1mLinking CXX executable traffic_light[0m
+[ 33%] Built target traffic_light
+[35m[1mScanning dependencies of target object_detect[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/object_detect.dir/src/object_detect.cpp.o[0m
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:[m[K In member function ‘[01m[Kvoid FollowLine::image_callback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:75:55:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   75 |                 cv::circle(image,cv::Point(cx,cy),10,([01;35m[K0[m[K,0,255));
+      |                                                       [01;35m[K^[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:75:59:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   75 |                 cv::circle(image,cv::Point(cx,cy),10,(0,0,[01;35m[K255[m[K));
+      |                                                           [01;35m[K^~~[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:84:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   84 |             sensor_msgs::msg::Image::ConstPtr [01;35m[Khsv_image_[m[K = cv_bridge::CvImage(std_msgs::msg::Header(),"bgr8",image).toImageMsg();
+      |                                               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/object_detect.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:172:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  172 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[ 66%] [32m[1mLinking CXX executable object_detect[0m
+[ 66%] Built target object_detect
+[35m[1mScanning dependencies of target detect_line[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/detect_line.dir/src/detect_line.cpp.o[0m
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:[m[K In member function ‘[01m[Kvoid Detectline::image_callback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:77:55:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   77 |                 cv::circle(image,cv::Point(cx,cy),10,([01;35m[K0[m[K,0,255));
+      |                                                       [01;35m[K^[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:77:59:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   77 |                 cv::circle(image,cv::Point(cx,cy),10,(0,0,[01;35m[K255[m[K));
+      |                                                           [01;35m[K^~~[m[K
+[01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:86:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   86 |             sensor_msgs::msg::Image::ConstPtr [01;35m[Khsv_image_[m[K = cv_bridge::CvImage(std_msgs::msg::Header(),"bgr8",image).toImageMsg();
+      |                                               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/agilex/limo_ros2_ws/src/limo_visions/src/detect_line.cpp:5[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/image__struct.hpp:172:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  172 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable detect_line[0m
+[100%] Built target detect_line
+-- Install configuration: ""
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/object_detect
+-- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/object_detect" to ""
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/detect_line
+-- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/detect_line" to ""
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/traffic_light
+-- Set runtime path of "/home/agilex/limo_ros2_ws/install/limo_visions/lib/limo_visions/traffic_light" to ""
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/package_run_dependencies/limo_visions
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/parent_prefix_path/limo_visions
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/ament_prefix_path.dsv
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/path.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/environment/path.dsv
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.bash
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.sh
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.zsh
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/local_setup.dsv
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/package.dsv
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/ament_index/resource_index/packages/limo_visions
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig.cmake
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/cmake/limo_visionsConfig-version.cmake
+-- Installing: /home/agilex/limo_ros2_ws/install/limo_visions/share/limo_visions/package.xml

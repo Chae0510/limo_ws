@@ -1,0 +1,31 @@
+[ 22%] Built target glogbase
+[ 25%] Built target glogtest
+[ 29%] Built target glog
+[ 35%] Built target cleanup_with_absolute_prefix_unittest
+[ 41%] Built target signalhandler_unittest
+[ 48%] Built target cleanup_immediately_unittest
+[ 54%] Built target demangle_unittest
+[ 61%] Built target utilities_unittest
+[ 67%] Built target symbolize_unittest
+[ 74%] Built target logging_custom_prefix_unittest
+[ 80%] Built target stacktrace_unittest
+[ 87%] Built target logging_unittest
+[ 93%] Built target stl_logging_unittest
+[100%] Built target cleanup_with_relative_prefix_unittest
+-- Install configuration: ""
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/libglog.so.0.6.0
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/libglog.so.1
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/libglog.so
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/export.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/logging.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/raw_logging.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/stl_logging.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/vlog_is_on.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/log_severity.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/include/glog/platform.h
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/pkgconfig/libglog.pc
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-modules.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-config.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-config-version.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-targets.cmake
+-- Up-to-date: /home/agilex/limo_ros2_ws/install/glog/lib/cmake/glog/glog-targets-noconfig.cmake
